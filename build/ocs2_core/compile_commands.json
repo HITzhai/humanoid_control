@@ -1,0 +1,652 @@
+[
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/Types.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/Types.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/Types.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/AugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/AugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/AugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateInputAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateInputAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateInputAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateAugmentedLagrangianCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateAugmentedLagrangianCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateAugmentedLagrangianCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateInputAugmentedLagrangianCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateInputAugmentedLagrangianCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/augmented_lagrangian/StateInputAugmentedLagrangianCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/automatic_differentation/CppAdInterface.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/CppAdInterface.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/CppAdInterface.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/automatic_differentation/CppAdSparsity.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/CppAdSparsity.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/CppAdSparsity.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/automatic_differentation/FiniteDifferenceMethods.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/FiniteDifferenceMethods.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/automatic_differentation/FiniteDifferenceMethods.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/StateConstraintCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateConstraintCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateConstraintCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/StateInputConstraintCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateInputConstraintCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateInputConstraintCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/StateConstraintCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateConstraintCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateConstraintCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/StateInputConstraintCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateInputConstraintCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/StateInputConstraintCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/LinearStateConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/LinearStateConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/LinearStateConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/constraint/LinearStateInputConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/LinearStateInputConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/constraint/LinearStateInputConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/control/FeedforwardController.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/FeedforwardController.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/FeedforwardController.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/control/LinearController.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/LinearController.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/LinearController.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/control/StateBasedLinearController.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/StateBasedLinearController.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/control/StateBasedLinearController.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/QuadraticStateCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/QuadraticStateCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/QuadraticStateCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/QuadraticStateInputCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/QuadraticStateInputCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/QuadraticStateInputCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/StateCostCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateCostCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateCostCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/StateCostCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateCostCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateCostCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/StateInputCostCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputCostCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputCostCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/StateInputCostCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputCostCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputCostCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/cost/StateInputGaussNewtonCostAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputGaussNewtonCostAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/cost/StateInputGaussNewtonCostAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/ControlledSystemBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/ControlledSystemBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/ControlledSystemBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/LinearSystemDynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/LinearSystemDynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/LinearSystemDynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsBaseAD.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsBaseAD.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsBaseAD.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsLinearizer.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsLinearizer.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/SystemDynamicsLinearizer.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/dynamics/TransferFunctionBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/TransferFunctionBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/dynamics/TransferFunctionBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/SensitivityIntegrator.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SensitivityIntegrator.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SensitivityIntegrator.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/SensitivityIntegratorImpl.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SensitivityIntegratorImpl.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SensitivityIntegratorImpl.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/Integrator.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/Integrator.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/Integrator.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/IntegratorBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/IntegratorBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/IntegratorBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/RungeKuttaDormandPrince5.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/RungeKuttaDormandPrince5.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/RungeKuttaDormandPrince5.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/OdeBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/OdeBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/OdeBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/Observer.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/Observer.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/Observer.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/StateTriggeredEventHandler.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/StateTriggeredEventHandler.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/StateTriggeredEventHandler.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/integration/SystemEventHandler.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SystemEventHandler.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/integration/SystemEventHandler.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/reference/ModeSchedule.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/reference/ModeSchedule.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/reference/ModeSchedule.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/reference/TargetTrajectories.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/reference/TargetTrajectories.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/reference/TargetTrajectories.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingDefinition.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingDefinition.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingDefinition.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingPropertyTree.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingPropertyTree.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingPropertyTree.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingFilter.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingFilter.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingFilter.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingPreComputation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingPreComputation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/LoopshapingPreComputation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingStateCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingStateCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingStateCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingStateInputCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingStateInputCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingStateInputCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCostEliminatePattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCostEliminatePattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCostEliminatePattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCostOutputPattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCostOutputPattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/cost/LoopshapingCostOutputPattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingStateConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingStateConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingStateConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingStateInputConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingStateInputConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingStateInputConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraintEliminatePattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraintEliminatePattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraintEliminatePattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraintOutputPattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraintOutputPattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/constraint/LoopshapingConstraintOutputPattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingFilterDynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingFilterDynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/dynamics/LoopshapingFilterDynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/loopshaping/initialization/LoopshapingInitializer.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/initialization/LoopshapingInitializer.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/loopshaping/initialization/LoopshapingInitializer.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/model_data/ModelData.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/ModelData.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/ModelData.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/model_data/Metrics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/Metrics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/Metrics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/model_data/Multiplier.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/Multiplier.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/model_data/Multiplier.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/misc/LinearAlgebra.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/misc/LinearAlgebra.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/misc/LinearAlgebra.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/misc/Log.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/misc/Log.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/misc/Log.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/soft_constraint/StateSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/soft_constraint/StateInputSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateInputSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateInputSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/soft_constraint/StateInputSoftBoxConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateInputSoftBoxConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/soft_constraint/StateInputSoftBoxConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/penalties/MultidimensionalPenalty.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/MultidimensionalPenalty.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/MultidimensionalPenalty.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/penalties/Penalties.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/Penalties.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/Penalties.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/penalties/penalties/RelaxedBarrierPenalty.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/penalties/RelaxedBarrierPenalty.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/penalties/RelaxedBarrierPenalty.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/penalties/penalties/SquaredHingePenalty.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/penalties/SquaredHingePenalty.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/penalties/penalties/SquaredHingePenalty.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core.dir/src/thread_support/ThreadPool.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/thread_support/ThreadPool.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/src/thread_support/ThreadPool.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_control.dir/test/control/testLinearController.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/control/testLinearController.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/control/testLinearController.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_control.dir/test/control/testFeedforwardController.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/control/testFeedforwardController.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/control/testFeedforwardController.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/initialization_unittest.dir/test/initialization/InitializationTest.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/initialization/InitializationTest.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/initialization/InitializationTest.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_integration.dir/test/integration/testSensitivityIntegrator.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/testSensitivityIntegrator.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/testSensitivityIntegrator.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_integration.dir/test/integration/IntegrationTest.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/IntegrationTest.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/IntegrationTest.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_integration.dir/test/integration/testRungeKuttaDormandPrince5.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/testRungeKuttaDormandPrince5.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/testRungeKuttaDormandPrince5.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_integration.dir/test/integration/TrapezoidalIntegrationTest.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/TrapezoidalIntegrationTest.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/integration/TrapezoidalIntegrationTest.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/interpolation_unittest.dir/test/misc/testInterpolation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testInterpolation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testInterpolation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testCppADCG_dynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testCppADCG_dynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testCppADCG_dynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testSparsityHelpers.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testSparsityHelpers.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testSparsityHelpers.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testCppAdInterface.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testCppAdInterface.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cppad_cg/testCppAdInterface.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_transferfunctionbase.dir/test/dynamics/testTransferfunctionBase.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testTransferfunctionBase.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testTransferfunctionBase.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingConfiguration.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingConfiguration.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingConfiguration.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingAugmentedLagrangian.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingAugmentedLagrangian.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingAugmentedLagrangian.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingCost.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingCost.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingCost.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingDefinition.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingDefinition.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingDefinition.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingDynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingDynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingDynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingFilterDynamics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingFilterDynamics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingFilterDynamics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingPreComputation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingPreComputation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/loopshaping/testLoopshapingPreComputation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_misc.dir/test/misc/testInterpolation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testInterpolation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testInterpolation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLinearAlgebra.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLinearAlgebra.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLinearAlgebra.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLogging.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLogging.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLogging.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLoadData.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLoadData.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLoadData.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLookup.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLookup.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/misc/testLookup.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_dynamics.dir/test/dynamics/testSystemDynamicsLinearizer.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testSystemDynamicsLinearizer.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testSystemDynamicsLinearizer.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_dynamics.dir/test/dynamics/testSystemDynamicsPreComputation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testSystemDynamicsPreComputation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/dynamics/testSystemDynamicsPreComputation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_cost.dir/test/cost/testCostCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testCostCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testCostCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_cost.dir/test/cost/testCostCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testCostCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testCostCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_cost.dir/test/cost/testQuadraticCostFunction.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testQuadraticCostFunction.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/cost/testQuadraticCostFunction.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_constraint.dir/test/constraint/testConstraintCollection.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testConstraintCollection.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testConstraintCollection.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_constraint.dir/test/constraint/testConstraintCppAd.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testConstraintCppAd.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testConstraintCppAd.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_constraint.dir/test/constraint/testLinearConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testLinearConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/constraint/testLinearConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_metrics.dir/test/model_data/testMetrics.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testMetrics.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testMetrics.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_multiplier.dir/test/model_data/testMultiplier.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testMultiplier.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testMultiplier.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_ModelData.dir/test/model_data/testModelData.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testModelData.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/model_data/testModelData.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_ModeSchedule.dir/test/reference/testModeSchedule.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/reference/testModeSchedule.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/reference/testModeSchedule.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_softConstraint.dir/test/soft_constraint/testSoftConstraint.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/soft_constraint/testSoftConstraint.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/soft_constraint/testSoftConstraint.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/test_softConstraint.dir/test/soft_constraint/testDoubleSidedPenalty.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/soft_constraint/testDoubleSidedPenalty.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/soft_constraint/testDoubleSidedPenalty.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testBufferedValue.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testBufferedValue.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testBufferedValue.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testSynchronized.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testSynchronized.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testSynchronized.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testThreadPool.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testThreadPool.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/thread_support/testThreadPool.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_core.dir/test/testPrecomputation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/testPrecomputation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/testPrecomputation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -I/usr/include/eigen3 -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_core_test_core.dir/test/testTypes.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/testTypes.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/testTypes.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core/gtest",
+  "command": "/usr/bin/c++  -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -fPIC -Wno-missing-field-initializers -Wno-null-dereference -std=gnu++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest-all.cc",
+  "file": "/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core/gtest",
+  "command": "/usr/bin/c++  -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc",
+  "file": "/opt/ros/humble/src/gtest_vendor/src/gtest_main.cc"
+}
+]

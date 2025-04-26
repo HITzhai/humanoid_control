@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib/libocs2_mpc.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport-release.cmake

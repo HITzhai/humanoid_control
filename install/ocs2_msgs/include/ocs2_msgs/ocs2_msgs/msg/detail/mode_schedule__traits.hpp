@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_generator_cpp/ocs2_msgs/msg/detail/mode_schedule__traits.hpp

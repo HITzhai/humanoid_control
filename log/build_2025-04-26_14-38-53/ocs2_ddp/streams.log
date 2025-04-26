@@ -1,0 +1,94 @@
+[0.009s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp
+[0.045s] -- The C compiler identification is GNU 12.3.0
+[0.084s] -- The CXX compiler identification is GNU 12.3.0
+[0.089s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.328s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.350s] -- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+[0.513s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.562s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.563s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.668s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.676s] -- Found ocs2_qp_solver: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake)
+[0.680s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.732s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.734s] -- Found Threads: TRUE  
+[0.752s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.754s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.754s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp/test/include>
+[0.754s] -- Configured cppcheck exclude dirs and/or files: 
+[0.756s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.756s] -- Configured cpplint exclude dirs and/or files: 
+[0.757s] -- Added test 'lint_cmake' to check CMake code style
+[0.759s] -- Added test 'uncrustify' to check C / C++ code style
+[0.759s] -- Configured uncrustify additional arguments: 
+[0.760s] -- Added test 'xmllint' to check XML markup files
+[0.761s] -- Configuring done
+[0.783s] -- Generating done
+[0.790s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp
+[0.794s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp
+[0.795s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp -- -j28 -l28
+[0.827s] [  2%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/RiccatiModification.cpp.o[0m
+[0.827s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.827s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.827s] [  9%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/ContinuousTimeRiccatiEquations.cpp.o[0m
+[0.827s] [ 12%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LevenbergMarquardtStrategy.cpp.o[0m
+[0.828s] [ 14%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/DiscreteTimeRiccatiEquations.cpp.o[0m
+[0.828s] [ 17%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LineSearchStrategy.cpp.o[0m
+[0.828s] [ 19%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/HessianCorrection.cpp.o[0m
+[0.828s] [ 21%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/ILQR.cpp.o[0m
+[0.828s] [ 24%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/StrategySettings.cpp.o[0m
+[0.829s] [ 31%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/GaussNewtonDDP_MPC.cpp.o[0m
+[0.829s] [ 34%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/SLQ.cpp.o[0m
+[0.829s] [ 31%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/GaussNewtonDDP.cpp.o[0m
+[0.829s] [ 34%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/ContinuousTimeLqr.cpp.o[0m
+[0.829s] [ 36%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_Settings.cpp.o[0m
+[0.829s] [ 39%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_HelperFunctions.cpp.o[0m
+[1.719s] [ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.768s] [ 41%] Built target gtest_main
+[6.487s] [ 43%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.533s] [ 43%] Built target gtest
+[8.382s] [ 46%] [32m[1mLinking CXX static library libocs2_ddp.a[0m
+[8.421s] [ 46%] Built target ocs2_ddp
+[8.430s] [ 53%] [32mBuilding CXX object CMakeFiles/riccati_ode_test.dir/test/RiccatiTest.cpp.o[0m
+[8.430s] [ 53%] [32mBuilding CXX object CMakeFiles/exp1_ddp_test.dir/test/Exp1Test.cpp.o[0m
+[8.430s] [ 53%] [32mBuilding CXX object CMakeFiles/correctness_test.dir/test/CorrectnessTest.cpp.o[0m
+[8.430s] [ 56%] [32mBuilding CXX object CMakeFiles/testReachingTask.dir/test/testReachingTask.cpp.o[0m
+[8.433s] [ 58%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/BouncingMassTest.cpp.o[0m
+[8.434s] [ 63%] [32mBuilding CXX object CMakeFiles/circular_kinematics_ddp_test.dir/test/CircularKinematicsTest.cpp.o[0m
+[8.434s] [ 63%] [32mBuilding CXX object CMakeFiles/exp0_ddp_test.dir/test/Exp0Test.cpp.o[0m
+[8.434s] [ 68%] [32mBuilding CXX object CMakeFiles/hybrid_slq_test.dir/test/HybridSlqTest.cpp.o[0m
+[8.434s] [ 68%] [32mBuilding CXX object CMakeFiles/testDdpHelperFunction.dir/test/testDdpHelperFunction.cpp.o[0m
+[8.434s] [ 70%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/OverallReference.cpp.o[0m
+[8.435s] [ 73%] [32mBuilding CXX object CMakeFiles/testContinuousTimeLqr.dir/test/testContinuousTimeLqr.cpp.o[0m
+[8.435s] [ 75%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/Reference.cpp.o[0m
+[10.007s] [ 78%] [32m[1mLinking CXX executable testDdpHelperFunction[0m
+[10.074s] [ 78%] Built target testDdpHelperFunction
+[10.512s] [ 80%] [32m[1mLinking CXX executable riccati_ode_test[0m
+[10.577s] [ 80%] Built target riccati_ode_test
+[11.788s] [ 82%] [32m[1mLinking CXX executable testReachingTask[0m
+[11.911s] [ 82%] Built target testReachingTask
+[12.310s] [ 85%] [32m[1mLinking CXX executable exp1_ddp_test[0m
+[12.400s] [ 85%] Built target exp1_ddp_test
+[12.491s] [ 87%] [32m[1mLinking CXX executable hybrid_slq_test[0m
+[12.574s] [ 87%] Built target hybrid_slq_test
+[12.717s] [ 90%] [32m[1mLinking CXX executable exp0_ddp_test[0m
+[12.805s] [ 90%] Built target exp0_ddp_test
+[14.013s] [ 92%] [32m[1mLinking CXX executable circular_kinematics_ddp_test[0m
+[14.122s] [ 92%] Built target circular_kinematics_ddp_test
+[14.499s] [ 95%] [32m[1mLinking CXX executable bouncing_mass_test[0m
+[14.577s] [ 95%] Built target bouncing_mass_test
+[15.132s] [ 97%] [32m[1mLinking CXX executable testContinuousTimeLqr[0m
+[15.190s] [ 97%] Built target testContinuousTimeLqr
+[18.356s] [100%] [32m[1mLinking CXX executable correctness_test[0m
+[18.437s] [100%] Built target correctness_test

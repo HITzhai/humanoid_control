@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/basic examples/ocs2_legged_robot/include/ocs2_legged_robot/gait/ModeSequenceTemplate.h

@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/ament_cmake_python/ocs2_msgs/ocs2_msgs.egg-info/top_level.txt

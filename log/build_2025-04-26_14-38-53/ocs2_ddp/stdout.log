@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found ocs2_qp_solver: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp/test/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp
+[  2%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/RiccatiModification.cpp.o[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/ContinuousTimeRiccatiEquations.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LevenbergMarquardtStrategy.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/riccati_equations/DiscreteTimeRiccatiEquations.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/LineSearchStrategy.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/HessianCorrection.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/ILQR.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/search_strategy/StrategySettings.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/GaussNewtonDDP_MPC.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/SLQ.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/GaussNewtonDDP.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/ContinuousTimeLqr.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_Settings.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/ocs2_ddp.dir/src/DDP_HelperFunctions.cpp.o[0m
+[ 41%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 41%] Built target gtest_main
+[ 43%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 43%] Built target gtest
+[ 46%] [32m[1mLinking CXX static library libocs2_ddp.a[0m
+[ 46%] Built target ocs2_ddp
+[ 53%] [32mBuilding CXX object CMakeFiles/riccati_ode_test.dir/test/RiccatiTest.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/exp1_ddp_test.dir/test/Exp1Test.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/correctness_test.dir/test/CorrectnessTest.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/testReachingTask.dir/test/testReachingTask.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/BouncingMassTest.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/circular_kinematics_ddp_test.dir/test/CircularKinematicsTest.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/exp0_ddp_test.dir/test/Exp0Test.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/hybrid_slq_test.dir/test/HybridSlqTest.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/testDdpHelperFunction.dir/test/testDdpHelperFunction.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/OverallReference.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/testContinuousTimeLqr.dir/test/testContinuousTimeLqr.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bouncing_mass_test.dir/test/bouncingmass/Reference.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable testDdpHelperFunction[0m
+[ 78%] Built target testDdpHelperFunction
+[ 80%] [32m[1mLinking CXX executable riccati_ode_test[0m
+[ 80%] Built target riccati_ode_test
+[ 82%] [32m[1mLinking CXX executable testReachingTask[0m
+[ 82%] Built target testReachingTask
+[ 85%] [32m[1mLinking CXX executable exp1_ddp_test[0m
+[ 85%] Built target exp1_ddp_test
+[ 87%] [32m[1mLinking CXX executable hybrid_slq_test[0m
+[ 87%] Built target hybrid_slq_test
+[ 90%] [32m[1mLinking CXX executable exp0_ddp_test[0m
+[ 90%] Built target exp0_ddp_test
+[ 92%] [32m[1mLinking CXX executable circular_kinematics_ddp_test[0m
+[ 92%] Built target circular_kinematics_ddp_test
+[ 95%] [32m[1mLinking CXX executable bouncing_mass_test[0m
+[ 95%] Built target bouncing_mass_test
+[ 97%] [32m[1mLinking CXX executable testContinuousTimeLqr[0m
+[ 97%] Built target testContinuousTimeLqr
+[100%] [32m[1mLinking CXX executable correctness_test[0m
+[100%] Built target correctness_test

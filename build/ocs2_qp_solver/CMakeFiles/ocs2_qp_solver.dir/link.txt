@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_qp_solver.a CMakeFiles/ocs2_qp_solver.dir/src/Ocs2QpSolver.cpp.o CMakeFiles/ocs2_qp_solver.dir/src/QpDiscreteTranscription.cpp.o CMakeFiles/ocs2_qp_solver.dir/src/QpSolver.cpp.o CMakeFiles/ocs2_qp_solver.dir/src/QpTrajectories.cpp.o
+/usr/bin/ranlib libocs2_qp_solver.a

@@ -1,0 +1,21 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:17 (find_package)
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad.hpp:228[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/codegen/cppadcg.hpp:16[m[K,
+                 from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:31[m[K,
+                 from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad/utils/static-if.hpp:[m[K In static member function ‘[01m[Kstatic pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::ReturnType pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::run(pinocchio::internal::ComparisonOperators, const CppAD::AD<Base>&, const CppAD::AD<Base>&, const ThenType&, const ElseType&) [with Scalar = CppAD::cg::CG<double>; ThenType = CppAD::AD<CppAD::cg::CG<double> >; ElseType = CppAD::AD<CppAD::cg::CG<double> >][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad/utils/static-if.hpp:39:7:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   39 |       [01;35m[K}[m[K
+      |       [01;35m[K^[m[K
+At global scope:
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-invalid-partial-specialization[m[K’ may have been intended to silence earlier diagnostics

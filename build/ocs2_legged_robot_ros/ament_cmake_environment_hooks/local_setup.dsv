@@ -1,0 +1,3 @@
+source;share/ocs2_legged_robot_ros/environment/ament_prefix_path.sh
+source;share/ocs2_legged_robot_ros/environment/library_path.sh
+source;share/ocs2_legged_robot_ros/environment/path.sh

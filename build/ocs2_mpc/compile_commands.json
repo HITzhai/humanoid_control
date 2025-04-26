@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/LoopshapingSystemObservation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/LoopshapingSystemObservation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/LoopshapingSystemObservation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/MPC_BASE.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_BASE.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_BASE.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/MPC_Settings.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_Settings.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_Settings.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/SystemObservation.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/SystemObservation.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/SystemObservation.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/MRT_BASE.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MRT_BASE.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MRT_BASE.cpp"
+},
+{
+  "directory": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_LOG_DYN_LINK -DBOOST_LOG_SETUP_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc -isystem /usr/include/eigen3 -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core -isystem /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include -O3 -DNDEBUG -pthread -Wfatal-errors -Wl,--no-as-needed -fPIC -DBOOST_ALL_DYN_LINK -fopenmp -std=gnu++17 -o CMakeFiles/ocs2_mpc.dir/src/MPC_MRT_Interface.cpp.o -c /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_MRT_Interface.cpp",
+  "file": "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/src/MPC_MRT_Interface.cpp"
+}
+]

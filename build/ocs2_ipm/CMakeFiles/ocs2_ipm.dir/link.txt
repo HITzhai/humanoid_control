@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_ipm.a CMakeFiles/ocs2_ipm.dir/src/IpmHelpers.cpp.o CMakeFiles/ocs2_ipm.dir/src/IpmInitialization.cpp.o CMakeFiles/ocs2_ipm.dir/src/IpmPerformanceIndexComputation.cpp.o CMakeFiles/ocs2_ipm.dir/src/IpmSettings.cpp.o CMakeFiles/ocs2_ipm.dir/src/IpmSolver.cpp.o
+/usr/bin/ranlib libocs2_ipm.a

@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib/libocs2_robotic_tools.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport-release.cmake

@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target ocs2_ros_interfaces[0m
+[ 77%] Built target ocs2_ros_interfaces
+[35m[1mConsolidate compiler generated dependencies of target multiplot_remap[0m
+[35m[1mConsolidate compiler generated dependencies of target test_custom_callback_queue[0m
+[ 88%] Built target test_custom_callback_queue
+[100%] Built target multiplot_remap
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/command/TargetTrajectoriesInteractiveMarker.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/command/TargetTrajectoriesKeyboardPublisher.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/command/TargetTrajectoriesRosPublisher.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/common/RosMsgConversions.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/common/RosMsgHelpers.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/mpc/MPC_ROS_Interface.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/mrt/DummyObserver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/mrt/LoopshapingDummyObserver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/mrt/MRT_ROS_Dummy_Loop.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/mrt/MRT_ROS_Interface.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/synchronized_module/RosReferenceManager.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/synchronized_module/SolverObserverRosCallbacks.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/visualization/VisualizationColors.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/include/ocs2_ros_interfaces/ocs2_ros_interfaces/visualization/VisualizationHelpers.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/launch/performance_indices.launch
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/launch/performance_indices.launch.py
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/multiplot/performance_indices.xml
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib/ocs2_ros_interfaces/multiplot_remap
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/library_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/library_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ament_index/resource_index/package_run_dependencies/ocs2_ros_interfaces
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ament_index/resource_index/parent_prefix_path/ocs2_ros_interfaces
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/environment/path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/local_setup.bash
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/local_setup.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/local_setup.zsh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/package.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ament_index/resource_index/packages/ocs2_ros_interfaces
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/ocs2_ros_interfacesConfig-version.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/package.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib/libocs2_ros_interfaces.a
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/export_ocs2_ros_interfacesExport.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/export_ocs2_ros_interfacesExport-release.cmake

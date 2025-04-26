@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_typesupport_introspection_cpp/ocs2_msgs/msg/detail/controller_data__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,378 @@
+[0.004s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core
+[0.029s] -- The C compiler identification is GNU 12.3.0
+[0.057s] -- The CXX compiler identification is GNU 12.3.0
+[0.061s] -- Detecting C compiler ABI info
+[0.094s] -- Detecting C compiler ABI info - done
+[0.097s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.097s] -- Detecting C compile features
+[0.098s] -- Detecting C compile features - done
+[0.099s] -- Detecting CXX compiler ABI info
+[0.137s] -- Detecting CXX compiler ABI info - done
+[0.141s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.141s] -- Detecting CXX compile features
+[0.141s] -- Detecting CXX compile features - done
+[0.142s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.212s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.253s] -- Found ocs2_thirdparty: 0.0.1 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/share/ocs2_thirdparty/cmake)
+[0.260s] -- Looking for pthread.h
+[0.299s] -- Looking for pthread.h - found
+[0.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.335s] -- Found Threads: TRUE  
+[0.460s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.505s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.505s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.530s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.531s] -- OCS2_CXX_FLAGS: -pthread-Wfatal-errors-Wl,--no-as-needed-fPIC-DBOOST_ALL_DYN_LINK-fopenmp
+[0.534s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.579s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.620s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core/test/include>
+[0.620s] -- Configured cppcheck exclude dirs and/or files: 
+[0.625s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.625s] -- Configured cpplint exclude dirs and/or files: 
+[0.627s] -- Added test 'lint_cmake' to check CMake code style
+[0.633s] -- Added test 'uncrustify' to check C / C++ code style
+[0.633s] -- Configured uncrustify additional arguments: 
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.634s] -- Configuring done
+[0.662s] -- Generating done
+[0.668s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core
+[0.673s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core
+[0.673s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core -- -j28 -l28
+[0.703s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.703s] [  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.709s] [  1%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/AugmentedLagrangian.cpp.o[0m
+[0.709s] [  1%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/Types.cpp.o[0m
+[0.709s] [  2%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateInputAugmentedLagrangian.cpp.o[0m
+[0.709s] [  2%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateInputAugmentedLagrangianCollection.cpp.o[0m
+[0.709s] [  3%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateAugmentedLagrangian.cpp.o[0m
+[0.709s] [  4%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/augmented_lagrangian/StateAugmentedLagrangianCollection.cpp.o[0m
+[0.709s] [  4%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/automatic_differentation/CppAdInterface.cpp.o[0m
+[0.709s] [  5%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/automatic_differentation/FiniteDifferenceMethods.cpp.o[0m
+[0.709s] [  5%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/StateConstraintCppAd.cpp.o[0m
+[0.709s] [  6%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/StateInputConstraintCppAd.cpp.o[0m
+[0.710s] [  7%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/automatic_differentation/CppAdSparsity.cpp.o[0m
+[0.713s] [  8%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/StateConstraintCollection.cpp.o[0m
+[0.713s] [  8%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/control/FeedforwardController.cpp.o[0m
+[0.714s] [ 10%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/LinearStateConstraint.cpp.o[0m
+[0.714s] [ 10%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/StateInputConstraintCollection.cpp.o[0m
+[0.714s] [ 10%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/constraint/LinearStateInputConstraint.cpp.o[0m
+[0.715s] [ 11%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/control/LinearController.cpp.o[0m
+[0.715s] [ 12%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/control/StateBasedLinearController.cpp.o[0m
+[0.715s] [ 12%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/QuadraticStateCost.cpp.o[0m
+[0.717s] [ 13%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/QuadraticStateInputCost.cpp.o[0m
+[0.737s] [ 14%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/StateCostCollection.cpp.o[0m
+[0.739s] [ 14%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/StateCostCppAd.cpp.o[0m
+[0.743s] [ 15%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/StateInputCostCollection.cpp.o[0m
+[0.746s] [ 16%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/StateInputCostCppAd.cpp.o[0m
+[0.748s] [ 16%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/cost/StateInputGaussNewtonCostAd.cpp.o[0m
+[0.753s] [ 17%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/ControlledSystemBase.cpp.o[0m
+[1.686s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.876s] [ 19%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/LinearSystemDynamics.cpp.o[0m
+[1.896s] [ 19%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsBase.cpp.o[0m
+[1.913s] [ 20%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsBaseAD.cpp.o[0m
+[1.930s] [ 21%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/SystemDynamicsLinearizer.cpp.o[0m
+[1.944s] [ 21%] Built target gtest_main
+[1.949s] [ 21%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/dynamics/TransferFunctionBase.cpp.o[0m
+[1.952s] [ 22%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/SensitivityIntegrator.cpp.o[0m
+[1.971s] [ 23%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/SensitivityIntegratorImpl.cpp.o[0m
+[2.002s] [ 23%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/Integrator.cpp.o[0m
+[2.007s] [ 24%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/IntegratorBase.cpp.o[0m
+[2.158s] [ 25%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/RungeKuttaDormandPrince5.cpp.o[0m
+[2.268s] [ 25%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/OdeBase.cpp.o[0m
+[2.275s] [ 26%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/Observer.cpp.o[0m
+[2.450s] [ 27%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/StateTriggeredEventHandler.cpp.o[0m
+[2.455s] [ 27%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/integration/SystemEventHandler.cpp.o[0m
+[2.584s] [ 28%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/reference/ModeSchedule.cpp.o[0m
+[2.617s] [ 29%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/reference/TargetTrajectories.cpp.o[0m
+[2.637s] [ 29%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingDefinition.cpp.o[0m
+[3.267s] [ 30%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingPropertyTree.cpp.o[0m
+[3.345s] [ 31%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingFilter.cpp.o[0m
+[3.393s] [ 31%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/LoopshapingPreComputation.cpp.o[0m
+[3.678s] [ 32%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCost.cpp.o[0m
+[3.794s] [ 32%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingStateInputCost.cpp.o[0m
+[3.797s] [ 33%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingStateCost.cpp.o[0m
+[3.883s] [ 34%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCostEliminatePattern.cpp.o[0m
+[3.994s] [ 35%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/cost/LoopshapingCostOutputPattern.cpp.o[0m
+[4.053s] [ 35%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraint.cpp.o[0m
+[4.110s] [ 36%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.cpp.o[0m
+[4.193s] [ 37%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.cpp.o[0m
+[4.279s] [ 37%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.cpp.o[0m
+[4.598s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.cpp.o[0m
+[4.624s] [ 39%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.cpp.o[0m
+[4.625s] [ 39%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.cpp.o[0m
+[4.958s] [ 40%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.cpp.o[0m
+[5.129s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.cpp.o[0m
+[5.176s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraint.cpp.o[0m
+[5.249s] [ 42%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingStateConstraint.cpp.o[0m
+[5.610s] [ 43%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingStateInputConstraint.cpp.o[0m
+[5.674s] [ 43%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraintEliminatePattern.cpp.o[0m
+[5.688s] [ 44%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/constraint/LoopshapingConstraintOutputPattern.cpp.o[0m
+[5.696s] [ 45%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamics.cpp.o[0m
+[5.757s] [ 45%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.cpp.o[0m
+[5.831s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.cpp.o[0m
+[5.930s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/dynamics/LoopshapingFilterDynamics.cpp.o[0m
+[5.979s] [ 47%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/loopshaping/initialization/LoopshapingInitializer.cpp.o[0m
+[6.014s] [ 48%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/model_data/ModelData.cpp.o[0m
+[6.189s] [ 48%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/model_data/Metrics.cpp.o[0m
+[6.467s] [ 49%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/model_data/Multiplier.cpp.o[0m
+[6.592s] [ 50%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/misc/LinearAlgebra.cpp.o[0m
+[6.687s] [ 50%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/misc/Log.cpp.o[0m
+[6.693s] [ 51%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/soft_constraint/StateSoftConstraint.cpp.o[0m
+[6.804s] [ 52%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/soft_constraint/StateInputSoftConstraint.cpp.o[0m
+[6.849s] [ 52%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/soft_constraint/StateInputSoftBoxConstraint.cpp.o[0m
+[6.865s] [ 53%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/penalties/MultidimensionalPenalty.cpp.o[0m
+[6.887s] [ 54%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/penalties/Penalties.cpp.o[0m
+[7.169s] [ 54%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/penalties/penalties/RelaxedBarrierPenalty.cpp.o[0m
+[7.252s] [ 55%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/penalties/penalties/SquaredHingePenalty.cpp.o[0m
+[7.279s] [ 56%] [32mBuilding CXX object CMakeFiles/ocs2_core.dir/src/thread_support/ThreadPool.cpp.o[0m
+[8.642s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.685s] [ 57%] Built target gtest
+[34.736s] [ 57%] [32m[1mLinking CXX static library libocs2_core.a[0m
+[34.815s] [ 57%] Built target ocs2_core
+[34.827s] [ 60%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingConstraint.cpp.o[0m
+[34.827s] [ 60%] [32mBuilding CXX object CMakeFiles/interpolation_unittest.dir/test/misc/testInterpolation.cpp.o[0m
+[34.827s] [ 60%] [32mBuilding CXX object CMakeFiles/test_cost.dir/test/cost/testCostCppAd.cpp.o[0m
+[34.827s] [ 60%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingAugmentedLagrangian.cpp.o[0m
+[34.827s] [ 62%] [32mBuilding CXX object CMakeFiles/test_softConstraint.dir/test/soft_constraint/testSoftConstraint.cpp.o[0m
+[34.827s] [ 62%] [32mBuilding CXX object CMakeFiles/test_cost.dir/test/cost/testQuadraticCostFunction.cpp.o[0m
+[34.827s] [ 62%] [32mBuilding CXX object CMakeFiles/test_cost.dir/test/cost/testCostCollection.cpp.o[0m
+[34.827s] [ 63%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingConfiguration.cpp.o[0m
+[34.828s] [ 66%] [32mBuilding CXX object CMakeFiles/test_multiplier.dir/test/model_data/testMultiplier.cpp.o[0m
+[34.828s] [ 66%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingSoftConstraint.cpp.o[0m
+[34.828s] [ 66%] [32mBuilding CXX object CMakeFiles/test_transferfunctionbase.dir/test/dynamics/testTransferfunctionBase.cpp.o[0m
+[34.828s] [ 66%] [32mBuilding CXX object CMakeFiles/test_constraint.dir/test/constraint/testConstraintCollection.cpp.o[0m
+[34.828s] [ 67%] [32mBuilding CXX object CMakeFiles/test_control.dir/test/control/testLinearController.cpp.o[0m
+[34.828s] [ 67%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLinearAlgebra.cpp.o[0m
+[34.828s] [ 69%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLogging.cpp.o[0m
+[34.828s] [ 69%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingCost.cpp.o[0m
+[34.828s] [ 69%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_misc.dir/test/misc/testInterpolation.cpp.o[0m
+[34.828s] [ 70%] [32mBuilding CXX object CMakeFiles/initialization_unittest.dir/test/initialization/InitializationTest.cpp.o[0m
+[34.828s] [ 70%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLoadData.cpp.o[0m
+[34.828s] [ 72%] [32mBuilding CXX object CMakeFiles/test_integration.dir/test/integration/testSensitivityIntegrator.cpp.o[0m
+[34.829s] [ 72%] [32mBuilding CXX object CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testCppADCG_dynamics.cpp.o[0m
+[34.829s] [ 73%] [32mBuilding CXX object CMakeFiles/test_dynamics.dir/test/dynamics/testSystemDynamicsLinearizer.cpp.o[0m
+[34.829s] [ 73%] [32mBuilding CXX object CMakeFiles/test_ModelData.dir/test/model_data/testModelData.cpp.o[0m
+[34.829s] [ 74%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingDefinition.cpp.o[0m
+[34.829s] [ 74%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_core.dir/test/testPrecomputation.cpp.o[0m
+[34.829s] [ 73%] [32mBuilding CXX object CMakeFiles/test_metrics.dir/test/model_data/testMetrics.cpp.o[0m
+[34.830s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ModeSchedule.dir/test/reference/testModeSchedule.cpp.o[0m
+[34.838s] [ 75%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testBufferedValue.cpp.o[0m
+[36.266s] [ 76%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testSynchronized.cpp.o[0m
+[36.571s] [ 77%] [32m[1mLinking CXX executable test_transferfunctionbase[0m
+[36.582s] [ 78%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_core.dir/test/testTypes.cpp.o[0m
+[36.667s] [ 78%] Built target test_transferfunctionbase
+[36.675s] [ 79%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingDynamics.cpp.o[0m
+[36.919s] [ 80%] [32m[1mLinking CXX executable test_ModeSchedule[0m
+[37.008s] [ 80%] Built target test_ModeSchedule
+[37.015s] [ 81%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_misc.dir/test/misc/testLookup.cpp.o[0m
+[37.072s] [ 82%] [32mBuilding CXX object CMakeFiles/test_control.dir/test/control/testFeedforwardController.cpp.o[0m
+[37.080s] [ 83%] [32mBuilding CXX object CMakeFiles/test_softConstraint.dir/test/soft_constraint/testDoubleSidedPenalty.cpp.o[0m
+[37.117s] [ 84%] [32mBuilding CXX object CMakeFiles/test_dynamics.dir/test/dynamics/testSystemDynamicsPreComputation.cpp.o[0m
+[37.192s] [ 84%] [32mBuilding CXX object CMakeFiles/test_constraint.dir/test/constraint/testConstraintCppAd.cpp.o[0m
+[37.231s] [ 85%] [32m[1mLinking CXX executable test_ModelData[0m
+[37.315s] [ 85%] Built target test_ModelData
+[37.322s] [ 86%] [32mBuilding CXX object CMakeFiles/test_integration.dir/test/integration/IntegrationTest.cpp.o[0m
+[37.409s] [ 87%] [32m[1mLinking CXX executable test_metrics[0m
+[37.496s] [ 87%] Built target test_metrics
+[37.504s] [ 88%] [32mBuilding CXX object CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testSparsityHelpers.cpp.o[0m
+[37.567s] [ 88%] [32m[1mLinking CXX executable initialization_unittest[0m
+[37.663s] [ 88%] Built target initialization_unittest
+[37.673s] [ 89%] [32mBuilding CXX object CMakeFiles/ocs2_core_test_thread_support.dir/test/thread_support/testThreadPool.cpp.o[0m
+[37.821s] [ 89%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingFilterDynamics.cpp.o[0m
+[37.920s] [ 90%] [32mBuilding CXX object CMakeFiles/test_constraint.dir/test/constraint/testLinearConstraint.cpp.o[0m
+[37.968s] [ 91%] [32m[1mLinking CXX executable interpolation_unittest[0m
+[38.062s] [ 91%] Built target interpolation_unittest
+[38.069s] [ 92%] [32mBuilding CXX object CMakeFiles/ocs2_core_loopshaping.dir/test/loopshaping/testLoopshapingPreComputation.cpp.o[0m
+[38.075s] [ 92%] [32m[1mLinking CXX executable test_multiplier[0m
+[38.155s] [ 92%] Built target test_multiplier
+[38.160s] [ 92%] [32mBuilding CXX object CMakeFiles/ocs2_core_cppadcg.dir/test/cppad_cg/testCppAdInterface.cpp.o[0m
+[38.162s] [ 92%] [32mBuilding CXX object CMakeFiles/test_integration.dir/test/integration/testRungeKuttaDormandPrince5.cpp.o[0m
+[38.203s] [ 93%] [32mBuilding CXX object CMakeFiles/test_integration.dir/test/integration/TrapezoidalIntegrationTest.cpp.o[0m
+[38.884s] [ 93%] [32m[1mLinking CXX executable test_dynamics[0m
+[38.919s] [ 93%] [32m[1mLinking CXX executable test_softConstraint[0m
+[38.940s] [ 93%] Built target test_dynamics
+[39.015s] [ 93%] Built target test_softConstraint
+[39.033s] [ 94%] [32m[1mLinking CXX executable test_control[0m
+[39.085s] [ 94%] Built target test_control
+[39.220s] [ 95%] [32m[1mLinking CXX executable ocs2_core_test_core[0m
+[39.320s] [ 95%] Built target ocs2_core_test_core
+[39.948s] [ 96%] [32m[1mLinking CXX executable test_integration[0m
+[40.017s] [ 96%] Built target test_integration
+[40.295s] [ 96%] [32m[1mLinking CXX executable ocs2_core_test_thread_support[0m
+[40.347s] [ 96%] Built target ocs2_core_test_thread_support
+[40.451s] [ 96%] [32m[1mLinking CXX executable test_cost[0m
+[40.459s] [ 97%] [32m[1mLinking CXX executable ocs2_core_loopshaping[0m
+[40.547s] [ 97%] Built target test_cost
+[40.552s] [ 97%] Built target ocs2_core_loopshaping
+[41.207s] [ 98%] [32m[1mLinking CXX executable test_constraint[0m
+[41.296s] [ 98%] Built target test_constraint
+[44.658s] [ 99%] [32m[1mLinking CXX executable ocs2_core_test_misc[0m
+[44.724s] [ 99%] Built target ocs2_core_test_misc
+[46.311s] [100%] [32m[1mLinking CXX executable ocs2_core_cppadcg[0m
+[46.395s] [100%] Built target ocs2_core_cppadcg
+[46.404s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core -- -j28 -l28
+[46.405s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core
+[46.410s] -- Install configuration: "Release"
+[46.410s] -- Execute custom install script
+[46.411s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/ComputationRequest.h
+[46.417s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/NumericTraits.h
+[46.420s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/PreComputation.h
+[46.426s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/Types.h
+[46.430s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/AugmentedLagrangian.h
+[46.435s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangian.h
+[46.440s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangianCollection.h
+[46.444s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangianInterface.h
+[46.448s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangian.h
+[46.452s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangianCollection.h
+[46.456s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangianInterface.h
+[46.460s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/CppAdInterface.h
+[46.465s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/CppAdSparsity.h
+[46.470s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/FiniteDifferenceMethods.h
+[46.475s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/Types.h
+[46.479s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/ConstraintOrder.h
+[46.483s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/LinearStateConstraint.h
+[46.486s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/LinearStateInputConstraint.h
+[46.491s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraint.h
+[46.496s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraintCollection.h
+[46.501s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraintCppAd.h
+[46.504s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraint.h
+[46.508s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraintCollection.h
+[46.512s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraintCppAd.h
+[46.517s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerAdjustmentBase.h
+[46.522s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerBase.h
+[46.526s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerType.h
+[46.531s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/FeedforwardController.h
+[46.535s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/LinearController.h
+[46.539s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/StateBasedLinearController.h
+[46.542s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/QuadraticStateCost.h
+[46.546s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/QuadraticStateInputCost.h
+[46.551s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCost.h
+[46.556s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCostCollection.h
+[46.560s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCostCppAd.h
+[46.565s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCost.h
+[46.569s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCostCollection.h
+[46.574s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCostCppAd.h
+[46.577s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputGaussNewtonCostAd.h
+[46.582s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/ControlledSystemBase.h
+[46.586s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/LinearSystemDynamics.h
+[46.589s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsBase.h
+[46.593s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsBaseAD.h
+[46.597s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsLinearizer.h
+[46.602s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/TransferFunctionBase.h
+[46.607s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/DefaultInitializer.h
+[46.611s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/Initializer.h
+[46.615s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/OperatingPoints.h
+[46.618s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/Integrator.h
+[46.622s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/IntegratorBase.h
+[46.626s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/Observer.h
+[46.630s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/OdeBase.h
+[46.635s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/OdeFunc.h
+[46.640s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/RungeKuttaDormandPrince5.h
+[46.644s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SensitivityIntegrator.h
+[46.647s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SensitivityIntegratorImpl.h
+[46.650s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/StateTriggeredEventHandler.h
+[46.654s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SystemEventHandler.h
+[46.658s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/TrapezoidalIntegration.h
+[46.663s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/eigenIntegration.h
+[46.667s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/implementation/Integrator.h
+[46.672s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/steppers.h
+[46.676s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/Loopshaping.h
+[46.681s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingDefinition.h
+[46.686s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingFilter.h
+[46.690s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingPreComputation.h
+[46.695s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingPropertyTree.h
+[46.699s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.h
+[46.703s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.h
+[46.706s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.h
+[46.710s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.h
+[46.714s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.h
+[46.719s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraint.h
+[46.724s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraintEliminatePattern.h
+[46.728s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraintOutputPattern.h
+[46.731s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingStateConstraint.h
+[46.734s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingStateInputConstraint.h
+[46.738s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCost.h
+[46.742s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCostEliminatePattern.h
+[46.747s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCostOutputPattern.h
+[46.752s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingStateCost.h
+[46.755s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingStateInputCost.h
+[46.760s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamics.h
+[46.764s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.h
+[46.767s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.h
+[46.774s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingFilterDynamics.h
+[46.780s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/initialization/LoopshapingInitializer.h
+[46.785s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraint.h
+[46.789s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.h
+[46.793s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.h
+[46.797s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.h
+[46.802s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Benchmark.h
+[46.806s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Collection.h
+[46.810s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/CommandLine.h
+[46.813s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Display.h
+[46.817s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LTI_Equations.h
+[46.821s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearAlgebra.h
+[46.824s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearFunction.h
+[46.828s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearInterpolation.h
+[46.833s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LoadData.h
+[46.838s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LoadStdVectorOfPair.h
+[46.841s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Log.h
+[46.844s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Lookup.h
+[46.848s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Numerics.h
+[46.851s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/implementation/LinearInterpolation.h
+[46.855s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/randomMatrices.h
+[46.860s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/Metrics.h
+[46.864s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/ModelData.h
+[46.868s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/ModelDataLinearInterpolation.h
+[46.872s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/Multiplier.h
+[46.875s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/MultidimensionalPenalty.h
+[46.879s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/Penalties.h
+[46.883s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/AugmentedPenaltyBase.h
+[46.887s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/ModifiedRelaxedBarrierPenalty.h
+[46.890s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/QuadraticPenalty.h
+[46.895s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/SlacknessSquaredHingePenalty.h
+[46.899s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/SmoothAbsolutePenalty.h
+[46.902s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/DoubleSidedPenalty.h
+[46.906s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/PenaltyBase.h
+[46.910s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/QuadraticPenalty.h
+[46.914s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/RelaxedBarrierPenalty.h
+[46.918s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/SmoothAbsolutePenalty.h
+[46.923s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/SquaredHingePenalty.h
+[46.927s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/reference/ModeSchedule.h
+[46.930s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/reference/TargetTrajectories.h
+[46.933s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateInputSoftBoxConstraint.h
+[46.938s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateInputSoftConstraint.h
+[46.942s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateSoftConstraint.h
+[46.946s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/BufferedValue.h
+[46.950s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/ExecuteAndSleep.h
+[46.953s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/SetThreadPriority.h
+[46.957s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/Synchronized.h
+[46.961s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/ThreadPool.h
+[46.964s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/test/testTools.h
+[46.969s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/library_path.sh
+[46.972s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/library_path.dsv
+[46.977s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/package_run_dependencies/ocs2_core
+[46.981s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/parent_prefix_path/ocs2_core
+[46.985s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/ament_prefix_path.sh
+[46.990s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/ament_prefix_path.dsv
+[46.994s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/path.sh
+[46.997s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/path.dsv
+[47.002s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.bash
+[47.006s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.sh
+[47.009s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.zsh
+[47.013s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.dsv
+[47.017s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/package.dsv
+[47.022s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/packages/ocs2_core
+[47.025s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_cxx_flags.cmake
+[47.030s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ament_cmake_export_targets-extras.cmake
+[47.035s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.039s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig.cmake
+[47.042s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake
+[47.046s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/package.xml
+[47.051s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib/libocs2_core.a
+[47.055s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport.cmake
+[47.055s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport-release.cmake
+[47.056s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core

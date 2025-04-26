@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found ocs2_msgs: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake)
+-- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_ros_interfaces/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces
+[  5%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mpc/MPC_ROS_Interface.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Dummy_Loop.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/LoopshapingDummyObserver.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/RosReferenceManager.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgHelpers.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesRosPublisher.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesInteractiveMarker.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationColors.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgConversions.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesKeyboardPublisher.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Interface.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/SolverObserverRosCallbacks.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationHelpers.cpp.o[0m
+[ 77%] [32m[1mLinking CXX static library libocs2_ros_interfaces.a[0m
+[ 77%] Built target ocs2_ros_interfaces
+[ 83%] [32mBuilding CXX object CMakeFiles/multiplot_remap.dir/src/multiplot/MultiplotRemap.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/test_custom_callback_queue.dir/test/test_custom_callback_queue.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_custom_callback_queue[0m
+[ 94%] Built target test_custom_callback_queue
+[100%] [32m[1mLinking CXX executable multiplot_remap[0m
+[100%] Built target multiplot_remap

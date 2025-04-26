@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_centroidal_model
+# Build directory: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(ocs2_centroidal_model_test "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/test_results/ocs2_centroidal_model/ocs2_centroidal_model_test.gtest.xml" "--package-name" "ocs2_centroidal_model" "--output-file" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/ament_cmake_gtest/ocs2_centroidal_model_test.txt" "--command" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/ocs2_centroidal_model_test" "--gtest_output=xml:/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/test_results/ocs2_centroidal_model/ocs2_centroidal_model_test.gtest.xml")
+set_tests_properties(ocs2_centroidal_model_test PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/ocs2_centroidal_model_test" TIMEOUT "60" WORKING_DIRECTORY "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_centroidal_model/CMakeLists.txt;91;ament_add_gtest;/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_centroidal_model/CMakeLists.txt;0;")
+subdirs("gtest")

@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ocs2_oc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_mpc/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc
+[ 14%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_BASE.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_MRT_Interface.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/LoopshapingSystemObservation.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/MPC_Settings.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/SystemObservation.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/ocs2_mpc.dir/src/MRT_BASE.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libocs2_mpc.a[0m
+[100%] Built target ocs2_mpc
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/CommandData.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/LoopshapingSystemObservation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_BASE.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_MRT_Interface.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_Settings.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MRT_BASE.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MrtObserver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/SystemObservation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/library_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/library_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/package_run_dependencies/ocs2_mpc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/parent_prefix_path/ocs2_mpc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/ament_prefix_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.bash
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.zsh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/package.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/packages/ocs2_mpc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig-version.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/package.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib/libocs2_mpc.a
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport-release.cmake

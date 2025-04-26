@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ipm/include/ocs2_ipm/IpmSettings.h

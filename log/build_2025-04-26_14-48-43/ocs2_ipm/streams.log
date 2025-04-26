@@ -1,0 +1,87 @@
+[0.011s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ipm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm
+[0.043s] -- The C compiler identification is GNU 12.3.0
+[0.072s] -- The CXX compiler identification is GNU 12.3.0
+[0.076s] -- Detecting C compiler ABI info
+[0.118s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.166s] -- Detecting CXX compiler ABI info - done
+[0.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.169s] -- Detecting CXX compile features
+[0.170s] -- Detecting CXX compile features - done
+[0.171s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.254s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.290s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.315s] -- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+[0.484s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.544s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.544s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.658s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.668s] -- Found blasfeo_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake)
+[0.670s] -- Found hpipm_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake)
+[0.682s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.719s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.721s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.723s] -- Found Threads: TRUE  
+[0.728s] -- Configuring done
+[0.737s] -- Generating done
+[0.740s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm
+[0.744s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ipm -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm
+[0.745s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm -- -j28 -l28
+[0.782s] [  5%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSettings.cpp.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmHelpers.cpp.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSolver.cpp.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmPerformanceIndexComputation.cpp.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmInitialization.cpp.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.782s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.390s] [ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.439s] [ 47%] Built target gtest_main
+[4.991s] [ 52%] [32m[1mLinking CXX static library libocs2_ipm.a[0m
+[5.040s] [ 52%] Built target ocs2_ipm
+[5.476s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.522s] [ 58%] Built target gtest
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/Exp1Test.cpp.o[0m
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testValuefunction.cpp.o[0m
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testUnconstrained.cpp.o[0m
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/Exp0Test.cpp.o[0m
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testCircularKinematics.cpp.o[0m
+[5.536s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testSwitchedProblem.cpp.o[0m
+[10.464s] [100%] [32m[1mLinking CXX executable test_ocs2_ipm[0m
+[10.571s] [100%] Built target test_ocs2_ipm
+[10.578s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm -- -j28 -l28
+[10.579s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm
+[10.583s] -- Install configuration: "Release"
+[10.583s] -- Execute custom install script
+[10.583s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmHelpers.h
+[10.589s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmInitialization.h
+[10.594s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmMpc.h
+[10.598s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmPerformanceIndexComputation.h
+[10.604s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSettings.h
+[10.609s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSolver.h
+[10.614s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSolverStatus.h
+[10.619s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/library_path.sh
+[10.623s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/library_path.dsv
+[10.629s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/package_run_dependencies/ocs2_ipm
+[10.635s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/parent_prefix_path/ocs2_ipm
+[10.640s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/ament_prefix_path.sh
+[10.646s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/ament_prefix_path.dsv
+[10.650s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/path.sh
+[10.654s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/path.dsv
+[10.660s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.bash
+[10.665s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.sh
+[10.669s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.zsh
+[10.673s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.dsv
+[10.678s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/package.dsv
+[10.682s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/packages/ocs2_ipm
+[10.687s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.692s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ament_cmake_export_targets-extras.cmake
+[10.697s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig.cmake
+[10.701s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig-version.cmake
+[10.706s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/package.xml
+[10.710s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib/libocs2_ipm.a
+[10.710s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport.cmake
+[10.710s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport-release.cmake
+[10.712s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm

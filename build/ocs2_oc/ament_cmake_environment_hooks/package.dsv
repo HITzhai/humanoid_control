@@ -1,0 +1,4 @@
+source;share/ocs2_oc/local_setup.bash
+source;share/ocs2_oc/local_setup.dsv
+source;share/ocs2_oc/local_setup.sh
+source;share/ocs2_oc/local_setup.zsh

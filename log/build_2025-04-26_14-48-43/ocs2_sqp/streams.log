@@ -1,0 +1,93 @@
+[0.011s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/ocs2_sqp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp
+[0.041s] -- The C compiler identification is GNU 12.3.0
+[0.071s] -- The CXX compiler identification is GNU 12.3.0
+[0.075s] -- Detecting C compiler ABI info
+[0.115s] -- Detecting C compiler ABI info - done
+[0.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.119s] -- Detecting C compile features
+[0.119s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.164s] -- Detecting CXX compiler ABI info - done
+[0.168s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.168s] -- Detecting CXX compile features
+[0.168s] -- Detecting CXX compile features - done
+[0.170s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.283s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.306s] -- Found blasfeo_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake)
+[0.307s] -- Found hpipm_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake)
+[0.475s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.530s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.530s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.641s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.648s] -- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+[0.650s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.690s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.691s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.693s] -- Found Threads: TRUE  
+[0.695s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.696s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.696s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/ocs2_sqp/include>
+[0.696s] -- Configured cppcheck exclude dirs and/or files: 
+[0.696s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.696s] -- Configured cpplint exclude dirs and/or files: 
+[0.697s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.697s] -- Added test 'lint_cmake' to check CMake code style
+[0.697s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.698s] -- Added test 'uncrustify' to check C / C++ code style
+[0.698s] -- Configured uncrustify additional arguments: 
+[0.698s] -- Added test 'xmllint' to check XML markup files
+[0.699s] -- Configuring done
+[0.704s] -- Generating done
+[0.705s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp
+[0.709s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/ocs2_sqp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp
+[0.711s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp -- -j28 -l28
+[0.745s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.746s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpLogging.cpp.o[0m
+[0.746s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.746s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSettings.cpp.o[0m
+[0.746s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSolver.cpp.o[0m
+[1.513s] [ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.562s] [ 46%] Built target gtest_main
+[3.863s] [ 53%] [32m[1mLinking CXX static library libocs2_sqp.a[0m
+[3.912s] [ 53%] Built target ocs2_sqp
+[5.661s] [ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.713s] [ 61%] Built target gtest
+[5.725s] [ 69%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testValuefunction.cpp.o[0m
+[5.726s] [ 76%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testCircularKinematics.cpp.o[0m
+[5.726s] [ 92%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testUnconstrained.cpp.o[0m
+[5.726s] [ 92%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testSwitchedProblem.cpp.o[0m
+[10.557s] [100%] [32m[1mLinking CXX executable test_ocs2_sqp[0m
+[10.659s] [100%] Built target test_ocs2_sqp
+[10.664s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp -- -j28 -l28
+[10.665s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp
+[10.670s] -- Install configuration: "Release"
+[10.671s] -- Execute custom install script
+[10.671s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpLogging.h
+[10.675s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpMpc.h
+[10.681s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSettings.h
+[10.686s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSolver.h
+[10.689s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSolverStatus.h
+[10.694s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/library_path.sh
+[10.698s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/library_path.dsv
+[10.703s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/package_run_dependencies/ocs2_sqp
+[10.707s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/parent_prefix_path/ocs2_sqp
+[10.712s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/ament_prefix_path.sh
+[10.717s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/ament_prefix_path.dsv
+[10.723s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/path.sh
+[10.727s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/path.dsv
+[10.732s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.bash
+[10.737s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.sh
+[10.743s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.zsh
+[10.748s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.dsv
+[10.753s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/package.dsv
+[10.758s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/packages/ocs2_sqp
+[10.763s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.767s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ament_cmake_export_targets-extras.cmake
+[10.770s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake
+[10.776s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake
+[10.780s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/package.xml
+[10.785s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib/libocs2_sqp.a
+[10.786s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport.cmake
+[10.786s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport-release.cmake
+[10.787s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp

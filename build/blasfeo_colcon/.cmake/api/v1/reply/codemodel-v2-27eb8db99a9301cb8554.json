@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-253a1178bda8c782f32c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-build-Release-c920572d48ff05882018.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "blasfeo_colcon",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "blasfeo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "blasfeo::@039278ea0a093c55e3e1",
+					"jsonFile" : "target-blasfeo-Release-ffd15ce7c45e56fd4f4a.json",
+					"name" : "blasfeo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "blasfeo_colcon_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blasfeo_colcon_uninstall-Release-71f28d728340b2d4b726.json",
+					"name" : "blasfeo_colcon_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0dfd338cfc782f4d3d17.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/blasfeo_colcon"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target ocs2_robotic_tools[0m
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 70%] Built target ocs2_robotic_tools
+[35m[1mConsolidate compiler generated dependencies of target rotation_transform_tests[0m
+[100%] Built target rotation_transform_tests
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/AngularVelocityMapping.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/LoopshapingRobotInterface.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RobotInterface.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RotationDerivativesTransforms.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RotationTransforms.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/SkewSymmetricMatrix.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/end_effector/EndEffectorKinematics.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/library_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/library_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/package_run_dependencies/ocs2_robotic_tools
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/parent_prefix_path/ocs2_robotic_tools
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.bash
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.zsh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/package.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/packages/ocs2_robotic_tools
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig-version.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/package.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib/libocs2_robotic_tools.a
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport-release.cmake

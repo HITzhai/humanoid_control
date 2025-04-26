@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_robotic_tools.a CMakeFiles/ocs2_robotic_tools.dir/src/common/RotationTransforms.cpp.o CMakeFiles/ocs2_robotic_tools.dir/src/common/LoopshapingRobotInterface.cpp.o
+/usr/bin/ranlib libocs2_robotic_tools.a

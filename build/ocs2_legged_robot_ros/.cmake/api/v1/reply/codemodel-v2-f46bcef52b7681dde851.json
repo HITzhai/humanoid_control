@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c7116c52d7dbc70c70fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ocs2_legged_robot_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_ddp_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_ddp_mpc-Release-bb0d05f7449fe44fa9f1.json",
+					"name" : "legged_robot_ddp_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_dummy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_dummy-Release-7b92e2b5627f961a9b39.json",
+					"name" : "legged_robot_dummy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_gait_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_gait_command-Release-9f19584fa91ba7ca56e2.json",
+					"name" : "legged_robot_gait_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_ipm_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_ipm_mpc-Release-86ab034af22145b41351.json",
+					"name" : "legged_robot_ipm_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_sqp_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_sqp_mpc-Release-9c7ac410c2e7208c3fd5.json",
+					"name" : "legged_robot_sqp_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "legged_robot_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-legged_robot_target-Release-9fae50952da7f4bfba07.json",
+					"name" : "legged_robot_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_legged_robot_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_legged_robot_ros-Release-b628a9c2c4efc3e3bca3.json",
+					"name" : "ocs2_legged_robot_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_legged_robot_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_legged_robot_ros_uninstall-Release-c1672978580cd8b1f13c.json",
+					"name" : "ocs2_legged_robot_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-663b3d0daceebfb1b358.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot_ros",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/basic examples/ocs2_legged_robot_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

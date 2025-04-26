@@ -1,0 +1,172 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ocs2_core: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Initialization.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/MetricsComputation.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/PerformanceIndexComputation.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/LagrangianEvaluation.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/ProjectionMultiplierCoefficients.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Transcription.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/ChangeOfInputVariables.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Helpers.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/LinearQuadraticApproximator.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/PerformanceIndex.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblem.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpSize.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/LoopshapingPrimalSolution.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_solver/SolverBase.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/precondition/Ruzi.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/TimeDiscretization.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RootFinder.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/LoopshapingOptimalControlProblem.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/InitializerRollout.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblemHelperFunction.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/PerformanceIndicesRollout.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/StateTriggeredRollout.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutBase.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutSettings.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/TimeTriggeredRollout.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpToKkt.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/ReferenceManager.cpp.o[0m
+[ 55%] Built target gtest_main
+[ 57%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingReferenceManager.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingSynchronizedModule.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/SolverObserver.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/search_strategy/FilterLinesearch.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/trajectory_adjustment/TrajectorySpreading.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libocs2_oc.a[0m
+[ 66%] Built target ocs2_oc
+[ 68%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 68%] Built target gtest
+[ 72%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testTranscriptionMetrics.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_change_of_variables.dir/test/testChangeOfInputVariables.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testTranscriptionPerformanceIndex.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testProjectionMultiplierCoefficients.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_rollout.dir/test/rollout/testStateTriggeredRollout.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/test_ocp_to_kkt.dir/test/oc_problem/testOcpToKkt.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_data.dir/test/oc_data/testTimeDiscretization.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_rollout.dir/test/rollout/testTimeTriggeredRollout.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/test_trajectory_spreading.dir/test/trajectory_adjustment/TrajectorySpreadingTest.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/test_precondition.dir/test/precondition/testPrecondition.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_ocs2_oc_data[0m
+[ 88%] Built target test_ocs2_oc_data
+[ 90%] [32m[1mLinking CXX executable test_ocs2_oc_rollout[0m
+[ 90%] Built target test_ocs2_oc_rollout
+[ 92%] [32m[1mLinking CXX executable test_trajectory_spreading[0m
+[ 92%] Built target test_trajectory_spreading
+[ 94%] [32m[1mLinking CXX executable test_change_of_variables[0m
+[ 94%] Built target test_change_of_variables
+[ 96%] [32m[1mLinking CXX executable test_ocp_to_kkt[0m
+[ 96%] Built target test_ocp_to_kkt
+[ 98%] [32m[1mLinking CXX executable test_precondition[0m
+[ 98%] Built target test_precondition
+[100%] [32m[1mLinking CXX executable test_ocs2_oc_multiple_shooting[0m
+[100%] Built target test_ocs2_oc_multiple_shooting
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/ChangeOfInputVariables.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/LinearQuadraticApproximator.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Helpers.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Initialization.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/LagrangianEvaluation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/MetricsComputation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/PerformanceIndexComputation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/ProjectionMultiplierCoefficients.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Transcription.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/DualSolution.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/LoopshapingPrimalSolution.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PerformanceIndex.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PrimalSolution.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/ProblemMetrics.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/TimeDiscretization.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/LoopshapingOptimalControlProblem.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpSize.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpToKkt.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblem.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblemHelperFunction.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_solver/SolverBase.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/precondition/Ruzi.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/InitializerRollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/PerformanceIndicesRollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutBase.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutSettings.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinder.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinderType.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/StateTriggeredRollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/TimeTriggeredRollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/search_strategy/FilterLinesearch.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingReferenceManager.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingSynchronizedModule.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManager.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerDecorator.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerInterface.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverObserver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverSynchronizedModule.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreading.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreadingHelperFunctions.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/DoubleIntegratorReachingTask.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP0.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP1.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/ball_dynamics_staterollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/circular_kinematics.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/dynamics_hybrid_slq_test.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/pendulum_dynamics_staterollout.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/testProblemsGeneration.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/package_run_dependencies/ocs2_oc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/parent_prefix_path/ocs2_oc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.bash
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.zsh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/packages/ocs2_oc
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib/libocs2_oc.a
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport-release.cmake

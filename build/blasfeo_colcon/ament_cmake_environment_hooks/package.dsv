@@ -1,0 +1,4 @@
+source;share/blasfeo_colcon/local_setup.bash
+source;share/blasfeo_colcon/local_setup.dsv
+source;share/blasfeo_colcon/local_setup.sh
+source;share/blasfeo_colcon/local_setup.zsh

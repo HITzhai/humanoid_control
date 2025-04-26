@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface
+# Build directory: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testPinocchioInterface "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/test_results/ocs2_pinocchio_interface/testPinocchioInterface.gtest.xml" "--package-name" "ocs2_pinocchio_interface" "--output-file" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/ament_cmake_gtest/testPinocchioInterface.txt" "--command" "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/testPinocchioInterface" "--gtest_output=xml:/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/test_results/ocs2_pinocchio_interface/testPinocchioInterface.gtest.xml")
+set_tests_properties(testPinocchioInterface PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/testPinocchioInterface" TIMEOUT "60" WORKING_DIRECTORY "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/CMakeLists.txt;87;ament_add_gtest;/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/CMakeLists.txt;0;")
+subdirs("gtest")

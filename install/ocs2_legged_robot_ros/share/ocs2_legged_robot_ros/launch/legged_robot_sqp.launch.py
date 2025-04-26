@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/basic examples/ocs2_legged_robot_ros/launch/legged_robot_sqp.launch.py

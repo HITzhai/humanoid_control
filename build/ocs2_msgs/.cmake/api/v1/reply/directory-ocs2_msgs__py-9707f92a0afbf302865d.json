@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ocs2_msgs__py",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/ocs2_msgs__py"
+	}
+}

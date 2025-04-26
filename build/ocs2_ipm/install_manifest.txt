@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib/libocs2_ipm.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport-release.cmake

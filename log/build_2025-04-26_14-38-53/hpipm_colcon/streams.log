@@ -1,0 +1,270 @@
+[0.009s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/hpipm_colcon -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon
+[0.049s] -- The C compiler identification is GNU 12.3.0
+[0.083s] -- The CXX compiler identification is GNU 12.3.0
+[0.088s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.191s] -- Building for Intel x86_64 architecture
+[0.192s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.340s] -- Found blasfeo_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake)
+[0.342s] -- Found ocs2_qp_solver: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake)
+[0.495s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.554s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.554s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.671s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.677s] -- BLASFEO_PATH: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include
+[3.711s] [0mCMake Deprecation Warning at /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/CMakeLists.txt:36 (cmake_minimum_required):
+[3.711s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[3.711s]   CMake.
+[3.711s] 
+[3.711s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.711s]   CMake that the project does not need compatibility with older versions.
+[3.711s] 
+[3.711s] [0m
+[3.714s] -- Using BLASFEO path: 
+[3.714s] -- Installation directory: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_aux_mem.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_aux_string.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_common.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_cast_qcqp.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_cond.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_cond_aux.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_cond_qcqp.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_core_qp_ipm.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_core_qp_ipm_aux.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp.h
+[3.715s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp_dim.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp_ipm.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp_res.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp_sol.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qcqp_utils.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_dim.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_ipm.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_kkt.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_res.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_sol.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_dense_qp_utils.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp.h
+[3.716s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp_dim.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp_ipm.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp_res.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp_sol.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qcqp_utils.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_dim.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_ipm.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_kkt.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_red.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_res.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_sol.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_ocp_qp_utils.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_part_cond.h
+[3.717s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_part_cond_qcqp.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_sim_erk.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_sim_rk.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp_dim.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp_ipm.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp_res.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp_sol.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qcqp_utils.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_dim.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_ipm.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_kkt.h
+[3.718s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_res.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_sol.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_d_tree_ocp_qp_utils.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_m_dense_qp.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_m_dense_qp_dim.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_m_ocp_qp.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_m_ocp_qp_ipm_hard.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_m_ocp_qp_kkt.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_cast_qcqp.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_cond.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_cond_aux.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_cond_qcqp.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_core_qp_ipm.h
+[3.719s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_core_qp_ipm_aux.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp_dim.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp_ipm.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp_res.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp_sol.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qcqp_utils.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_dim.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_ipm.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_kkt.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_res.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_sol.h
+[3.720s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_dense_qp_utils.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp_dim.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp_ipm.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp_res.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp_sol.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qcqp_utils.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_dim.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_ipm.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_kkt.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_red.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_res.h
+[3.721s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_sol.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_ocp_qp_utils.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_part_cond.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_part_cond_qcqp.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_sim_erk.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_sim_rk.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp_dim.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp_ipm.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp_res.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp_sol.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qcqp_utils.h
+[3.722s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_dim.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_ipm.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_kkt.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_res.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_sol.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_s_tree_ocp_qp_utils.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_scenario_tree.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_timing.h
+[3.723s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/download/include/hpipm_tree.h
+[3.727s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.775s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.777s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.779s] -- Found Threads: TRUE  
+[3.784s] -- Configuring done
+[3.802s] -- Generating done
+[3.806s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon
+[3.811s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/hpipm_colcon -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon
+[3.811s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon -- -j28 -l28
+[3.850s] [  1%] [32mBuilding CXX object CMakeFiles/hpipm_colcon.dir/src/HpipmInterfaceSettings.cpp.o[0m
+[3.850s] [  4%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o[0m
+[3.850s] [  5%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o[0m
+[3.850s] [  6%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o[0m
+[3.850s] [  7%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o[0m
+[3.851s] [  7%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_cond.c.o[0m
+[3.851s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.851s] [  8%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o[0m
+[3.851s] [  9%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_cond.c.o[0m
+[3.851s] [ 10%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/d_part_cond.c.o[0m
+[3.851s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.851s] [ 12%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o[0m
+[3.851s] [ 12%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o[0m
+[3.851s] [ 13%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o[0m
+[3.852s] [  3%] [32mBuilding CXX object CMakeFiles/hpipm_colcon.dir/src/HpipmInterface.cpp.o[0m
+[3.853s] [ 14%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o[0m
+[3.854s] [ 15%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o[0m
+[3.854s] [ 16%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o[0m
+[3.854s] [ 17%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o[0m
+[3.855s] [ 18%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o[0m
+[3.855s] [ 19%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o[0m
+[3.857s] [ 20%] [32mBuilding C object build/CMakeFiles/hpipm.dir/cond/s_part_cond.c.o[0m
+[3.880s] [ 21%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o[0m
+[3.888s] [ 21%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o[0m
+[3.888s] [ 22%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o[0m
+[3.888s] [ 23%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o[0m
+[3.888s] [ 24%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o[0m
+[3.890s] [ 25%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o[0m
+[3.950s] [ 26%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o[0m
+[3.957s] [ 27%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o[0m
+[3.964s] [ 28%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o[0m
+[3.970s] [ 29%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o[0m
+[3.970s] [ 30%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o[0m
+[3.976s] [ 30%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o[0m
+[4.010s] [ 31%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o[0m
+[4.022s] [ 32%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o[0m
+[4.024s] [ 33%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o[0m
+[4.031s] [ 34%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o[0m
+[4.045s] [ 35%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o[0m
+[4.051s] [ 36%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o[0m
+[4.064s] [ 37%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o[0m
+[4.080s] [ 38%] [32mBuilding C object build/CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o[0m
+[4.083s] [ 39%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o[0m
+[4.106s] [ 40%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux_avx.c.o[0m
+[4.111s] [ 40%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o[0m
+[4.114s] [ 41%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux_avx.c.o[0m
+[4.127s] [ 42%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o[0m
+[4.151s] [ 43%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o[0m
+[4.161s] [ 44%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o[0m
+[4.162s] [ 45%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o[0m
+[4.163s] [ 46%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o[0m
+[4.168s] [ 47%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o[0m
+[4.192s] [ 48%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o[0m
+[4.196s] [ 49%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o[0m
+[4.202s] [ 50%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o[0m
+[4.203s] [ 50%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o[0m
+[4.236s] [ 51%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o[0m
+[4.329s] [ 52%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o[0m
+[4.330s] [ 53%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o[0m
+[4.357s] [ 54%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o[0m
+[4.385s] [ 55%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o[0m
+[4.398s] [ 56%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o[0m
+[4.421s] [ 57%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o[0m
+[4.425s] [ 58%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o[0m
+[4.465s] [ 59%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o[0m
+[4.466s] [ 60%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o[0m
+[4.540s] [ 60%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o[0m
+[4.563s] [ 61%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o[0m
+[4.583s] [ 62%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o[0m
+[4.594s] [ 63%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o[0m
+[4.607s] [ 64%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o[0m
+[4.628s] [ 65%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o[0m
+[4.670s] [ 66%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o[0m
+[4.675s] [ 67%] [32mBuilding C object build/CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o[0m
+[4.696s] [ 68%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp.c.o[0m
+[4.734s] [ 69%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_dim.c.o[0m
+[4.824s] [ 70%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_ipm.c.o[0m
+[4.840s] [ 70%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_res.c.o[0m
+[4.847s] [ 71%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_sol.c.o[0m
+[4.856s] [ 72%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_utils.c.o[0m
+[4.924s] [ 73%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o[0m
+[4.964s] [ 74%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.964s] [ 75%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o[0m
+[4.996s] [ 76%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o[0m
+[5.011s] [ 77%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o[0m
+[5.016s] [ 78%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o[0m
+[5.021s] [ 79%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o[0m
+[5.024s] [ 80%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_utils.c.o[0m
+[5.047s] [ 81%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp.c.o[0m
+[5.057s] [ 81%] Built target gtest_main
+[5.063s] [ 81%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_dim.c.o[0m
+[5.064s] [ 82%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_ipm.c.o[0m
+[5.075s] [ 83%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_res.c.o[0m
+[5.082s] [ 84%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_sol.c.o[0m
+[5.082s] [ 85%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_utils.c.o[0m
+[5.084s] [ 86%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o[0m
+[5.126s] [ 87%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o[0m
+[5.151s] [ 88%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o[0m
+[5.164s] [ 89%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o[0m
+[5.179s] [ 90%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o[0m
+[5.187s] [ 91%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o[0m
+[5.202s] [ 91%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_utils.c.o[0m
+[5.229s] [ 92%] [32mBuilding C object build/CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o[0m
+[5.234s] [ 93%] [32mBuilding C object build/CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o[0m
+[5.242s] [ 94%] [32mBuilding C object build/CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o[0m
+[5.267s] [ 95%] [32mBuilding C object build/CMakeFiles/hpipm.dir/auxiliary/timing.c.o[0m
+[5.776s] [ 96%] [32m[1mLinking C shared library libhpipm.so[0m
+[5.782s] /usr/bin/cc -fPIC  -O2 -fPIC -DTARGET_AVX -m64 -mavx  -DUSE_C99_MATH -DRUNTIME_CHECKS -O3 -DNDEBUG -shared -Wl,-soname,libhpipm.so -o libhpipm.so CMakeFiles/hpipm.dir/cond/d_cast_qcqp.c.o CMakeFiles/hpipm.dir/cond/d_cond.c.o CMakeFiles/hpipm.dir/cond/d_cond_aux.c.o CMakeFiles/hpipm.dir/cond/d_cond_qcqp.c.o CMakeFiles/hpipm.dir/cond/d_part_cond.c.o CMakeFiles/hpipm.dir/cond/d_part_cond_qcqp.c.o CMakeFiles/hpipm.dir/cond/s_cast_qcqp.c.o CMakeFiles/hpipm.dir/cond/s_cond.c.o CMakeFiles/hpipm.dir/cond/s_cond_aux.c.o CMakeFiles/hpipm.dir/cond/s_cond_qcqp.c.o CMakeFiles/hpipm.dir/cond/s_part_cond.c.o CMakeFiles/hpipm.dir/cond/s_part_cond_qcqp.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_dim.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_ipm.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_res.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_sol.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qcqp_utils.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_dim.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_ipm.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_kkt.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_res.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_sol.c.o CMakeFiles/hpipm.dir/dense_qp/d_dense_qp_utils.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_dim.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_ipm.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_res.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_sol.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qcqp_utils.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_dim.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_ipm.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_kkt.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_res.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_sol.c.o CMakeFiles/hpipm.dir/dense_qp/s_dense_qp_utils.c.o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm.c.o CMakeFiles/hpipm.dir/ipm_core/d_core_qp_ipm_aux_avx.c.o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm.c.o CMakeFiles/hpipm.dir/ipm_core/s_core_qp_ipm_aux_avx.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_dim.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_ipm.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_res.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_sol.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qcqp_utils.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_dim.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_ipm.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_kkt.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_red.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_res.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_sol.c.o CMakeFiles/hpipm.dir/ocp_qp/d_ocp_qp_utils.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_dim.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_ipm.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_res.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_sol.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qcqp_utils.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_dim.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_ipm.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_kkt.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_red.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_res.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_sol.c.o CMakeFiles/hpipm.dir/ocp_qp/s_ocp_qp_utils.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_dim.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_ipm.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_res.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_sol.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qcqp_utils.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_dim.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_ipm.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_kkt.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_res.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_sol.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/d_tree_ocp_qp_utils.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_dim.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_ipm.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_res.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_sol.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qcqp_utils.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_dim.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_ipm.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_kkt.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_res.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_sol.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/s_tree_ocp_qp_utils.c.o CMakeFiles/hpipm.dir/tree_ocp_qp/scenario_tree.c.o CMakeFiles/hpipm.dir/auxiliary/aux_mem.c.o CMakeFiles/hpipm.dir/auxiliary/aux_string.c.o CMakeFiles/hpipm.dir/auxiliary/timing.c.o  -Wl,-rpath,/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib/libblasfeo.so 
+[5.831s] [ 96%] Built target hpipm
+[7.895s] [ 97%] [32m[1mLinking CXX shared library libhpipm_colcon.so[0m
+[7.945s] [ 97%] Built target hpipm_colcon
+[8.694s] [ 98%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.744s] [ 98%] Built target gtest
+[8.758s] [ 99%] [32mBuilding CXX object CMakeFiles/test_hpipm_colcon.dir/test/testHpipmInterface.cpp.o[0m
+[14.825s] [100%] [32m[1mLinking CXX executable test_hpipm_colcon[0m
+[14.880s] [100%] Built target test_hpipm_colcon

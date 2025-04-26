@@ -1,0 +1,240 @@
+[0.008s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/blasfeo_colcon -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon
+[0.143s] -- The C compiler identification is GNU 12.3.0
+[0.260s] -- The CXX compiler identification is GNU 12.3.0
+[0.264s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.359s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.359s] -- Detecting CXX compile features
+[0.360s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.474s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.510s] [0mCMake Deprecation Warning at /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/CMakeLists.txt:36 (cmake_minimum_required):
+[4.510s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[4.510s]   CMake.
+[4.510s] 
+[4.510s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.510s]   CMake that the project does not need compatibility with older versions.
+[4.510s] 
+[4.510s] [0m
+[4.518s] -- The ASM compiler identification is GNU
+[4.519s] -- Found assembler: /usr/bin/cc
+[4.527s] -- Using linear algebra: HIGH_PERFORMANCE
+[4.528s] -- Using matrix format: PANELMAJ
+[4.528s] -- Using external BLAS: 0
+[4.753s] -- Testing target X64_INTEL_HASWELL: assembly compilation [success]
+[4.753s] -- Testing target X64_INTEL_HASWELL: assembly run [success]
+[5.382s] -- Testing target X64_INTEL_HASWELL: intrinsic compilation [success]
+[5.382s] -- Testing target X64_INTEL_HASWELL: intrinsic run [success]
+[5.382s] -- Detected target X64_INTEL_HASWELL
+[5.390s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo.h
+[5.390s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_block_size.h
+[5.390s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_common.h
+[5.390s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ext_dep.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ext_dep_ref.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_old.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ref.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_test.h
+[5.391s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blas.h
+[5.393s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blas_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_api_ref.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_ref_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_kernel.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_i_aux_ext_dep.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_m_aux.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_memory.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_naming.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_processor_features.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ext_dep.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ext_dep_ref.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_old.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ref.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_test.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blas.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blas_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_api_ref.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_ref_api.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_kernel.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_stdlib.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_target.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_timing.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_v_aux_ext_dep.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/d_blas.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/d_blas_64.h
+[5.394s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/s_blas.h
+[5.395s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/s_blas_64.h
+[5.495s] -- Configuring done
+[5.533s] -- Generating done
+[5.541s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon
+[5.549s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/blasfeo_colcon -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon
+[5.553s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon -- -j28 -l28
+[5.606s] [35m[1mScanning dependencies of target blasfeo[0m
+[5.656s] [  1%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.o[0m
+[5.661s] [  2%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.o[0m
+[5.662s] [  3%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/d_aux_common.c.o[0m
+[5.663s] [  4%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/s_aux_common.c.o[0m
+[5.665s] [  6%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/memory.c.o[0m
+[5.666s] [  6%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_d_aux_lib.S.o[0m
+[5.671s] [  7%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.o[0m
+[5.674s] [  8%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.o[0m
+[5.702s] [  9%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemv_4_lib4.S.o[0m
+[5.703s] [ 10%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.o[0m
+[5.705s] [ 11%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgead_lib8.S.o[0m
+[5.705s] [ 12%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_dpack_lib4.S.o[0m
+[5.714s] [ 13%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgecpsc_lib8.S.o[0m
+[5.719s] [ 15%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_8_lib8.S.o[0m
+[5.723s] [ 16%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_4_lib8.S.o[0m
+[5.723s] [ 17%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.o[0m
+[5.731s] [ 18%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgetr_lib8.S.o[0m
+[5.738s] [ 19%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx/kernel_spack_lib8.S.o[0m
+[5.763s] [ 20%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgelqf_4_lib4.S.o[0m
+[5.763s] [ 21%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgebp_lib4.S.o[0m
+[5.769s] [ 22%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_12x4_lib4.S.o[0m
+[5.770s] [ 23%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_4x4_lib4.S.o[0m
+[5.772s] [ 24%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x4_lib4.S.o[0m
+[5.774s] [ 25%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x8_lib4.S.o[0m
+[5.778s] [ 26%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemv_8_lib4.S.o[0m
+[5.796s] [ 27%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.o[0m
+[5.801s] [ 29%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dsymv_6_lib4.S.o[0m
+[5.803s] [ 30%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.o[0m
+[5.806s] [ 32%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x4_lib8.S.o[0m
+[5.806s] [ 32%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_16x4_lib8.S.o[0m
+[5.808s] [ 33%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_24x4_lib8.S.o[0m
+[5.811s] [ 34%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x8_lib8.S.o[0m
+[5.837s] [ 35%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.o[0m
+[5.837s] [ 36%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.o[0m
+[5.838s] [ 37%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.o[0m
+[5.839s] [ 38%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.o[0m
+[5.846s] [ 40%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.o[0m
+[5.847s] [ 40%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.o[0m
+[5.847s] [ 41%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.o[0m
+[5.849s] [ 43%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.o[0m
+[5.850s] [ 44%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.o[0m
+[5.850s] [ 45%] [32mBuilding ASM object build/CMakeFiles/blasfeo.dir/kernel/sse3/kernel_align_x64.S.o[0m
+[5.873s] [ 46%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.o[0m
+[5.873s] [ 47%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas3_diag_lib4.c.o[0m
+[5.874s] [ 48%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas1_lib4.c.o[0m
+[5.874s] [ 49%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas2_diag_lib.c.o[0m
+[5.875s] [ 50%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.o[0m
+[5.881s] [ 51%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas3_lib4.c.o[0m
+[5.881s] [ 52%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas2_lib4.c.o[0m
+[5.882s] [ 53%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_lapack_lib4.c.o[0m
+[5.888s] [ 54%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas1_lib8.c.o[0m
+[5.917s] [ 55%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas2_diag_lib.c.o[0m
+[5.925s] [ 58%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas3_lib8.c.o[0m
+[5.926s] [ 59%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas3_diag_lib8.c.o[0m
+[5.928s] [ 59%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas2_lib8.c.o[0m
+[5.933s] [ 60%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_lapack_lib8.c.o[0m
+[5.938s] [ 61%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/daxpy.c.o[0m
+[5.957s] [ 62%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dcopy.c.o[0m
+[5.965s] [ 63%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/ddot.c.o[0m
+[5.994s] [ 64%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dgemm_ref.c.o[0m
+[6.014s] [ 65%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dgesv.c.o[0m
+[6.048s] [ 66%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dgetrf_ref.c.o[0m
+[6.065s] [ 67%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.o[0m
+[6.067s] [ 68%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.o[0m
+[6.071s] [ 69%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dposv.c.o[0m
+[6.096s] [ 70%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dpotrf_ref.c.o[0m
+[6.107s] [ 72%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.o[0m
+[6.128s] [ 73%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dsyrk_ref.c.o[0m
+[6.159s] [ 74%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dtrmm_ref.c.o[0m
+[6.163s] [ 75%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dtrsm_ref.c.o[0m
+[6.166s] [ 76%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.o[0m
+[6.167s] [ 77%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/saxpy.c.o[0m
+[6.181s] [ 78%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/sdot.c.o[0m
+[6.181s] [ 79%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/sgemm_ref.c.o[0m
+[6.205s] [ 80%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/spotrf_ref.c.o[0m
+[6.227s] [ 81%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blas_api/strsm_ref.c.o[0m
+[6.268s] [ 82%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dgemm.c.o[0m
+[6.287s] [ 83%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dgetrf.c.o[0m
+[6.290s] [ 84%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dpotrf.c.o[0m
+[6.320s] [ 86%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dsyrk.c.o[0m
+[6.324s] [ 87%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dtrmm.c.o[0m
+[6.346s] [ 88%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dtrsm.c.o[0m
+[6.352s] [ 89%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/sgemm.c.o[0m
+[6.394s] [ 90%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/spotrf.c.o[0m
+[6.462s] [ 91%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/blasfeo_hp_cm/strsm.c.o[0m
+[6.652s] [ 92%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep.c.o[0m
+[6.704s] [ 93%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_common.c.o[0m
+[6.708s] [ 94%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.o[0m
+[6.811s] [ 95%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep.c.o[0m
+[6.879s] [ 96%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_common.c.o[0m
+[6.883s] [ 97%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/timing.c.o[0m
+[6.934s] [ 98%] [32mBuilding C object build/CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.o[0m
+[10.293s] [100%] [32m[1mLinking C shared library /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib/libblasfeo.so[0m
+[10.302s] /usr/bin/cc -fPIC  -DLA_HIGH_PERFORMANCE -DMF_PANELMAJ -DK_MAX_STACK=300 -DBLAS_API -DUSE_C99_MATH -DEXT_DEP -DOS_LINUX -DEXTERNAL_BLAS_NONE -O2 -fPIC -DTARGET_X64_INTEL_HASWELL -m64 -mavx -mavx2 -mfma -O3 -DNDEBUG -shared -Wl,-soname,libblasfeo.so -o /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib/libblasfeo.so CMakeFiles/blasfeo.dir/auxiliary/blasfeo_processor_features.c.o CMakeFiles/blasfeo.dir/auxiliary/blasfeo_stdlib.c.o CMakeFiles/blasfeo.dir/auxiliary/d_aux_common.c.o CMakeFiles/blasfeo.dir/auxiliary/memory.c.o CMakeFiles/blasfeo.dir/auxiliary/s_aux_common.c.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_d_aux_lib.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgecp_lib4.c.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemm_diag_lib4.c.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgemv_4_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_dgeqrf_4_lib4.c.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_dpack_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgead_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgecpsc_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemm_diag_lib8.c.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_4_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgemv_8_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_sgetr_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx/kernel_spack_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgebp_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgelqf_4_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_12x4_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_4x4_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x4_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemm_8x8_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgemv_8_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetr_lib4.c.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dgetrf_pivot_lib4.c.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_dsymv_6_lib4.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_16x4_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_24x4_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x4_lib8.S.o CMakeFiles/blasfeo.dir/kernel/avx2/kernel_sgemm_8x8_lib8.S.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_daxpy_lib.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_ddot_lib.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_dgemv_4_lib4.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_saxpy_lib.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_sdot_lib.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_4x4_lib4.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_sgemm_8x4_lib8.c.o CMakeFiles/blasfeo.dir/kernel/generic/kernel_spack_lib4.c.o CMakeFiles/blasfeo.dir/kernel/sse3/kernel_align_x64.S.o CMakeFiles/blasfeo.dir/auxiliary/d_aux_lib4.c.o CMakeFiles/blasfeo.dir/auxiliary/m_aux_lib48.c.o CMakeFiles/blasfeo.dir/auxiliary/s_aux_lib8.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas1_lib4.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas2_diag_lib.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas2_lib4.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas3_diag_lib4.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_blas3_lib4.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/d_lapack_lib4.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas1_lib8.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas2_diag_lib.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas2_lib8.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas3_diag_lib8.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_blas3_lib8.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_pm/s_lapack_lib8.c.o CMakeFiles/blasfeo.dir/blas_api/daxpy.c.o CMakeFiles/blasfeo.dir/blas_api/dcopy.c.o CMakeFiles/blasfeo.dir/blas_api/ddot.c.o CMakeFiles/blasfeo.dir/blas_api/dgemm_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dgesv.c.o CMakeFiles/blasfeo.dir/blas_api/dgetrf_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dgetrs.c.o CMakeFiles/blasfeo.dir/blas_api/dlaswp.c.o CMakeFiles/blasfeo.dir/blas_api/dposv.c.o CMakeFiles/blasfeo.dir/blas_api/dpotrf_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dpotrs.c.o CMakeFiles/blasfeo.dir/blas_api/dsyrk_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dtrmm_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dtrsm_ref.c.o CMakeFiles/blasfeo.dir/blas_api/dtrtrs.c.o CMakeFiles/blasfeo.dir/blas_api/saxpy.c.o CMakeFiles/blasfeo.dir/blas_api/sdot.c.o CMakeFiles/blasfeo.dir/blas_api/sgemm_ref.c.o CMakeFiles/blasfeo.dir/blas_api/spotrf_ref.c.o CMakeFiles/blasfeo.dir/blas_api/strsm_ref.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dgemm.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dgetrf.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dpotrf.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dsyrk.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dtrmm.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/dtrsm.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/sgemm.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/spotrf.c.o CMakeFiles/blasfeo.dir/blasfeo_hp_cm/strsm.c.o CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep.c.o CMakeFiles/blasfeo.dir/auxiliary/d_aux_ext_dep_common.c.o CMakeFiles/blasfeo.dir/auxiliary/i_aux_ext_dep_lib.c.o CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep.c.o CMakeFiles/blasfeo.dir/auxiliary/s_aux_ext_dep_common.c.o CMakeFiles/blasfeo.dir/auxiliary/timing.c.o CMakeFiles/blasfeo.dir/auxiliary/v_aux_ext_dep_lib.c.o 
+[10.345s] [100%] Built target blasfeo
+[10.366s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon -- -j28 -l28
+[10.368s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon
+[10.375s] -- Install configuration: "Release"
+[10.375s] -- Execute custom install script
+[10.375s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo.h
+[10.382s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_block_size.h
+[10.390s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_common.h
+[10.395s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux.h
+[10.401s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ext_dep.h
+[10.408s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ext_dep_ref.h
+[10.414s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_old.h
+[10.420s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ref.h
+[10.427s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_test.h
+[10.433s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blas.h
+[10.440s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blas_api.h
+[10.447s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_api.h
+[10.452s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_api_ref.h
+[10.459s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_ref_api.h
+[10.465s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_kernel.h
+[10.471s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_i_aux_ext_dep.h
+[10.478s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_m_aux.h
+[10.484s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_memory.h
+[10.491s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_naming.h
+[10.497s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_processor_features.h
+[10.504s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux.h
+[10.513s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ext_dep.h
+[10.516s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ext_dep_ref.h
+[10.526s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_old.h
+[10.533s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ref.h
+[10.540s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_test.h
+[10.547s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blas.h
+[10.553s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blas_api.h
+[10.560s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_api.h
+[10.567s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_api_ref.h
+[10.574s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_ref_api.h
+[10.580s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_kernel.h
+[10.591s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_stdlib.h
+[10.597s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_target.h
+[10.604s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_timing.h
+[10.610s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_v_aux_ext_dep.h
+[10.616s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/d_blas.h
+[10.622s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/d_blas_64.h
+[10.629s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/s_blas.h
+[10.636s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/s_blas_64.h
+[10.643s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/package_run_dependencies/blasfeo_colcon
+[10.650s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/parent_prefix_path/blasfeo_colcon
+[10.657s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/ament_prefix_path.sh
+[10.665s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/ament_prefix_path.dsv
+[10.671s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/path.sh
+[10.678s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/path.dsv
+[10.685s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.bash
+[10.692s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.sh
+[10.698s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.zsh
+[10.705s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.dsv
+[10.711s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/package.dsv
+[10.718s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/packages/blasfeo_colcon
+[10.724s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo-extras.cmake
+[10.731s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.737s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.747s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo_colconConfig.cmake
+[10.753s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo_colconConfig-version.cmake
+[10.762s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/package.xml
+[10.769s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/cmake/blasfeoConfig.cmake
+[10.770s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/cmake/blasfeoConfig-release.cmake
+[10.772s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon

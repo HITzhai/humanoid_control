@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/ament_cmake_core/blasfeo_colconConfig-version.cmake

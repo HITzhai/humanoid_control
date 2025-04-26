@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib/libocs2_core.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport-release.cmake

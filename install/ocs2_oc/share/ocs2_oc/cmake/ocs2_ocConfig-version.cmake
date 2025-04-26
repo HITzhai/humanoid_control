@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc/ament_cmake_core/ocs2_ocConfig-version.cmake

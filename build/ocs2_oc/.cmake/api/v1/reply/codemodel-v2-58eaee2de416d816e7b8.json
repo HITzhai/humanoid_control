@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-0948c35f89b0b93e436f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ocs2_oc",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-ef15aaf9c4e335dccc1a.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-105f9357a19ff543db37.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_oc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_oc-Release-71bd71a0a4c45c40e211.json",
+					"name" : "ocs2_oc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_oc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_oc_uninstall-Release-165b255364988455b830.json",
+					"name" : "ocs2_oc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_change_of_variables::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_change_of_variables-Release-ff1550be0450fd0d1cc3.json",
+					"name" : "test_change_of_variables",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ocp_to_kkt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ocp_to_kkt-Release-d112205ed32f58621882.json",
+					"name" : "test_ocp_to_kkt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ocs2_oc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ocs2_oc_data-Release-ee895e6f0fa13a0b4c2f.json",
+					"name" : "test_ocs2_oc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ocs2_oc_multiple_shooting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ocs2_oc_multiple_shooting-Release-cd5bcbca78003110e057.json",
+					"name" : "test_ocs2_oc_multiple_shooting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ocs2_oc_rollout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ocs2_oc_rollout-Release-27f38d51f9ec85027942.json",
+					"name" : "test_ocs2_oc_rollout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_precondition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_precondition-Release-bc2b64f0a03071cbfa01.json",
+					"name" : "test_precondition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_trajectory_spreading::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_trajectory_spreading-Release-228c1e435b6faa3d05fc.json",
+					"name" : "test_trajectory_spreading",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-c5171a037ca4653c0b7b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

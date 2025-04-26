@@ -1,0 +1,4 @@
+source;share/ocs2_legged_robot/local_setup.bash
+source;share/ocs2_legged_robot/local_setup.dsv
+source;share/ocs2_legged_robot/local_setup.sh
+source;share/ocs2_legged_robot/local_setup.zsh

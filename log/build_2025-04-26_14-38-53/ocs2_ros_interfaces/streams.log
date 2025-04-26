@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces
+[0.041s] -- The C compiler identification is GNU 12.3.0
+[0.073s] -- The CXX compiler identification is GNU 12.3.0
+[0.076s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.174s] -- Detecting CXX compiler ABI info - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.180s] -- Detecting CXX compile features
+[0.180s] -- Detecting CXX compile features - done
+[0.182s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.262s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.291s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.308s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.342s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.349s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.398s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.460s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.476s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.509s] -- Looking for pthread.h
+[0.553s] -- Looking for pthread.h - found
+[0.554s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.601s] -- Found Threads: TRUE  
+[0.640s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.656s] -- Found ocs2_msgs: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake)
+[0.660s] -- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+[0.798s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.843s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.843s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.859s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.866s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.903s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[0.917s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.956s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.958s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.958s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_ros_interfaces/include>
+[0.958s] -- Configured cppcheck exclude dirs and/or files: 
+[0.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.959s] -- Configured cpplint exclude dirs and/or files: 
+[0.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.960s] -- Added test 'lint_cmake' to check CMake code style
+[0.960s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.961s] -- Added test 'uncrustify' to check C / C++ code style
+[0.961s] -- Configured uncrustify additional arguments: 
+[0.961s] -- Added test 'xmllint' to check XML markup files
+[0.962s] -- Configuring done
+[0.972s] -- Generating done
+[0.976s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces
+[0.982s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_ros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces
+[0.983s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces -- -j28 -l28
+[1.014s] [  5%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mpc/MPC_ROS_Interface.cpp.o[0m
+[1.015s] [ 16%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Dummy_Loop.cpp.o[0m
+[1.015s] [ 16%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/LoopshapingDummyObserver.cpp.o[0m
+[1.015s] [ 22%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/RosReferenceManager.cpp.o[0m
+[1.015s] [ 27%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgHelpers.cpp.o[0m
+[1.015s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesRosPublisher.cpp.o[0m
+[1.015s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesInteractiveMarker.cpp.o[0m
+[1.015s] [ 44%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationColors.cpp.o[0m
+[1.015s] [ 55%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/common/RosMsgConversions.cpp.o[0m
+[1.015s] [ 55%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/command/TargetTrajectoriesKeyboardPublisher.cpp.o[0m
+[1.016s] [ 61%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/mrt/MRT_ROS_Interface.cpp.o[0m
+[1.017s] [ 72%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/synchronized_module/SolverObserverRosCallbacks.cpp.o[0m
+[1.017s] [ 72%] [32mBuilding CXX object CMakeFiles/ocs2_ros_interfaces.dir/src/visualization/VisualizationHelpers.cpp.o[0m
+[10.526s] [ 77%] [32m[1mLinking CXX static library libocs2_ros_interfaces.a[0m
+[10.610s] [ 77%] Built target ocs2_ros_interfaces
+[10.624s] [ 83%] [32mBuilding CXX object CMakeFiles/multiplot_remap.dir/src/multiplot/MultiplotRemap.cpp.o[0m
+[10.625s] [ 88%] [32mBuilding CXX object CMakeFiles/test_custom_callback_queue.dir/test/test_custom_callback_queue.cpp.o[0m
+[17.091s] [ 94%] [32m[1mLinking CXX executable test_custom_callback_queue[0m
+[17.265s] [ 94%] Built target test_custom_callback_queue
+[17.440s] [100%] [32m[1mLinking CXX executable multiplot_remap[0m
+[17.571s] [100%] Built target multiplot_remap

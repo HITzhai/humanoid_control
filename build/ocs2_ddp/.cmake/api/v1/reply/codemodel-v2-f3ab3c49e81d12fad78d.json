@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7ba7c42164a4d5dab61f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ocs2_ddp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bouncing_mass_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bouncing_mass_test-Release-54c3fffdd5e8648fb6a0.json",
+					"name" : "bouncing_mass_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "circular_kinematics_ddp_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circular_kinematics_ddp_test-Release-265eefdf60bc960c4dae.json",
+					"name" : "circular_kinematics_ddp_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "correctness_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-correctness_test-Release-448a1772326697564fad.json",
+					"name" : "correctness_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp0_ddp_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp0_ddp_test-Release-7b1c50c3428e40cf89cf.json",
+					"name" : "exp0_ddp_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exp1_ddp_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exp1_ddp_test-Release-5aeac63a40a58c72a300.json",
+					"name" : "exp1_ddp_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-47c5dcbb6ab51b64f86f.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-83416391ebe80c7a5de9.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hybrid_slq_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hybrid_slq_test-Release-a6ca7d2676b48c200480.json",
+					"name" : "hybrid_slq_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_ddp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_ddp-Release-e475879dfbf3add7b93a.json",
+					"name" : "ocs2_ddp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_ddp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_ddp_uninstall-Release-0020588ebeaa07bc06e2.json",
+					"name" : "ocs2_ddp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "riccati_ode_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-riccati_ode_test-Release-fcef13069c745844e0d5.json",
+					"name" : "riccati_ode_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testContinuousTimeLqr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testContinuousTimeLqr-Release-885a4c44e9ec29492ebf.json",
+					"name" : "testContinuousTimeLqr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testDdpHelperFunction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testDdpHelperFunction-Release-47d0032f67cdb6845a9b.json",
+					"name" : "testDdpHelperFunction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testReachingTask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testReachingTask-Release-87ae1ea42a503a03e081.json",
+					"name" : "testReachingTask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4d504babd291c9b81a76.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_ddp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+source;share/hpipm_colcon/local_setup.bash
+source;share/hpipm_colcon/local_setup.dsv
+source;share/hpipm_colcon/local_setup.sh
+source;share/hpipm_colcon/local_setup.zsh

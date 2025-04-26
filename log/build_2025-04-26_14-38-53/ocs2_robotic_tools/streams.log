@@ -1,0 +1,88 @@
+[0.006s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_robotic_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools
+[0.043s] -- The C compiler identification is GNU 12.3.0
+[0.073s] -- The CXX compiler identification is GNU 12.3.0
+[0.078s] -- Detecting C compiler ABI info
+[0.115s] -- Detecting C compiler ABI info - done
+[0.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.118s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.160s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.164s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.165s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.285s] -- Found ocs2_oc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake)
+[0.425s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.469s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.469s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.567s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.573s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.612s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.613s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.614s] -- Found Threads: TRUE  
+[0.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.617s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.617s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_robotic_tools/include>
+[0.617s] -- Configured cppcheck exclude dirs and/or files: 
+[0.617s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.617s] -- Configured cpplint exclude dirs and/or files: 
+[0.618s] -- Added test 'lint_cmake' to check CMake code style
+[0.618s] -- Added test 'uncrustify' to check C / C++ code style
+[0.618s] -- Configured uncrustify additional arguments: 
+[0.619s] -- Added test 'xmllint' to check XML markup files
+[0.620s] -- Configuring done
+[0.626s] -- Generating done
+[0.628s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools
+[0.631s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_robotic_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools
+[0.631s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools -- -j28 -l28
+[0.655s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.655s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.658s] [ 40%] [32mBuilding CXX object CMakeFiles/ocs2_robotic_tools.dir/src/common/LoopshapingRobotInterface.cpp.o[0m
+[0.658s] [ 40%] [32mBuilding CXX object CMakeFiles/ocs2_robotic_tools.dir/src/common/RotationTransforms.cpp.o[0m
+[1.456s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.500s] [ 50%] Built target gtest_main
+[3.034s] [ 60%] [32m[1mLinking CXX static library libocs2_robotic_tools.a[0m
+[3.070s] [ 60%] Built target ocs2_robotic_tools
+[4.992s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.044s] [ 70%] Built target gtest
+[5.059s] [ 90%] [32mBuilding CXX object CMakeFiles/rotation_transform_tests.dir/test/common/TestRotationTransforms.cpp.o[0m
+[5.060s] [ 90%] [32mBuilding CXX object CMakeFiles/rotation_transform_tests.dir/test/common/TestRotationDerivativesTransforms.cpp.o[0m
+[12.540s] [100%] [32m[1mLinking CXX executable rotation_transform_tests[0m
+[12.622s] [100%] Built target rotation_transform_tests
+[12.630s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools -- -j28 -l28
+[12.632s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools
+[12.636s] -- Install configuration: "Release"
+[12.636s] -- Execute custom install script
+[12.636s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/AngularVelocityMapping.h
+[12.641s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/LoopshapingRobotInterface.h
+[12.648s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RobotInterface.h
+[12.655s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RotationDerivativesTransforms.h
+[12.661s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/RotationTransforms.h
+[12.668s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/common/SkewSymmetricMatrix.h
+[12.674s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools/ocs2_robotic_tools/end_effector/EndEffectorKinematics.h
+[12.681s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/library_path.sh
+[12.687s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/library_path.dsv
+[12.694s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/package_run_dependencies/ocs2_robotic_tools
+[12.700s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/parent_prefix_path/ocs2_robotic_tools
+[12.705s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/ament_prefix_path.sh
+[12.712s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/ament_prefix_path.dsv
+[12.716s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/path.sh
+[12.721s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/environment/path.dsv
+[12.727s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.bash
+[12.733s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.sh
+[12.738s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.zsh
+[12.743s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/local_setup.dsv
+[12.750s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/package.dsv
+[12.756s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ament_index/resource_index/packages/ocs2_robotic_tools
+[12.763s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.770s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ament_cmake_export_targets-extras.cmake
+[12.776s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig.cmake
+[12.783s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/ocs2_robotic_toolsConfig-version.cmake
+[12.790s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/package.xml
+[12.797s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib/libocs2_robotic_tools.a
+[12.797s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport.cmake
+[12.797s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake/export_ocs2_robotic_toolsExport-release.cmake
+[12.799s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools

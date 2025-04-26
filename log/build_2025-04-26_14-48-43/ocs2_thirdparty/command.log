@@ -1,0 +1,4 @@
+Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty -- -j28 -l28
+Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty -- -j28 -l28
+Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty
+Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty

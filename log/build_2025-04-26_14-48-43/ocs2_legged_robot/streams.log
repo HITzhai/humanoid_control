@@ -1,0 +1,161 @@
+[0.018s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/basic examples/ocs2_legged_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot
+[0.050s] -- The C compiler identification is GNU 12.3.0
+[0.082s] -- The CXX compiler identification is GNU 12.3.0
+[0.085s] -- Detecting C compiler ABI info
+[0.128s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.133s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.183s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.183s] -- Detecting CXX compile features
+[0.183s] -- Detecting CXX compile features - done
+[0.185s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.306s] -- Found ocs2_ddp: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake)
+[0.446s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.495s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.495s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.601s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.608s] -- Found ocs2_sqp: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake)
+[0.612s] -- Found ocs2_ipm: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake)
+[0.613s] -- Found ocs2_centroidal_model: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake)
+[0.616s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.616s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.618s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.618s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.619s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.633s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.649s] -- Checking for NumPy
+[0.743s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.794s] --   NUMPY_VERSION=1.21.5
+[0.919s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter Development.Module NumPy 
+[0.920s] -- PythonLibraryDirs: 
+[0.920s] -- PythonLibVersionString: 3.10.13
+[0.929s] -- Python site lib: lib/python3.10/site-packages
+[0.929s] -- Python include dirs: /usr/include/python3.10
+[0.949s] -- Checking for NumPy
+[0.996s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.046s] --   NUMPY_VERSION=1.21.5
+[1.046s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[1.049s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[1.049s]   No header defined for python310; skipping header check (note: header-only
+[1.049s]   libraries have no designated component)
+[1.049s] Call Stack (most recent call first):
+[1.049s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[1.049s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[1.049s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[1.049s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[1.049s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.049s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake:41 (include)
+[1.049s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.049s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake:41 (include)
+[1.049s]   CMakeLists.txt:21 (find_package)
+[1.049s] 
+[1.049s] [0m
+[1.051s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.219s] -- Default C++ standard: 201703
+[1.219s] -- Minimal C++ standard upgraded to 11
+[1.219s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.220s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.227s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.227s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.229s] -- coal FOUND. coal at /opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so
+[1.239s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.248s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.281s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.283s] -- Found Threads: TRUE  
+[1.286s] -- Configuring done
+[1.293s] -- Generating done
+[1.295s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot
+[1.300s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/basic examples/ocs2_legged_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot
+[1.300s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot -- -j28 -l28
+[1.333s] [  3%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/dynamics/LeggedRobotDynamicsAD.cpp.o[0m
+[1.334s] [  7%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/NormalVelocityConstraintCppAd.cpp.o[0m
+[1.334s] [ 10%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/common/ModelSettings.cpp.o[0m
+[1.334s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.334s] [ 17%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SwingTrajectoryPlanner.cpp.o[0m
+[1.334s] [ 21%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroVelocityConstraintCppAd.cpp.o[0m
+[1.334s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.334s] [ 28%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/Gait.cpp.o[0m
+[1.335s] [ 32%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/GaitSchedule.cpp.o[0m
+[1.335s] [ 35%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/initialization/LeggedRobotInitializer.cpp.o[0m
+[1.335s] [ 39%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/EndEffectorLinearConstraint.cpp.o[0m
+[1.335s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/FrictionConeConstraint.cpp.o[0m
+[1.335s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroForceConstraint.cpp.o[0m
+[1.336s] [ 50%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotPreComputation.cpp.o[0m
+[1.336s] [ 53%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/ModeSequenceTemplate.cpp.o[0m
+[1.336s] [ 60%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/CubicSpline.cpp.o[0m
+[1.336s] [ 60%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/reference_manager/SwitchedModelReferenceManager.cpp.o[0m
+[1.336s] [ 64%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SplineCpg.cpp.o[0m
+[1.336s] [ 67%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotInterface.cpp.o[0m
+[1.337s] [ 71%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/LegLogic.cpp.o[0m
+[1.822s] [ 75%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.853s] [ 75%] Built target gtest_main
+[6.022s] [ 78%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.059s] [ 78%] Built target gtest
+[14.956s] [ 82%] [32m[1mLinking CXX static library libocs2_legged_robot.a[0m
+[15.001s] [ 82%] Built target ocs2_legged_robot
+[15.013s] [ 85%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot_test.dir/test/constraint/testEndEffectorLinearConstraint.cpp.o[0m
+[15.013s] [ 89%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot_test.dir/test/constraint/testFrictionConeConstraint.cpp.o[0m
+[15.014s] [ 92%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot_test.dir/test/AnymalFactoryFunctions.cpp.o[0m
+[15.015s] [ 96%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot_test.dir/test/constraint/testZeroForceConstraint.cpp.o[0m
+[29.493s] [100%] [32m[1mLinking CXX executable ocs2_legged_robot_test[0m
+[29.604s] [100%] Built target ocs2_legged_robot_test
+[29.611s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot -- -j28 -l28
+[29.611s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot
+[29.617s] -- Install configuration: "Release"
+[29.617s] -- Execute custom install script
+[29.618s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/LeggedRobotInterface.h
+[29.623s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/LeggedRobotPreComputation.h
+[29.628s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/common/ModelSettings.h
+[29.632s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/common/Types.h
+[29.637s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/common/utils.h
+[29.642s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/constraint/EndEffectorLinearConstraint.h
+[29.647s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/constraint/FrictionConeConstraint.h
+[29.653s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/constraint/NormalVelocityConstraintCppAd.h
+[29.657s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/constraint/ZeroForceConstraint.h
+[29.662s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/constraint/ZeroVelocityConstraintCppAd.h
+[29.666s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/cost/LeggedRobotQuadraticTrackingCost.h
+[29.672s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/dynamics/LeggedRobotDynamicsAD.h
+[29.676s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/foot_planner/CubicSpline.h
+[29.681s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/foot_planner/SplineCpg.h
+[29.685s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/foot_planner/SwingTrajectoryPlanner.h
+[29.689s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/gait/Gait.h
+[29.694s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/gait/GaitSchedule.h
+[29.699s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/gait/LegLogic.h
+[29.704s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/gait/ModeSequenceTemplate.h
+[29.709s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/gait/MotionPhaseDefinition.h
+[29.713s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/initialization/LeggedRobotInitializer.h
+[29.717s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/package_path.h.in
+[29.721s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/include/ocs2_legged_robot/ocs2_legged_robot/reference_manager/SwitchedModelReferenceManager.h
+[29.727s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot//config/command/gait.info
+[29.733s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot//config/command/reference.info
+[29.738s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot//config/mpc/task.info
+[29.742s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot//config/multiplot/friction_cone.xml
+[29.747s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot//config/multiplot/zero_velocity.xml
+[29.750s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/library_path.sh
+[29.756s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/library_path.dsv
+[29.761s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ament_index/resource_index/package_run_dependencies/ocs2_legged_robot
+[29.766s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ament_index/resource_index/parent_prefix_path/ocs2_legged_robot
+[29.770s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/ament_prefix_path.sh
+[29.774s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/ament_prefix_path.dsv
+[29.778s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/path.sh
+[29.783s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/environment/path.dsv
+[29.788s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/local_setup.bash
+[29.794s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/local_setup.sh
+[29.798s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/local_setup.zsh
+[29.801s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/local_setup.dsv
+[29.806s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/package.dsv
+[29.810s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ament_index/resource_index/packages/ocs2_legged_robot
+[29.814s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.819s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ament_cmake_export_targets-extras.cmake
+[29.824s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig.cmake
+[29.828s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig-version.cmake
+[29.833s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/package.xml
+[29.838s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib/libocs2_legged_robot.a
+[29.839s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/export_ocs2_legged_robotExport.cmake
+[29.839s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/share/ocs2_legged_robot/cmake/export_ocs2_legged_robotExport-release.cmake
+[29.840s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_legged_robot

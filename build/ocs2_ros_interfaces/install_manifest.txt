@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib/libocs2_ros_interfaces.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/export_ocs2_ros_interfacesExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/share/ocs2_ros_interfaces/cmake/export_ocs2_ros_interfacesExport-release.cmake

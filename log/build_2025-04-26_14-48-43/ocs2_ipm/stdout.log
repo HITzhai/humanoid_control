@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found blasfeo_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake)
+-- Found hpipm_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ipm
+[  5%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSettings.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmHelpers.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmSolver.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmPerformanceIndexComputation.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ocs2_ipm.dir/src/IpmInitialization.cpp.o[0m
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 47%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 47%] Built target gtest_main
+[ 52%] [32m[1mLinking CXX static library libocs2_ipm.a[0m
+[ 52%] Built target ocs2_ipm
+[ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 58%] Built target gtest
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/Exp1Test.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testValuefunction.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testUnconstrained.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/Exp0Test.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testCircularKinematics.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/test_ocs2_ipm.dir/test/testSwitchedProblem.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_ocs2_ipm[0m
+[100%] Built target test_ocs2_ipm
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmHelpers.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmInitialization.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmMpc.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmPerformanceIndexComputation.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSettings.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSolver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm/ocs2_ipm/IpmSolverStatus.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/library_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/library_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/package_run_dependencies/ocs2_ipm
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/parent_prefix_path/ocs2_ipm
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/ament_prefix_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/environment/path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.bash
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.zsh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/package.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ament_index/resource_index/packages/ocs2_ipm
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/ocs2_ipmConfig-version.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/package.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib/libocs2_ipm.a
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake/export_ocs2_ipmExport-release.cmake

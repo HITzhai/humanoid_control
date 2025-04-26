@@ -1,0 +1,15 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake:41 (include)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+
+[0m

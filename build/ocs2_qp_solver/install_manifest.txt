@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib/libocs2_qp_solver.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/export_ocs2_qp_solverExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/export_ocs2_qp_solverExport-release.cmake

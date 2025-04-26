@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_sqp.a CMakeFiles/ocs2_sqp.dir/src/SqpLogging.cpp.o CMakeFiles/ocs2_sqp.dir/src/SqpSettings.cpp.o CMakeFiles/ocs2_sqp.dir/src/SqpSolver.cpp.o
+/usr/bin/ranlib libocs2_sqp.a

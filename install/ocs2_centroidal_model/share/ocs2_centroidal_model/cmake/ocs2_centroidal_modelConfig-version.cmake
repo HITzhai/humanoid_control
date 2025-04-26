@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_centroidal_model/ament_cmake_core/ocs2_centroidal_modelConfig-version.cmake

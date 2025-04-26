@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_typesupport_fastrtps_c/ocs2_msgs/msg/detail/constraint__rosidl_typesupport_fastrtps_c.h

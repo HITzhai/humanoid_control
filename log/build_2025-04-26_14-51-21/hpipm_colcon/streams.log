@@ -1,0 +1,149 @@
+[0.019s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon -- -j28 -l28
+[0.046s] [  2%] Built target gtest_main
+[0.049s] [  3%] Built target gtest
+[0.049s] [  6%] Built target hpipm_colcon
+[0.054s] [ 98%] Built target hpipm
+[0.068s] [100%] Built target test_hpipm_colcon
+[0.075s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon -- -j28 -l28
+[0.076s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon
+[0.080s] -- Install configuration: "Release"
+[0.080s] -- Execute custom install script
+[0.080s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_aux_mem.h
+[0.080s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_aux_string.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_common.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_cast_qcqp.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_cond.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_cond_aux.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_cond_qcqp.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_core_qp_ipm.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_core_qp_ipm_aux.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp_dim.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp_ipm.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp_res.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp_sol.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qcqp_utils.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_dim.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_ipm.h
+[0.081s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_kkt.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_res.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_sol.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_dense_qp_utils.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp_dim.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp_ipm.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp_res.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp_sol.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qcqp_utils.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_dim.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_ipm.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_kkt.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_red.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_res.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_sol.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_ocp_qp_utils.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_part_cond.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_part_cond_qcqp.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_sim_erk.h
+[0.082s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_sim_rk.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp_dim.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp_ipm.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp_res.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp_sol.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qcqp_utils.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_dim.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_ipm.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_kkt.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_res.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_sol.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_d_tree_ocp_qp_utils.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_m_dense_qp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_m_dense_qp_dim.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_m_ocp_qp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_m_ocp_qp_ipm_hard.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_m_ocp_qp_kkt.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_cast_qcqp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_cond.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_cond_aux.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_cond_qcqp.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_core_qp_ipm.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_core_qp_ipm_aux.h
+[0.083s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp_dim.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp_ipm.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp_res.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp_sol.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qcqp_utils.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_dim.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_ipm.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_kkt.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_res.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_sol.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_dense_qp_utils.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp_dim.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp_ipm.h
+[0.084s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp_res.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp_sol.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qcqp_utils.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_dim.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_ipm.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_kkt.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_red.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_res.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_sol.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_ocp_qp_utils.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_part_cond.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_part_cond_qcqp.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_sim_erk.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_sim_rk.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp_dim.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp_ipm.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp_res.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp_sol.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qcqp_utils.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_dim.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_ipm.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_kkt.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_res.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_sol.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_s_tree_ocp_qp_utils.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_scenario_tree.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_timing.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_tree.h
+[0.085s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_colcon/hpipm_colcon/HpipmInterface.h
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_colcon/hpipm_colcon/HpipmInterfaceSettings.h
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/library_path.sh
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/library_path.dsv
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/ament_index/resource_index/package_run_dependencies/hpipm_colcon
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/ament_index/resource_index/parent_prefix_path/hpipm_colcon
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/path.sh
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/environment/path.dsv
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/local_setup.bash
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/local_setup.sh
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/local_setup.dsv
+[0.086s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/package.dsv
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/ament_index/resource_index/packages/hpipm_colcon
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/ament_cmake_export_targets-extras.cmake
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/hpipm_colconConfig.cmake
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/hpipm_colconConfig-version.cmake
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/package.xml
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm.so
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/cmake/hpipmConfig.cmake
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/cmake/hpipmConfig-release.cmake
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm_colcon.so
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/export_hpipm_colconExport.cmake
+[0.094s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/export_hpipm_colconExport-release.cmake
+[0.096s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon

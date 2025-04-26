@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_legged_robot_ros.a CMakeFiles/ocs2_legged_robot_ros.dir/src/gait/GaitKeyboardPublisher.cpp.o CMakeFiles/ocs2_legged_robot_ros.dir/src/gait/GaitReceiver.cpp.o CMakeFiles/ocs2_legged_robot_ros.dir/src/visualization/LeggedRobotVisualizer.cpp.o
+/usr/bin/ranlib libocs2_legged_robot_ros.a

@@ -1,0 +1,118 @@
+[0.006s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface
+[0.013s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.046s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.076s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.079s] -- Found ocs2_robotic_tools: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake)
+[0.088s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.091s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.091s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.093s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.094s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.094s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.097s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.098s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.109s] -- Checking for NumPy
+[0.210s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.285s] --   NUMPY_VERSION=1.21.5
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter Development.Module NumPy 
+[0.416s] -- PythonLibraryDirs: 
+[0.416s] -- PythonLibVersionString: 3.10.13
+[0.427s] -- Python site lib: lib/python3.10/site-packages
+[0.428s] -- Python include dirs: /usr/include/python3.10
+[0.446s] -- Checking for NumPy
+[0.494s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.543s] --   NUMPY_VERSION=1.21.5
+[0.543s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[0.545s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.545s]   No header defined for python310; skipping header check (note: header-only
+[0.545s]   libraries have no designated component)
+[0.545s] Call Stack (most recent call first):
+[0.545s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.545s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.545s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.545s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.545s]   CMakeLists.txt:17 (find_package)
+[0.546s] 
+[0.546s] [0m
+[0.546s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.707s] -- Default C++ standard: 201703
+[0.707s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.708s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.713s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.714s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.714s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.715s] -- coal FOUND. coal at /opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so
+[0.719s] -- Found Threads: TRUE  
+[0.727s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono thread date_time serialization filesystem atomic 
+[0.728s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.735s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.766s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.768s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.775s] -- Configuring done
+[0.783s] -- Generating done
+[0.785s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface
+[0.788s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface
+[0.789s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface -- -j28 -l28
+[0.814s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.814s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.814s] [ 23%] [32mBuilding CXX object CMakeFiles/ocs2_pinocchio_interface.dir/src/PinocchioEndEffectorKinematicsCppAd.cpp.o[0m
+[0.815s] [ 30%] [32mBuilding CXX object CMakeFiles/ocs2_pinocchio_interface.dir/src/urdf.cpp.o[0m
+[0.815s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_pinocchio_interface.dir/src/PinocchioInterface.cpp.o[0m
+[0.815s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_pinocchio_interface.dir/src/PinocchioEndEffectorKinematics.cpp.o[0m
+[0.815s] [ 53%] [32mBuilding CXX object CMakeFiles/ocs2_pinocchio_interface.dir/src/PinocchioInterfaceCppAd.cpp.o[0m
+[1.285s] [ 61%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.327s] [ 61%] Built target gtest_main
+[4.710s] [ 69%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.757s] [ 69%] Built target gtest
+[7.135s] In file included from [01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad.hpp:228[m[K,
+[7.135s]                  from [01m[K/opt/ros/humble/include/pinocchio/codegen/cppadcg.hpp:16[m[K,
+[7.135s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/implementation/PinocchioInterface.h:31[m[K,
+[7.135s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/src/PinocchioInterface.cpp:32[m[K:
+[7.135s] [01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad/utils/static-if.hpp:[m[K In static member function ‘[01m[Kstatic pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::ReturnType pinocchio::internal::if_then_else_impl<CppAD::AD<Base>, CppAD::AD<Base>, ThenType, ElseType>::run(pinocchio::internal::ComparisonOperators, const CppAD::AD<Base>&, const CppAD::AD<Base>&, const ThenType&, const ElseType&) [with Scalar = CppAD::cg::CG<double>; ThenType = CppAD::AD<CppAD::cg::CG<double> >; ElseType = CppAD::AD<CppAD::cg::CG<double> >][m[K’:
+[7.135s] [01m[K/opt/ros/humble/include/pinocchio/autodiff/cppad/utils/static-if.hpp:39:7:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[7.135s]    39 |       [01;35m[K}[m[K
+[7.135s]       |       [01;35m[K^[m[K
+[11.075s] At global scope:
+[11.075s] [01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-invalid-partial-specialization[m[K’ may have been intended to silence earlier diagnostics
+[16.511s] [ 76%] [32m[1mLinking CXX shared library libocs2_pinocchio_interface.so[0m
+[16.613s] [ 76%] Built target ocs2_pinocchio_interface
+[16.625s] [ 84%] [32mBuilding CXX object CMakeFiles/testPinocchioInterface.dir/test/testPinocchioInterface.cpp.o[0m
+[16.626s] [ 92%] [32mBuilding CXX object CMakeFiles/testPinocchioInterface.dir/test/testPinocchioEndEffectorKinematics.cpp.o[0m
+[31.292s] [100%] [32m[1mLinking CXX executable testPinocchioInterface[0m
+[31.362s] [100%] Built target testPinocchioInterface
+[31.368s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface -- -j28 -l28
+[31.370s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface
+[31.373s] -- Install configuration: "Release"
+[31.373s] -- Execute custom install script
+[31.373s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/PinocchioEndEffectorKinematics.h
+[31.379s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/PinocchioEndEffectorKinematicsCppAd.h
+[31.384s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/PinocchioInterface.h
+[31.388s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/PinocchioStateInputMapping.h
+[31.394s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/implementation/PinocchioInterface.h
+[31.398s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/pinocchio_forward_declaration.h
+[31.403s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/ocs2_pinocchio_interface/urdf.h
+[31.407s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/library_path.sh
+[31.411s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/library_path.dsv
+[31.417s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ament_index/resource_index/package_run_dependencies/ocs2_pinocchio_interface
+[31.421s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ament_index/resource_index/parent_prefix_path/ocs2_pinocchio_interface
+[31.425s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/ament_prefix_path.sh
+[31.430s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/ament_prefix_path.dsv
+[31.434s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/path.sh
+[31.439s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/environment/path.dsv
+[31.444s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/local_setup.bash
+[31.448s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/local_setup.sh
+[31.452s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/local_setup.zsh
+[31.457s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/local_setup.dsv
+[31.462s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/package.dsv
+[31.465s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ament_index/resource_index/packages/ocs2_pinocchio_interface
+[31.469s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/pinocchio_config.cmake
+[31.473s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.478s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_targets-extras.cmake
+[31.482s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake
+[31.487s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig-version.cmake
+[31.491s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/package.xml
+[31.496s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib/libocs2_pinocchio_interface.so
+[31.498s] -- Set runtime path of "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib/libocs2_pinocchio_interface.so" to ""
+[31.498s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/export_ocs2_pinocchio_interfaceExport.cmake
+[31.498s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/export_ocs2_pinocchio_interfaceExport-release.cmake
+[31.499s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface

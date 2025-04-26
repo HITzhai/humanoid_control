@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ocs2_robotic_tools: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/share/ocs2_robotic_tools/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.10.13
+-- Python site lib: lib/python3.10/site-packages
+-- Python include dirs: /usr/include/python3.10
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.21.5
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:17 (find_package)
+
+[0m
+-- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+-- Default C++ standard: 201703
+-- Minimal C++ standard upgraded to 11
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+-- C++ standard sufficient: Minimal required 11, currently defined: 17
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findcoal.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "coal", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "coal" with any of
+  the following names:
+
+    coalConfig.cmake
+    coal-config.cmake
+
+  Add the installation prefix of "coal" to CMAKE_PREFIX_PATH or set
+  "coal_DIR" to a directory containing one of the above files.  If "coal"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/CMakeFiles/CMakeOutput.log".

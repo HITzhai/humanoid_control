@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_pinocchio/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface/urdf.h

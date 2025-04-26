@@ -1,0 +1,87 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found blasfeo_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake)
+-- Found hpipm_colcon: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+-- Found ocs2_mpc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/ocs2_sqp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_sqp
+[ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpLogging.cpp.o[0m
+[ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSettings.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ocs2_sqp.dir/src/SqpSolver.cpp.o[0m
+[ 46%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 46%] Built target gtest_main
+[ 53%] [32m[1mLinking CXX static library libocs2_sqp.a[0m
+[ 53%] Built target ocs2_sqp
+[ 61%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 61%] Built target gtest
+[ 69%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testValuefunction.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testCircularKinematics.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testUnconstrained.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_ocs2_sqp.dir/test/testSwitchedProblem.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_ocs2_sqp[0m
+[100%] Built target test_ocs2_sqp
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpLogging.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpMpc.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSettings.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSolver.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp/ocs2_sqp/SqpSolverStatus.h
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/library_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/library_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/package_run_dependencies/ocs2_sqp
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/parent_prefix_path/ocs2_sqp
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/ament_prefix_path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/path.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/environment/path.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.bash
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.sh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.zsh
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/package.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ament_index/resource_index/packages/ocs2_sqp
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/package.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib/libocs2_sqp.a
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport-release.cmake

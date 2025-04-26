@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib/libocs2_ddp.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/export_ocs2_ddpExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/export_ocs2_ddpExport-release.cmake

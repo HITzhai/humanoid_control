@@ -1,0 +1,205 @@
+[0.008s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core -- -j28 -l28
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.039s] [  1%] Built target gtest
+[0.041s] [  2%] Built target gtest_main
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core[0m
+[0.134s] [ 57%] Built target ocs2_core
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target test_transferfunctionbase[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target test_metrics[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target test_control[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target test_ModelData[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target initialization_unittest[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target test_constraint[0m
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target interpolation_unittest[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core_test_core[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target test_dynamics[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target test_ModeSchedule[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target test_integration[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target test_multiplier[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core_test_thread_support[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target test_softConstraint[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target test_cost[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core_cppadcg[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core_test_misc[0m
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target ocs2_core_loopshaping[0m
+[0.146s] [ 59%] Built target test_ModelData
+[0.146s] [ 59%] Built target test_metrics
+[0.147s] [ 61%] Built target test_transferfunctionbase
+[0.147s] [ 62%] Built target initialization_unittest
+[0.148s] [ 64%] Built target test_control
+[0.150s] [ 65%] Built target test_multiplier
+[0.150s] [ 67%] Built target test_ModeSchedule
+[0.150s] [ 69%] Built target ocs2_core_test_thread_support
+[0.150s] [ 71%] Built target interpolation_unittest
+[0.150s] [ 73%] Built target ocs2_core_test_core
+[0.150s] [ 76%] Built target test_dynamics
+[0.150s] [ 78%] Built target test_constraint
+[0.151s] [ 80%] Built target test_softConstraint
+[0.153s] [ 84%] Built target test_integration
+[0.156s] [ 86%] Built target test_cost
+[0.161s] [ 90%] Built target ocs2_core_test_misc
+[0.163s] [ 93%] Built target ocs2_core_cppadcg
+[0.168s] [100%] Built target ocs2_core_loopshaping
+[0.174s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core -- -j28 -l28
+[0.175s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core
+[0.179s] -- Install configuration: "Release"
+[0.179s] -- Execute custom install script
+[0.180s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/ComputationRequest.h
+[0.180s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/NumericTraits.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/PreComputation.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/Types.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/AugmentedLagrangian.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangian.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangianCollection.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateAugmentedLagrangianInterface.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangian.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangianCollection.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/augmented_lagrangian/StateInputAugmentedLagrangianInterface.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/CppAdInterface.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/CppAdSparsity.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/FiniteDifferenceMethods.h
+[0.181s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/automatic_differentiation/Types.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/ConstraintOrder.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/LinearStateConstraint.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/LinearStateInputConstraint.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraint.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraintCollection.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateConstraintCppAd.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraint.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraintCollection.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/constraint/StateInputConstraintCppAd.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerAdjustmentBase.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerBase.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/ControllerType.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/FeedforwardController.h
+[0.182s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/LinearController.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/control/StateBasedLinearController.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/QuadraticStateCost.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/QuadraticStateInputCost.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCost.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCostCollection.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateCostCppAd.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCost.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCostCollection.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputCostCppAd.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/cost/StateInputGaussNewtonCostAd.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/ControlledSystemBase.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/LinearSystemDynamics.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsBase.h
+[0.183s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsBaseAD.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/SystemDynamicsLinearizer.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/dynamics/TransferFunctionBase.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/DefaultInitializer.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/Initializer.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/initialization/OperatingPoints.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/Integrator.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/IntegratorBase.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/Observer.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/OdeBase.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/OdeFunc.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/RungeKuttaDormandPrince5.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SensitivityIntegrator.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SensitivityIntegratorImpl.h
+[0.184s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/StateTriggeredEventHandler.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/SystemEventHandler.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/TrapezoidalIntegration.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/eigenIntegration.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/implementation/Integrator.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/integration/steppers.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/Loopshaping.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingDefinition.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingFilter.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingPreComputation.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/LoopshapingPropertyTree.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangian.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianEliminatePattern.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingAugmentedLagrangianOutputPattern.h
+[0.185s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingStateAugmentedLagrangian.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/augmented_lagrangian/LoopshapingStateInputAugmentedLagrangian.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraint.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraintEliminatePattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingConstraintOutputPattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingStateConstraint.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/constraint/LoopshapingStateInputConstraint.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCost.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCostEliminatePattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingCostOutputPattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingStateCost.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/cost/LoopshapingStateInputCost.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamics.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamicsEliminatePattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingDynamicsOutputPattern.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/dynamics/LoopshapingFilterDynamics.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/initialization/LoopshapingInitializer.h
+[0.186s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraint.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraintEliminatePattern.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingSoftConstraintOutputPattern.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/loopshaping/soft_constraint/LoopshapingStateInputSoftConstraint.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Benchmark.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Collection.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/CommandLine.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Display.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LTI_Equations.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearAlgebra.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearFunction.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LinearInterpolation.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LoadData.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/LoadStdVectorOfPair.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Log.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Lookup.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/Numerics.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/implementation/LinearInterpolation.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/misc/randomMatrices.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/Metrics.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/ModelData.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/ModelDataLinearInterpolation.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/model_data/Multiplier.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/MultidimensionalPenalty.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/Penalties.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/AugmentedPenaltyBase.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/ModifiedRelaxedBarrierPenalty.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/QuadraticPenalty.h
+[0.187s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/SlacknessSquaredHingePenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/augmented/SmoothAbsolutePenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/DoubleSidedPenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/PenaltyBase.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/QuadraticPenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/RelaxedBarrierPenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/SmoothAbsolutePenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/penalties/penalties/SquaredHingePenalty.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/reference/ModeSchedule.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/reference/TargetTrajectories.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateInputSoftBoxConstraint.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateInputSoftConstraint.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/soft_constraint/StateSoftConstraint.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/BufferedValue.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/ExecuteAndSleep.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/SetThreadPriority.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/Synchronized.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/thread_support/ThreadPool.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/test/testTools.h
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/library_path.sh
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/library_path.dsv
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/package_run_dependencies/ocs2_core
+[0.188s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/parent_prefix_path/ocs2_core
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/ament_prefix_path.sh
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/ament_prefix_path.dsv
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/path.sh
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/environment/path.dsv
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.bash
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.sh
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.zsh
+[0.189s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/local_setup.dsv
+[0.189s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/package.dsv
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ament_index/resource_index/packages/ocs2_core
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_cxx_flags.cmake
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ament_cmake_export_targets-extras.cmake
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig.cmake
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake
+[0.194s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/package.xml
+[0.194s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib/libocs2_core.a
+[0.194s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport.cmake
+[0.194s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake/export_ocs2_coreExport-release.cmake
+[0.195s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_core

@@ -1,0 +1,9 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/ocs2_robotic_assets_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_assets/CMakeFiles/install/strip.dir

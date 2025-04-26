@@ -1,0 +1,17 @@
+{
+  "package_name": "ocs2_msgs",
+  "non_idl_tuples": [
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcState.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcInput.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/ModeSchedule.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcObservation.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcPerformanceIndices.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcTargetTrajectories.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/ControllerData.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/MpcFlattenedController.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/LagrangianMetrics.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/Multiplier.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:msg/Constraint.msg",
+    "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_msgs:srv/Reset.srv"
+  ]
+}

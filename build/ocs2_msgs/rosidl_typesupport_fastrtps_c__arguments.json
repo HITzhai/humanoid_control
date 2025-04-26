@@ -1,0 +1,41 @@
+{
+  "package_name": "ocs2_msgs",
+  "output_dir": "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_typesupport_fastrtps_c/ocs2_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcState.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcInput.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/ModeSchedule.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcObservation.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcPerformanceIndices.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcTargetTrajectories.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/ControllerData.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/MpcFlattenedController.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/LagrangianMetrics.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/Multiplier.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:msg/Constraint.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs:srv/Reset.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcState.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcInput.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/ModeSchedule.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcObservation.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcPerformanceIndices.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcTargetTrajectories.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/ControllerData.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/MpcFlattenedController.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/LagrangianMetrics.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/Multiplier.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/msg/Constraint.idl",
+    "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_adapter/ocs2_msgs/srv/Reset.idl"
+  ]
+}

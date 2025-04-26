@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_mpc.a CMakeFiles/ocs2_mpc.dir/src/LoopshapingSystemObservation.cpp.o CMakeFiles/ocs2_mpc.dir/src/MPC_BASE.cpp.o CMakeFiles/ocs2_mpc.dir/src/MPC_Settings.cpp.o CMakeFiles/ocs2_mpc.dir/src/SystemObservation.cpp.o CMakeFiles/ocs2_mpc.dir/src/MRT_BASE.cpp.o CMakeFiles/ocs2_mpc.dir/src/MPC_MRT_Interface.cpp.o
+/usr/bin/ranlib libocs2_mpc.a

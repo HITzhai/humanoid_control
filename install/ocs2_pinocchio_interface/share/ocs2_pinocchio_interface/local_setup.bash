@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_pinocchio_interface/ament_cmake_environment_hooks/local_setup.bash

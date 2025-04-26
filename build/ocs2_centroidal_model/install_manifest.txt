@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib/libocs2_centroidal_model.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/export_ocs2_centroidal_modelExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/export_ocs2_centroidal_modelExport-release.cmake

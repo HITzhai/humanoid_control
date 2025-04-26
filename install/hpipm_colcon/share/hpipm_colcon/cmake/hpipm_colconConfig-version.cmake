@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/hpipm_colcon/ament_cmake_core/hpipm_colconConfig-version.cmake

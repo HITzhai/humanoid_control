@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ff0bea0c46e5595e1872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ocs2_ros_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "multiplot_remap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multiplot_remap-Release-111b4e1bac6df2153c5e.json",
+					"name" : "multiplot_remap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_ros_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_ros_interfaces-Release-5dcd106b7a30a5021c28.json",
+					"name" : "ocs2_ros_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ocs2_ros_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ocs2_ros_interfaces_uninstall-Release-f7644c503388be19b9f8.json",
+					"name" : "ocs2_ros_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_custom_callback_queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_custom_callback_queue-Release-aef4c377829152f42656.json",
+					"name" : "test_custom_callback_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6dcde75220bc84790ca7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ros_interfaces",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/robotics/ocs2_ros_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

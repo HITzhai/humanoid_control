@@ -1,0 +1,4 @@
+source;share/ocs2_pinocchio_interface/local_setup.bash
+source;share/ocs2_pinocchio_interface/local_setup.dsv
+source;share/ocs2_pinocchio_interface/local_setup.sh
+source;share/ocs2_pinocchio_interface/local_setup.zsh

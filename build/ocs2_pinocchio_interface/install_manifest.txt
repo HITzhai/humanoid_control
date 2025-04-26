@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib/libocs2_pinocchio_interface.so
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/export_ocs2_pinocchio_interfaceExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/export_ocs2_pinocchio_interfaceExport-release.cmake

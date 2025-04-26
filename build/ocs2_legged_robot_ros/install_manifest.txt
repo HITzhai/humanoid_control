@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib/libocs2_legged_robot_ros.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/share/ocs2_legged_robot_ros/cmake/export_ocs2_legged_robot_rosExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/share/ocs2_legged_robot_ros/cmake/export_ocs2_legged_robot_rosExport-release.cmake

@@ -1,0 +1,9 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/ocs2_thirdparty_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_thirdparty/CMakeFiles/install/strip.dir

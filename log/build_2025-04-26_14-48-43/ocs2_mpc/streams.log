@@ -1,0 +1,38 @@
+[0.005s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc -- -j28 -l28
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target ocs2_mpc[0m
+[0.042s] [100%] Built target ocs2_mpc
+[0.049s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc -- -j28 -l28
+[0.049s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc
+[0.053s] -- Install configuration: "Release"
+[0.053s] -- Execute custom install script
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/CommandData.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/LoopshapingSystemObservation.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_BASE.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_MRT_Interface.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MPC_Settings.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MRT_BASE.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/MrtObserver.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc/ocs2_mpc/SystemObservation.h
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/library_path.sh
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/library_path.dsv
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/package_run_dependencies/ocs2_mpc
+[0.053s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/parent_prefix_path/ocs2_mpc
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/path.sh
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/environment/path.dsv
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.bash
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.sh
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.zsh
+[0.054s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/local_setup.dsv
+[0.054s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/package.dsv
+[0.058s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ament_index/resource_index/packages/ocs2_mpc
+[0.058s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ament_cmake_export_targets-extras.cmake
+[0.058s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.058s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig.cmake
+[0.059s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig-version.cmake
+[0.059s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/package.xml
+[0.059s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib/libocs2_mpc.a
+[0.059s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport.cmake
+[0.059s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/share/ocs2_mpc/cmake/export_ocs2_mpcExport-release.cmake
+[0.060s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_mpc

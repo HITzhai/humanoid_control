@@ -1,0 +1,218 @@
+[0.005s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc
+[0.034s] -- The C compiler identification is GNU 12.3.0
+[0.063s] -- The CXX compiler identification is GNU 12.3.0
+[0.067s] -- Detecting C compiler ABI info
+[0.101s] -- Detecting C compiler ABI info - done
+[0.105s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.105s] -- Detecting C compile features
+[0.105s] -- Detecting C compile features - done
+[0.107s] -- Detecting CXX compiler ABI info
+[0.147s] -- Detecting CXX compiler ABI info - done
+[0.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.150s] -- Detecting CXX compile features
+[0.150s] -- Detecting CXX compile features - done
+[0.151s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.259s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.271s] -- Found ocs2_core: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake)
+[0.405s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.454s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.454s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.548s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.554s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.592s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.593s] -- Found Threads: TRUE  
+[0.602s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.604s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/include>
+[0.605s] -- Configured cppcheck exclude dirs and/or files: 
+[0.606s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.606s] -- Configured cpplint exclude dirs and/or files: 
+[0.607s] -- Added test 'lint_cmake' to check CMake code style
+[0.609s] -- Added test 'uncrustify' to check C / C++ code style
+[0.609s] -- Configured uncrustify additional arguments: 
+[0.610s] -- Added test 'xmllint' to check XML markup files
+[0.611s] -- Configuring done
+[0.622s] -- Generating done
+[0.625s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc
+[0.628s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc
+[0.630s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc -- -j28 -l28
+[0.658s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.658s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.659s] [  9%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Initialization.cpp.o[0m
+[0.659s] [  9%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/MetricsComputation.cpp.o[0m
+[0.659s] [ 11%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/PerformanceIndexComputation.cpp.o[0m
+[0.659s] [ 11%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/LagrangianEvaluation.cpp.o[0m
+[0.659s] [ 14%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/ProjectionMultiplierCoefficients.cpp.o[0m
+[0.659s] [ 14%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Transcription.cpp.o[0m
+[0.659s] [ 16%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/ChangeOfInputVariables.cpp.o[0m
+[0.660s] [ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/multiple_shooting/Helpers.cpp.o[0m
+[0.660s] [ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/approximate_model/LinearQuadraticApproximator.cpp.o[0m
+[0.660s] [ 24%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/PerformanceIndex.cpp.o[0m
+[0.660s] [ 22%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblem.cpp.o[0m
+[0.660s] [ 25%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpSize.cpp.o[0m
+[0.660s] [ 27%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/LoopshapingPrimalSolution.cpp.o[0m
+[0.660s] [ 29%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_solver/SolverBase.cpp.o[0m
+[0.660s] [ 33%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/precondition/Ruzi.cpp.o[0m
+[0.660s] [ 33%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_data/TimeDiscretization.cpp.o[0m
+[0.661s] [ 35%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RootFinder.cpp.o[0m
+[0.661s] [ 38%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/LoopshapingOptimalControlProblem.cpp.o[0m
+[0.661s] [ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/InitializerRollout.cpp.o[0m
+[0.661s] [ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OptimalControlProblemHelperFunction.cpp.o[0m
+[0.662s] [ 42%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/PerformanceIndicesRollout.cpp.o[0m
+[0.662s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/StateTriggeredRollout.cpp.o[0m
+[0.662s] [ 46%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutBase.cpp.o[0m
+[0.662s] [ 48%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/RolloutSettings.cpp.o[0m
+[0.662s] [ 50%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/rollout/TimeTriggeredRollout.cpp.o[0m
+[0.662s] [ 51%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/oc_problem/OcpToKkt.cpp.o[0m
+[1.564s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.589s] [ 55%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/ReferenceManager.cpp.o[0m
+[1.617s] [ 55%] Built target gtest_main
+[1.624s] [ 57%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingReferenceManager.cpp.o[0m
+[1.708s] [ 59%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/LoopshapingSynchronizedModule.cpp.o[0m
+[1.761s] [ 61%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/synchronized_module/SolverObserver.cpp.o[0m
+[1.816s] [ 62%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/search_strategy/FilterLinesearch.cpp.o[0m
+[1.835s] [ 64%] [32mBuilding CXX object CMakeFiles/ocs2_oc.dir/src/trajectory_adjustment/TrajectorySpreading.cpp.o[0m
+[3.740s] [ 66%] [32m[1mLinking CXX static library libocs2_oc.a[0m
+[3.782s] [ 66%] Built target ocs2_oc
+[5.318s] [ 68%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.355s] [ 68%] Built target gtest
+[5.364s] [ 72%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testTranscriptionMetrics.cpp.o[0m
+[5.364s] [ 72%] [32mBuilding CXX object CMakeFiles/test_change_of_variables.dir/test/testChangeOfInputVariables.cpp.o[0m
+[5.364s] [ 74%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testTranscriptionPerformanceIndex.cpp.o[0m
+[5.365s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_multiple_shooting.dir/test/multiple_shooting/testProjectionMultiplierCoefficients.cpp.o[0m
+[5.365s] [ 77%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_rollout.dir/test/rollout/testStateTriggeredRollout.cpp.o[0m
+[5.366s] [ 79%] [32mBuilding CXX object CMakeFiles/test_ocp_to_kkt.dir/test/oc_problem/testOcpToKkt.cpp.o[0m
+[5.367s] [ 81%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_data.dir/test/oc_data/testTimeDiscretization.cpp.o[0m
+[5.367s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ocs2_oc_rollout.dir/test/rollout/testTimeTriggeredRollout.cpp.o[0m
+[5.367s] [ 85%] [32mBuilding CXX object CMakeFiles/test_trajectory_spreading.dir/test/trajectory_adjustment/TrajectorySpreadingTest.cpp.o[0m
+[5.367s] [ 87%] [32mBuilding CXX object CMakeFiles/test_precondition.dir/test/precondition/testPrecondition.cpp.o[0m
+[6.623s] [ 88%] [32m[1mLinking CXX executable test_ocs2_oc_data[0m
+[6.691s] [ 88%] Built target test_ocs2_oc_data
+[7.164s] [ 90%] [32m[1mLinking CXX executable test_ocs2_oc_rollout[0m
+[7.227s] [ 90%] Built target test_ocs2_oc_rollout
+[7.549s] [ 92%] [32m[1mLinking CXX executable test_trajectory_spreading[0m
+[7.610s] [ 92%] Built target test_trajectory_spreading
+[7.998s] [ 94%] [32m[1mLinking CXX executable test_change_of_variables[0m
+[8.052s] [ 94%] Built target test_change_of_variables
+[8.216s] [ 96%] [32m[1mLinking CXX executable test_ocp_to_kkt[0m
+[8.268s] [ 96%] Built target test_ocp_to_kkt
+[8.766s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:278[m[K,
+[8.766s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.766s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/Types.h:32[m[K,
+[8.766s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/include/ocs2_oc/multiple_shooting/Transcription.h:32[m[K,
+[8.767s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/multiple_shooting/testTranscriptionPerformanceIndex.cpp:32[m[K:
+[8.767s] In static member function ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 1, 0>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, -1, -1> >, Eigen::internal::evaluator<Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> > >, Eigen::internal::assign_op<double, double>, 0>][m[K’,
+[8.767s]     inlined from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, -1, -1>; SrcXprType = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Functor = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37[m[K,
+[8.767s]     inlined from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, -1, -1>; SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31[m[K,
+[8.767s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Func = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49[m[K,
+[8.767s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename enable_if<(! evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Func = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:858:27[m[K,
+[8.767s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18[m[K,
+[8.767s]     inlined from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32[m[K,
+[8.767s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24[m[K,
+[8.767s]     inlined from ‘[01m[Kocs2::VectorFunctionLinearApproximation ocs2::getRandomConstraints(int, int, int)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/include/ocs2_oc/test/testProblemsGeneration.h:88:46[m[K:
+[8.767s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:517:5:[m[K [01;35m[Kwarning: [m[Kiteration 2305843009213693952 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+[8.767s]   517 |     [01;35m[Kfor[m[K(Index i = 0; i < size; ++i)
+[8.767s]       |     [01;35m[K^~~[m[K
+[8.767s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:517:24:[m[K [01;36m[Knote: [m[Kwithin this loop
+[8.767s]   517 |     for(Index i = 0; [01;36m[Ki < size[m[K; ++i)
+[8.767s]       |                      [01;36m[K~~^~~~~~[m[K
+[8.786s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:278[m[K,
+[8.786s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.786s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core/ocs2_core/Types.h:32[m[K,
+[8.786s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/include/ocs2_oc/multiple_shooting/MetricsComputation.h:32[m[K,
+[8.786s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/multiple_shooting/testTranscriptionMetrics.cpp:32[m[K:
+[8.786s] In static member function ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 1, 0>::run(Kernel&) [with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, -1, -1> >, Eigen::internal::evaluator<Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> > >, Eigen::internal::assign_op<double, double>, 0>][m[K’,
+[8.787s]     inlined from ‘[01m[Kvoid Eigen::internal::call_dense_assignment_loop(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, -1, -1>; SrcXprType = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Functor = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37[m[K,
+[8.787s]     inlined from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::run(DstXprType&, const SrcXprType&, const Functor&) [with DstXprType = Eigen::Matrix<double, -1, -1>; SrcXprType = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31[m[K,
+[8.787s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Func = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49[m[K,
+[8.787s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&, const Func&, typename enable_if<(! evaluator_assume_aliasing<Src>::value), void*>::type) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Func = assign_op<double, double>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:858:27[m[K,
+[8.787s]     inlined from ‘[01m[Kvoid Eigen::internal::call_assignment(Dst&, const Src&) [with Dst = Eigen::Matrix<double, -1, -1>; Src = Eigen::CwiseNullaryOp<scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:836:18[m[K,
+[8.787s]     inlined from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; Derived = Eigen::Matrix<double, -1, -1>][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:779:32[m[K,
+[8.787s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>& Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::operator=(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_random_op<double>, Eigen::Matrix<double, -1, -1> >; _Scalar = double; int _Rows = -1; int _Cols = -1; int _Options = 0; int _MaxRows = -1; int _MaxCols = -1][m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:225:24[m[K,
+[8.787s]     inlined from ‘[01m[Kocs2::VectorFunctionLinearApproximation ocs2::getRandomConstraints(int, int, int)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/include/ocs2_oc/test/testProblemsGeneration.h:88:46[m[K:
+[8.787s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:517:5:[m[K [01;35m[Kwarning: [m[Kiteration 2305843009213693952 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+[8.787s]   517 |     [01;35m[Kfor[m[K(Index i = 0; i < size; ++i)
+[8.787s]       |     [01;35m[K^~~[m[K
+[8.787s] [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:517:24:[m[K [01;36m[Knote: [m[Kwithin this loop
+[8.787s]   517 |     for(Index i = 0; [01;36m[Ki < size[m[K; ++i)
+[8.787s]       |                      [01;36m[K~~^~~~~~[m[K
+[9.304s] [ 98%] [32m[1mLinking CXX executable test_precondition[0m
+[9.354s] [ 98%] Built target test_precondition
+[9.633s] [100%] [32m[1mLinking CXX executable test_ocs2_oc_multiple_shooting[0m
+[9.722s] [100%] Built target test_ocs2_oc_multiple_shooting
+[9.729s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc -- -j28 -l28
+[9.730s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc
+[9.735s] -- Install configuration: "Release"
+[9.735s] -- Execute custom install script
+[9.736s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/ChangeOfInputVariables.h
+[9.741s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/LinearQuadraticApproximator.h
+[9.745s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Helpers.h
+[9.750s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Initialization.h
+[9.754s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/LagrangianEvaluation.h
+[9.757s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/MetricsComputation.h
+[9.762s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/PerformanceIndexComputation.h
+[9.767s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/ProjectionMultiplierCoefficients.h
+[9.771s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Transcription.h
+[9.774s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/DualSolution.h
+[9.779s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/LoopshapingPrimalSolution.h
+[9.783s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PerformanceIndex.h
+[9.788s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PrimalSolution.h
+[9.793s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/ProblemMetrics.h
+[9.797s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/TimeDiscretization.h
+[9.801s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/LoopshapingOptimalControlProblem.h
+[9.806s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpSize.h
+[9.810s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpToKkt.h
+[9.813s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblem.h
+[9.816s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblemHelperFunction.h
+[9.821s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_solver/SolverBase.h
+[9.826s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/precondition/Ruzi.h
+[9.830s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/InitializerRollout.h
+[9.834s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/PerformanceIndicesRollout.h
+[9.838s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutBase.h
+[9.842s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutSettings.h
+[9.846s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinder.h
+[9.851s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinderType.h
+[9.854s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/StateTriggeredRollout.h
+[9.858s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/TimeTriggeredRollout.h
+[9.862s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/search_strategy/FilterLinesearch.h
+[9.866s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingReferenceManager.h
+[9.870s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingSynchronizedModule.h
+[9.874s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManager.h
+[9.879s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerDecorator.h
+[9.883s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerInterface.h
+[9.887s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverObserver.h
+[9.892s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverSynchronizedModule.h
+[9.896s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreading.h
+[9.900s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreadingHelperFunctions.h
+[9.905s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/DoubleIntegratorReachingTask.h
+[9.910s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP0.h
+[9.914s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP1.h
+[9.919s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/ball_dynamics_staterollout.h
+[9.922s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/circular_kinematics.h
+[9.926s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/dynamics_hybrid_slq_test.h
+[9.931s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/pendulum_dynamics_staterollout.h
+[9.937s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/testProblemsGeneration.h
+[9.942s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.sh
+[9.947s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.dsv
+[9.951s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/package_run_dependencies/ocs2_oc
+[9.954s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/parent_prefix_path/ocs2_oc
+[9.959s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.sh
+[9.964s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.dsv
+[9.968s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.sh
+[9.971s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.dsv
+[9.975s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.bash
+[9.979s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.sh
+[9.982s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.zsh
+[9.987s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.dsv
+[9.992s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.dsv
+[9.997s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/packages/ocs2_oc
+[10.001s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.005s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_targets-extras.cmake
+[10.008s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig.cmake
+[10.013s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake
+[10.016s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.xml
+[10.021s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib/libocs2_oc.a
+[10.022s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport.cmake
+[10.022s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport-release.cmake
+[10.023s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc

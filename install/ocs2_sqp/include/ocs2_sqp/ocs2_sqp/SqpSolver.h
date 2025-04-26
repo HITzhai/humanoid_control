@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/mpc/ocs2_sqp/ocs2_sqp/include/ocs2_sqp/SqpSolver.h

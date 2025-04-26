@@ -1,0 +1,6 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm.so
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/cmake/hpipmConfig.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/cmake/hpipmConfig-release.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm_colcon.so
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/export_hpipm_colconExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/share/hpipm_colcon/cmake/export_hpipm_colconExport-release.cmake

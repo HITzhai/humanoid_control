@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib/libocs2_sqp.a
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport.cmake
+/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake/export_ocs2_sqpExport-release.cmake

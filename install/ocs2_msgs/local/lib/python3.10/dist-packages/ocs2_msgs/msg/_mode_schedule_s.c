@@ -1,0 +1,1 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_msgs/rosidl_generator_py/ocs2_msgs/msg/_mode_schedule_s.c
