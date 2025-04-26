@@ -1,0 +1,116 @@
+[0.006s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc
+[0.012s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.071s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.074s] -- Found ocs2_core: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake)
+[0.086s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.117s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.131s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.133s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.133s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/include>;$<BUILD_INTERFACE:/home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc/test/include>
+[0.133s] -- Configured cppcheck exclude dirs and/or files: 
+[0.135s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.135s] -- Configured cpplint exclude dirs and/or files: 
+[0.136s] -- Added test 'lint_cmake' to check CMake code style
+[0.138s] -- Added test 'uncrustify' to check C / C++ code style
+[0.138s] -- Configured uncrustify additional arguments: 
+[0.138s] -- Added test 'xmllint' to check XML markup files
+[0.139s] -- Configuring done
+[0.150s] -- Generating done
+[0.153s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc
+[0.155s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/ocs2_ros2/core/ocs2_oc -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc
+[0.155s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc -- -j28 -l28
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target ocs2_oc[0m
+[0.189s] [  3%] Built target gtest
+[0.190s] [  7%] Built target gtest_main
+[0.224s] [ 68%] Built target ocs2_oc
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target test_change_of_variables[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target test_ocs2_oc_multiple_shooting[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory_spreading[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target test_ocs2_oc_data[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target test_ocp_to_kkt[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target test_ocs2_oc_rollout[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target test_precondition[0m
+[0.240s] [ 72%] Built target test_ocs2_oc_data
+[0.241s] [ 75%] Built target test_change_of_variables
+[0.241s] [ 79%] Built target test_trajectory_spreading
+[0.242s] [ 85%] Built target test_ocs2_oc_rollout
+[0.242s] [ 88%] Built target test_ocp_to_kkt
+[0.243s] [ 96%] Built target test_ocs2_oc_multiple_shooting
+[0.244s] [100%] Built target test_precondition
+[0.251s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc -- -j28 -l28
+[0.252s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc
+[0.256s] -- Install configuration: "Release"
+[0.256s] -- Execute custom install script
+[0.256s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/ChangeOfInputVariables.h
+[0.256s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/approximate_model/LinearQuadraticApproximator.h
+[0.256s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Helpers.h
+[0.256s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Initialization.h
+[0.256s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/LagrangianEvaluation.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/MetricsComputation.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/PerformanceIndexComputation.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/ProjectionMultiplierCoefficients.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/multiple_shooting/Transcription.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/DualSolution.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/LoopshapingPrimalSolution.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PerformanceIndex.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/PrimalSolution.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/ProblemMetrics.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_data/TimeDiscretization.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/LoopshapingOptimalControlProblem.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpSize.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OcpToKkt.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblem.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_problem/OptimalControlProblemHelperFunction.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/oc_solver/SolverBase.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/precondition/Ruzi.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/InitializerRollout.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/PerformanceIndicesRollout.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutBase.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RolloutSettings.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinder.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/RootFinderType.h
+[0.257s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/StateTriggeredRollout.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/rollout/TimeTriggeredRollout.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/search_strategy/FilterLinesearch.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingReferenceManager.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/LoopshapingSynchronizedModule.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManager.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerDecorator.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/ReferenceManagerInterface.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverObserver.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/synchronized_module/SolverSynchronizedModule.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreading.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/trajectory_adjustment/TrajectorySpreadingHelperFunctions.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/DoubleIntegratorReachingTask.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP0.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/EXP1.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/ball_dynamics_staterollout.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/circular_kinematics.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/dynamics_hybrid_slq_test.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/pendulum_dynamics_staterollout.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc/ocs2_oc/test/testProblemsGeneration.h
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.sh
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/library_path.dsv
+[0.258s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/package_run_dependencies/ocs2_oc
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/parent_prefix_path/ocs2_oc
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.sh
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/ament_prefix_path.dsv
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.sh
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/environment/path.dsv
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.bash
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.sh
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.zsh
+[0.259s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/local_setup.dsv
+[0.259s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.dsv
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ament_index/resource_index/packages/ocs2_oc
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ament_cmake_export_targets-extras.cmake
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig.cmake
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake
+[0.263s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/package.xml
+[0.263s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib/libocs2_oc.a
+[0.264s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport.cmake
+[0.264s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake/export_ocs2_ocExport-release.cmake
+[0.265s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc' returned '0': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_oc

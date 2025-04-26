@@ -1,0 +1,5 @@
+[console_scripts]
+humanoid_sim = humanoid_mujoco_sim.humanoid_sim:main
+joy = humanoid_mujoco_sim.joy:main
+teleop = humanoid_mujoco_sim.teleop:main
+

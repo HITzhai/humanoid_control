@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description
+-- Install configuration: "Release"
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//config
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//config/joint_names_humanoid_legged.yaml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//launch
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//launch/visualize.launch_.py
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//launch/visualize.launch.py
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//urdf
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//urdf/humanoid_legged_origin.urdf
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//urdf/humanoid_legged_control_.urdf
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//rviz
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//rviz/humanoid_legged_control.rviz
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//mjcf
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//mjcf/asset
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//mjcf/asset/block.png
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//mjcf/humanoid_legged_control_.xml
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r2_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r6_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r3_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r5_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r2_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l1_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l1_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l3_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r4_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r5_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l6_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l5_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r4_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l4_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r3_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r6_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l5_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l3_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/head_yaw_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_r1_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l6_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/waist_yaw_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_l2_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l2_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/arm_l4_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/base_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description//meshes/leg_r1_link.STL
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/ament_index/resource_index/package_run_dependencies/humanoid_legged_description
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/ament_index/resource_index/parent_prefix_path/humanoid_legged_description
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/environment/ament_prefix_path.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/environment/ament_prefix_path.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/environment/path.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/environment/path.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/local_setup.bash
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/local_setup.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/local_setup.zsh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/local_setup.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/package.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/ament_index/resource_index/packages/humanoid_legged_description
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/cmake/humanoid_legged_descriptionConfig.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/cmake/humanoid_legged_descriptionConfig-version.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_legged_description/share/humanoid_legged_description/package.xml

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_self_collision_visualization.a CMakeFiles/ocs2_self_collision_visualization.dir/src/GeometryInterfaceVisualization.cpp.o
+/usr/bin/ranlib libocs2_self_collision_visualization.a

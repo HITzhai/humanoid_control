@@ -1,0 +1,11 @@
+source;share/qpoases_catkin/hook/cmake_prefix_path.ps1
+source;share/qpoases_catkin/hook/cmake_prefix_path.dsv
+source;share/qpoases_catkin/hook/cmake_prefix_path.sh
+source;share/qpoases_catkin/hook/ld_library_path_lib.ps1
+source;share/qpoases_catkin/hook/ld_library_path_lib.dsv
+source;share/qpoases_catkin/hook/ld_library_path_lib.sh
+source;share/qpoases_catkin/local_setup.bash
+source;share/qpoases_catkin/local_setup.dsv
+source;share/qpoases_catkin/local_setup.ps1
+source;share/qpoases_catkin/local_setup.sh
+source;share/qpoases_catkin/local_setup.zsh

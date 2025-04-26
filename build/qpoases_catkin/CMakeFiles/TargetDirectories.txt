@@ -1,0 +1,17 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/qpoases_catkin_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/CMakeFiles/install/strip.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/qpOASES.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/build/CMakeFiles/install/strip.dir

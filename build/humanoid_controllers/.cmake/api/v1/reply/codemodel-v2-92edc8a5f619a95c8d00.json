@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7f16ec12acf01ed2c427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "humanoid_controllers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cheat_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cheat_controller_node-Release-73c376ea39f23dcd2ac9.json",
+					"name" : "cheat_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_controllers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_controllers-Release-122ffb0424bf4df9c9a8.json",
+					"name" : "humanoid_controllers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_controllers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_controllers_uninstall-Release-2ba3cb885ed642c89fbf.json",
+					"name" : "humanoid_controllers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_target_trajectories_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_target_trajectories_publisher-Release-3abf71a4d1404101c072.json",
+					"name" : "humanoid_target_trajectories_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joy_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joy_controller_node-Release-31d278220884d6562be1.json",
+					"name" : "joy_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "normal_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-normal_controller_node-Release-9d7773acc12a7340a978.json",
+					"name" : "normal_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-35e8905fcf9efc50ff58.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_controllers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

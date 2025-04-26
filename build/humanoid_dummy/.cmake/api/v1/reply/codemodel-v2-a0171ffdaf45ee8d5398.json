@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-3da9449053924e6f911e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "humanoid_dummy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_ddp_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_ddp_mpc-Release-b0c6210d230857b44172.json",
+					"name" : "humanoid_ddp_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_dummy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_dummy-Release-b0f1ae00320c6ff50ac4.json",
+					"name" : "humanoid_dummy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_dummy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_dummy_node-Release-8d45d9cbe7f60cc27453.json",
+					"name" : "humanoid_dummy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_dummy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_dummy_uninstall-Release-8e2ee67488348afd48b1.json",
+					"name" : "humanoid_dummy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_gait_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_gait_command-Release-8c4ebd9024b20e5f17f0.json",
+					"name" : "humanoid_gait_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_ipm_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_ipm_mpc-Release-28f5aaafe5f281959e60.json",
+					"name" : "humanoid_ipm_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_sqp_mpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_sqp_mpc-Release-bdc2e45196692342d8e3.json",
+					"name" : "humanoid_sqp_mpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "humanoid_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-humanoid_target-Release-11b33777a15a52fda703.json",
+					"name" : "humanoid_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-aa9499988aefb2031fc3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy",
+		"source" : "/home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_dummy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

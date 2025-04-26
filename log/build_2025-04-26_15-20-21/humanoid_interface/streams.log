@@ -1,0 +1,182 @@
+[0.022s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_interface -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface
+[0.057s] -- The C compiler identification is GNU 12.3.0
+[0.087s] -- The CXX compiler identification is GNU 12.3.0
+[0.091s] -- Detecting C compiler ABI info
+[0.133s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.191s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[0.328s] -- Found ocs2_core: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/share/ocs2_core/cmake)
+[0.470s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.518s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.518s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.628s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem log_setup log 
+[0.635s] -- Found ocs2_oc: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/share/ocs2_oc/cmake)
+[0.635s] -- Found ocs2_ddp: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake)
+[0.638s] -- Found ocs2_sqp: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/share/ocs2_sqp/cmake)
+[0.642s] -- Found ocs2_ipm: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/share/ocs2_ipm/cmake)
+[0.642s] -- Found ocs2_centroidal_model: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake)
+[0.646s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.646s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.648s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.648s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.649s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.664s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.679s] -- Checking for NumPy
+[0.780s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[0.830s] --   NUMPY_VERSION=1.21.5
+[0.961s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter Development.Module NumPy 
+[0.961s] -- PythonLibraryDirs: 
+[0.961s] -- PythonLibVersionString: 3.10.13
+[0.971s] -- Python site lib: lib/python3.10/site-packages
+[0.971s] -- Python include dirs: /usr/include/python3.10
+[0.992s] -- Checking for NumPy
+[1.042s] --   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+[1.092s] --   NUMPY_VERSION=1.21.5
+[1.092s] -- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+[1.094s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[1.095s]   No header defined for python310; skipping header check (note: header-only
+[1.095s]   libraries have no designated component)
+[1.095s] Call Stack (most recent call first):
+[1.095s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[1.095s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[1.095s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[1.095s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[1.095s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.095s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake:41 (include)
+[1.095s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.095s]   /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake:41 (include)
+[1.095s]   CMakeLists.txt:29 (find_package)
+[1.095s] 
+[1.095s] [0m
+[1.097s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.262s] -- Default C++ standard: 201703
+[1.262s] -- Minimal C++ standard upgraded to 11
+[1.262s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.263s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[1.270s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.271s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.272s] -- coal FOUND. coal at /opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so
+[1.283s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.284s] -- Found ocs2_self_collision: 0.0.0 (/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/share/ocs2_self_collision/cmake)
+[1.294s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.327s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.329s] -- Found Threads: TRUE  
+[1.333s] -- Configuring done
+[1.340s] -- Generating done
+[1.342s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface
+[1.348s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_interface -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface
+[1.348s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface -- -j28 -l28
+[1.380s] [  6%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/ZeroVelocityConstraintCppAd.cpp.o[0m
+[1.380s] [  6%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/reference_manager/SwitchedModelReferenceManager.cpp.o[0m
+[1.380s] [ 10%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/common/ModelSettings.cpp.o[0m
+[1.380s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.380s] [ 17%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/HumanoidPreComputation.cpp.o[0m
+[1.381s] [ 20%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/foot_planner/CubicSpline.cpp.o[0m
+[1.381s] [ 31%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/HumanoidInterface.cpp.o[0m
+[1.381s] [ 31%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/FootRollContraint.cpp.o[0m
+[1.381s] [ 31%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/initialization/HumanoidInitializer.cpp.o[0m
+[1.381s] [ 34%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.381s] [ 41%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/dynamics/HumanoidDynamicsAD.cpp.o[0m
+[1.381s] [ 41%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/EndEffectorLinearConstraint.cpp.o[0m
+[1.381s] [ 48%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/gait/Gait.cpp.o[0m
+[1.382s] [ 48%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/gait/LegLogic.cpp.o[0m
+[1.382s] [ 51%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/gait/GaitSchedule.cpp.o[0m
+[1.382s] [ 55%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/foot_planner/SwingTrajectoryPlanner.cpp.o[0m
+[1.382s] [ 62%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/FrictionConeConstraint.cpp.o[0m
+[1.382s] [ 62%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/NormalVelocityConstraintCppAd.cpp.o[0m
+[1.382s] [ 65%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/constraint/ZeroForceConstraint.cpp.o[0m
+[1.382s] [ 68%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/foot_planner/SplineCpg.cpp.o[0m
+[1.383s] [ 72%] [32mBuilding CXX object CMakeFiles/humanoid_interface.dir/src/gait/ModeSequenceTemplate.cpp.o[0m
+[2.270s] [ 75%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.306s] [ 75%] Built target gtest_main
+[5.315s] [ 79%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.360s] [ 79%] Built target gtest
+[16.744s] [ 82%] [32m[1mLinking CXX static library libhumanoid_interface.a[0m
+[16.789s] [ 82%] Built target humanoid_interface
+[16.803s] [ 86%] [32mBuilding CXX object CMakeFiles/humanoid_interface_test.dir/test/AnymalFactoryFunctions.cpp.o[0m
+[16.803s] [ 93%] [32mBuilding CXX object CMakeFiles/humanoid_interface_test.dir/test/constraint/testFrictionConeConstraint.cpp.o[0m
+[16.803s] [ 93%] [32mBuilding CXX object CMakeFiles/humanoid_interface_test.dir/test/constraint/testEndEffectorLinearConstraint.cpp.o[0m
+[16.803s] [ 96%] [32mBuilding CXX object CMakeFiles/humanoid_interface_test.dir/test/constraint/testZeroForceConstraint.cpp.o[0m
+[31.044s] [100%] [32m[1mLinking CXX executable humanoid_interface_test[0m
+[31.164s] [100%] Built target humanoid_interface_test
+[31.173s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface -- -j28 -l28
+[31.174s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface
+[31.179s] -- Install configuration: "Release"
+[31.179s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface
+[31.179s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface
+[31.179s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner
+[31.179s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/SwingTrajectoryPlanner.h
+[31.179s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/SplineCpg.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/CubicSpline.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/LegLogic.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/Gait.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/MotionPhaseDefinition.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/GaitSchedule.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/ModeSequenceTemplate.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/ModelSettings.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/Types.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/utils.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/package_path.h.in
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/cost
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/cost/HumanoidQuadraticTrackingCost.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/HumanoidInterface.h
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint
+[31.180s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/ZeroVelocityConstraintCppAd.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/ZeroForceConstraint.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/FootRollConstraint.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/FrictionConeConstraint.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/NormalVelocityConstraintCppAd.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/LeggedSelfCollisionConstraint.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/EndEffectorLinearConstraint.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/initialization
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/initialization/HumanoidInitializer.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/dynamics
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/dynamics/HumanoidDynamicsAD.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/reference_manager
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/reference_manager/SwitchedModelReferenceManager.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/HumanoidPreComputation.h
+[31.181s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/lib/libhumanoid_interface.a
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot/friction_cone.xml
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot/zero_velocity.xml
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/gait_.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/gait.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/reference.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/reference_.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc/task.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc/task_.info
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/library_path.sh
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/library_path.dsv
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/package_run_dependencies/humanoid_interface
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/parent_prefix_path/humanoid_interface
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/ament_prefix_path.sh
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/ament_prefix_path.dsv
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/path.sh
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/path.dsv
+[31.182s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.bash
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.sh
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.zsh
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.dsv
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/package.dsv
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/packages/humanoid_interface
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/export_humanoid_interfaceExport.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/export_humanoid_interfaceExport-release.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/ament_cmake_export_targets-extras.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/humanoid_interfaceConfig.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/humanoid_interfaceConfig-version.cmake
+[31.183s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/package.xml
+[31.184s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface' returned '0': AMENT_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface

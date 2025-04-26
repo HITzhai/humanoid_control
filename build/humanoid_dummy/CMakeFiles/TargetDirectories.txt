@@ -1,0 +1,16 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_dummy_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_dummy.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_ddp_mpc.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_sqp_mpc.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_ipm_mpc.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_dummy_node.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_target.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/humanoid_gait_command.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_dummy/CMakeFiles/install/strip.dir

@@ -1,0 +1,10 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/ocs2_self_collision_visualization_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/ocs2_self_collision_visualization.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision_visualization/CMakeFiles/install/strip.dir

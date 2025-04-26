@@ -1,0 +1,126 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0mCMake Deprecation Warning at /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/CMakeLists.txt:36 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+-- Using linear algebra: HIGH_PERFORMANCE
+-- Using matrix format: PANELMAJ
+-- Using external BLAS: 0
+-- Testing target X64_INTEL_HASWELL: assembly compilation [success]
+-- Testing target X64_INTEL_HASWELL: assembly run [success]
+-- Testing target X64_INTEL_HASWELL: intrinsic compilation [success]
+-- Testing target X64_INTEL_HASWELL: intrinsic run [success]
+-- Detected target X64_INTEL_HASWELL
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_block_size.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_common.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ext_dep.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ext_dep_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_old.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_aux_test.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blas.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blas_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_api_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_blasfeo_ref_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_d_kernel.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_i_aux_ext_dep.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_m_aux.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_memory.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_naming.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_processor_features.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ext_dep.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ext_dep_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_old.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_aux_test.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blas.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blas_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_api_ref.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_blasfeo_ref_api.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_s_kernel.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_stdlib.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_target.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_timing.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/blasfeo_v_aux_ext_dep.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/d_blas.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/d_blas_64.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/s_blas.h
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon/download/include/s_blas_64.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/blasfeo_colcon
+[35m[1mScanning dependencies of target blasfeo[0m
+[35m[1mConsolidate compiler generated dependencies of target blasfeo[0m
+[100%] Built target blasfeo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_block_size.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_common.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ext_dep.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ext_dep_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_old.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_aux_test.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blas.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blas_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_api_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_blasfeo_ref_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_d_kernel.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_i_aux_ext_dep.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_m_aux.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_memory.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_naming.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_processor_features.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ext_dep.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ext_dep_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_old.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_aux_test.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blas.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blas_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_api_ref.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_blasfeo_ref_api.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_s_kernel.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_stdlib.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_target.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_timing.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/blasfeo_v_aux_ext_dep.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/d_blas.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/d_blas_64.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/s_blas.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include/s_blas_64.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/package_run_dependencies/blasfeo_colcon
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/parent_prefix_path/blasfeo_colcon
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/environment/path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.bash
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.zsh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/package.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/ament_index/resource_index/packages/blasfeo_colcon
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo_colconConfig.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/cmake/blasfeo_colconConfig-version.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/share/blasfeo_colcon/package.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/cmake/blasfeoConfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/cmake/blasfeoConfig-release.cmake

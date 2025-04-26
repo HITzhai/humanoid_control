@@ -1,0 +1,62 @@
+[0.012s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp -- -j28 -l28
+[0.043s] [  9%] Built target gtest
+[0.043s] [  9%] Built target gtest_main
+[0.053s] [ 46%] Built target ocs2_ddp
+[0.067s] [ 56%] Built target testReachingTask
+[0.067s] [ 56%] Built target testContinuousTimeLqr
+[0.067s] [ 60%] Built target hybrid_slq_test
+[0.067s] [ 65%] Built target riccati_ode_test
+[0.068s] [ 70%] Built target exp1_ddp_test
+[0.068s] [ 75%] Built target exp0_ddp_test
+[0.069s] [ 80%] Built target testDdpHelperFunction
+[0.069s] [ 85%] Built target correctness_test
+[0.072s] [ 90%] Built target circular_kinematics_ddp_test
+[0.076s] [100%] Built target bouncing_mass_test
+[0.088s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp' returned '0': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp -- -j28 -l28
+[0.089s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp
+[0.091s] -- Install configuration: "Release"
+[0.092s] -- Execute custom install script
+[0.092s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/ContinuousTimeLqr.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/DDP_Data.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/DDP_HelperFunctions.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/DDP_Settings.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/GaussNewtonDDP.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/GaussNewtonDDP_MPC.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/HessianCorrection.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/ILQR.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/SLQ.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/riccati_equations/ContinuousTimeRiccatiEquations.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/riccati_equations/DiscreteTimeRiccatiEquations.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/riccati_equations/RiccatiModification.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/riccati_equations/RiccatiModificationInterpolation.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/riccati_equations/RiccatiTransversalityConditions.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/search_strategy/LevenbergMarquardtStrategy.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/search_strategy/LineSearchStrategy.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/search_strategy/SearchStrategyBase.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/search_strategy/StrategySettings.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/test/bouncingmass/OverallReference.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/test/bouncingmass/Reference.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp/ocs2_ddp/test/bouncingmass/SystemModel.h
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/library_path.sh
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/library_path.dsv
+[0.093s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ament_index/resource_index/package_run_dependencies/ocs2_ddp
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ament_index/resource_index/parent_prefix_path/ocs2_ddp
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/path.sh
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/environment/path.dsv
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/local_setup.bash
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/local_setup.sh
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/local_setup.zsh
+[0.094s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/local_setup.dsv
+[0.094s] -- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/package.dsv
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ament_index/resource_index/packages/ocs2_ddp
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/ament_cmake_export_targets-extras.cmake
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake
+[0.099s] -- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/package.xml
+[0.099s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib/libocs2_ddp.a
+[0.099s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/export_ocs2_ddpExport.cmake
+[0.099s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/share/ocs2_ddp/cmake/export_ocs2_ddpExport-release.cmake
+[0.109s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp' returned '0': CMAKE_PREFIX_PATH=/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot_ros:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_legged_robot:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ros_interfaces:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp:/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_ddp

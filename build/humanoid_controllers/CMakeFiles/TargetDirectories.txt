@@ -1,0 +1,14 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/humanoid_controllers_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/humanoid_controllers.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/humanoid_target_trajectories_publisher.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/cheat_controller_node.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/normal_controller_node.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/joy_controller_node.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_controllers/CMakeFiles/install/strip.dir

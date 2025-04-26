@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhumanoid_estimation.a CMakeFiles/humanoid_estimation.dir/src/StateEstimateBase.cpp.o CMakeFiles/humanoid_estimation.dir/src/FromTopicEstimate.cpp.o CMakeFiles/humanoid_estimation.dir/src/LinearKalmanFilter.cpp.o
+/usr/bin/ranlib libhumanoid_estimation.a

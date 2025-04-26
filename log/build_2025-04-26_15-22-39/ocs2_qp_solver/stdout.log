@@ -1,0 +1,34 @@
+[ 15%] Built target gtest_main
+[ 53%] Built target ocs2_qp_solver
+[ 69%] Built target gtest
+[100%] Built target test_ocs2_qp_solver
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/Ocs2QpSolver.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/QpDiscreteTranscription.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/QpSolver.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/QpSolverTypes.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/QpTrajectories.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver/ocs2_qp_solver/test/testProblemsGeneration.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/library_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/library_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ament_index/resource_index/package_run_dependencies/ocs2_qp_solver
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ament_index/resource_index/parent_prefix_path/ocs2_qp_solver
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/environment/path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/local_setup.bash
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/local_setup.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/local_setup.zsh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/package.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ament_index/resource_index/packages/ocs2_qp_solver
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/ocs2_qp_solverConfig.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/ocs2_qp_solverConfig-version.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/package.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib/libocs2_qp_solver.a
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/export_ocs2_qp_solverExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/share/ocs2_qp_solver/cmake/export_ocs2_qp_solverExport-release.cmake

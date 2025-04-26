@@ -1,0 +1,10 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/ocs2_self_collision_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/ocs2_self_collision.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_self_collision/CMakeFiles/install/strip.dir

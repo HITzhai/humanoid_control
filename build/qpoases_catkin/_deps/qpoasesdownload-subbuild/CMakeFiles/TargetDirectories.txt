@@ -1,0 +1,3 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/_deps/qpoasesdownload-subbuild/CMakeFiles/qpoasesdownload-populate.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/_deps/qpoasesdownload-subbuild/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/_deps/qpoasesdownload-subbuild/CMakeFiles/rebuild_cache.dir

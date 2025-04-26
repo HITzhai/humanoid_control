@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhumanoid_wbc.a CMakeFiles/humanoid_wbc.dir/src/HoQp.cpp.o CMakeFiles/humanoid_wbc.dir/src/WbcBase.cpp.o CMakeFiles/humanoid_wbc.dir/src/HierarchicalWbc.cpp.o CMakeFiles/humanoid_wbc.dir/src/WeightedWbc.cpp.o
+/usr/bin/ranlib libhumanoid_wbc.a

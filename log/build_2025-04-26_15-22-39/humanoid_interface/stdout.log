@@ -1,0 +1,78 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  6%] Built target gtest_main
+[ 13%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target humanoid_interface[0m
+[ 82%] Built target humanoid_interface
+[35m[1mConsolidate compiler generated dependencies of target humanoid_interface_test[0m
+[100%] Built target humanoid_interface_test
+-- Install configuration: "Release"
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/SwingTrajectoryPlanner.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/SplineCpg.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/foot_planner/CubicSpline.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/LegLogic.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/Gait.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/MotionPhaseDefinition.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/GaitSchedule.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/gait/ModeSequenceTemplate.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/ModelSettings.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/Types.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/common/utils.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/package_path.h.in
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/cost
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/cost/HumanoidQuadraticTrackingCost.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/HumanoidInterface.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/ZeroVelocityConstraintCppAd.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/ZeroForceConstraint.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/FootRollConstraint.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/FrictionConeConstraint.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/NormalVelocityConstraintCppAd.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/LeggedSelfCollisionConstraint.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/constraint/EndEffectorLinearConstraint.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/initialization
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/initialization/HumanoidInitializer.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/dynamics
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/dynamics/HumanoidDynamicsAD.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/reference_manager
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/reference_manager/SwitchedModelReferenceManager.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/include/humanoid_interface/humanoid_interface/HumanoidPreComputation.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/lib/libhumanoid_interface.a
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot/friction_cone.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/multiplot/zero_velocity.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/gait_.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/gait.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/reference.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/command/reference_.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc/task.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface//config/mpc/task_.info
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/library_path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/library_path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/package_run_dependencies/humanoid_interface
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/parent_prefix_path/humanoid_interface
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/environment/path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.bash
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.zsh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/local_setup.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/package.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/ament_index/resource_index/packages/humanoid_interface
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/export_humanoid_interfaceExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/export_humanoid_interfaceExport-release.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/humanoid_interfaceConfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/humanoid_interfaceConfig-version.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/package.xml

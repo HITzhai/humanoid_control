@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhumanoid_dummy.a CMakeFiles/humanoid_dummy.dir/src/gait/GaitKeyboardPublisher.cpp.o CMakeFiles/humanoid_dummy.dir/src/gait/GaitReceiver.cpp.o CMakeFiles/humanoid_dummy.dir/src/visualization/HumanoidVisualizer.cpp.o
+/usr/bin/ranlib libhumanoid_dummy.a

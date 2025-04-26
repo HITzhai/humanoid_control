@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhumanoid_controllers.a CMakeFiles/humanoid_controllers.dir/src/humanoidController.cpp.o
+/usr/bin/ranlib libhumanoid_controllers.a

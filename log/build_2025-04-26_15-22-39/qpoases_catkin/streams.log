@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin -- -j28 -l28
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target qpOASES[0m
+[0.048s] [100%] Built target qpOASES
+[0.068s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin -- -j28 -l28
+[0.069s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin
+[0.074s] -- Install configuration: "Release"
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.sh
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.dsv
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/package_run_dependencies/qpoases_catkin
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/parent_prefix_path/qpoases_catkin
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.sh
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.dsv
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.sh
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.dsv
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.bash
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.sh
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.zsh
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.dsv
+[0.075s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.dsv
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/packages/qpoases_catkin
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.075s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_libraries-extras.cmake
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig.cmake
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig-version.cmake
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.xml
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Matrices.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/ConstraintProduct.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Options.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.ipp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.ipp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/OQPinterface.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.ipp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/LapackBlasReplacement.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.hpp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.ipp
+[0.076s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Flipper.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constants.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SparseSolver.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Types.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/UnitTesting.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.hpp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.ipp
+[0.077s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.ipp
+[0.079s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin

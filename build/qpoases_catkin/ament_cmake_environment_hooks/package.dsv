@@ -1,0 +1,4 @@
+source;share/qpoases_catkin/local_setup.bash
+source;share/qpoases_catkin/local_setup.dsv
+source;share/qpoases_catkin/local_setup.sh
+source;share/qpoases_catkin/local_setup.zsh

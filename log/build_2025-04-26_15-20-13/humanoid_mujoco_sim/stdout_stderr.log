@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info
+writing ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/PKG-INFO
+writing dependency_links to ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/dependency_links.txt
+writing entry points to ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/entry_points.txt
+writing requirements to ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/requires.txt
+writing top-level names to ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/top_level.txt
+writing manifest file '../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/SOURCES.txt'
+reading manifest file '../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/SOURCES.txt'
+writing manifest file '../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build
+creating /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib
+creating /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+copying humanoid_mujoco_sim/__init__.py -> /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+copying humanoid_mujoco_sim/humanoid_sim.py -> /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+copying humanoid_mujoco_sim/joy.py -> /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+copying humanoid_mujoco_sim/mujoco_base.py -> /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+copying humanoid_mujoco_sim/teleop.py -> /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim
+running install
+running install_lib
+creating /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+copying /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim/__init__.py -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+copying /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim/humanoid_sim.py -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+copying /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim/joy.py -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+copying /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim/mujoco_base.py -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+copying /home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/build/lib/humanoid_mujoco_sim/teleop.py -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim
+byte-compiling /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim/humanoid_sim.py to humanoid_sim.cpython-310.pyc
+byte-compiling /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim/joy.py to joy.cpython-310.pyc
+byte-compiling /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim/mujoco_base.py to mujoco_base.cpython-310.pyc
+byte-compiling /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim/teleop.py to teleop.cpython-310.pyc
+running install_data
+creating /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/share/ament_index
+creating /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/share/ament_index/resource_index
+creating /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/share/ament_index/resource_index/packages
+copying resource/humanoid_mujoco_sim -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/share/humanoid_mujoco_sim
+running install_egg_info
+Copying ../../../build/humanoid_mujoco_sim/humanoid_mujoco_sim.egg-info to /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/python3.10/site-packages/humanoid_mujoco_sim-0.0.0-py3.10.egg-info
+running install_scripts
+Installing humanoid_sim script to /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/humanoid_mujoco_sim
+Installing joy script to /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/humanoid_mujoco_sim
+Installing teleop script to /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_mujoco_sim/lib/humanoid_mujoco_sim
+writing list of installed files to '/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_mujoco_sim/install.log'

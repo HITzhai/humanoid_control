@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target humanoid_dummy[0m
+[ 25%] Built target humanoid_dummy
+[35m[1mConsolidate compiler generated dependencies of target humanoid_gait_command[0m
+[35m[1mConsolidate compiler generated dependencies of target humanoid_target[0m
+[35m[1mConsolidate compiler generated dependencies of target humanoid_ddp_mpc[0m
+[35m[1mConsolidate compiler generated dependencies of target humanoid_sqp_mpc[0m
+[35m[1mConsolidate compiler generated dependencies of target humanoid_ipm_mpc[0m
+[35m[1mConsolidate compiler generated dependencies of target humanoid_dummy_node[0m
+[ 37%] Built target humanoid_gait_command
+[ 50%] Built target humanoid_dummy_node
+[ 62%] Built target humanoid_ipm_mpc
+[ 75%] Built target humanoid_target
+[ 87%] Built target humanoid_ddp_mpc
+[100%] Built target humanoid_sqp_mpc
+-- Install configuration: "Release"
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/gait
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/gait/ModeSequenceTemplateRos.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/gait/GaitReceiver.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/gait/GaitKeyboardPublisher.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/visualization
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/include/humanoid_dummy/humanoid_dummy/visualization/HumanoidVisualizer.h
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/libhumanoid_dummy.a
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_ddp_mpc
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_sqp_mpc
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_ipm_mpc
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_dummy_node
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_target
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/lib/humanoid_dummy/humanoid_gait_command
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy//launch
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy//launch/multiplot.launch.py
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy//launch/legged_robot_sqp.launch.py
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy//rviz
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy//rviz/humanoid.rviz
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/library_path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/library_path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/ament_index/resource_index/package_run_dependencies/humanoid_dummy
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/ament_index/resource_index/parent_prefix_path/humanoid_dummy
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/path.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/environment/path.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/local_setup.bash
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/local_setup.sh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/local_setup.zsh
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/local_setup.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/package.dsv
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/ament_index/resource_index/packages/humanoid_dummy
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/export_humanoid_dummyExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/export_humanoid_dummyExport-release.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/humanoid_dummyConfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/cmake/humanoid_dummyConfig-version.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_dummy/share/humanoid_dummy/package.xml

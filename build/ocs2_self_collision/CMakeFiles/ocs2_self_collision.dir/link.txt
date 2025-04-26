@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocs2_self_collision.a CMakeFiles/ocs2_self_collision.dir/src/PinocchioGeometryInterface.cpp.o CMakeFiles/ocs2_self_collision.dir/src/SelfCollision.cpp.o CMakeFiles/ocs2_self_collision.dir/src/SelfCollisionCppAd.cpp.o CMakeFiles/ocs2_self_collision.dir/src/SelfCollisionConstraint.cpp.o CMakeFiles/ocs2_self_collision.dir/src/SelfCollisionConstraintCppAd.cpp.o
+/usr/bin/ranlib libocs2_self_collision.a

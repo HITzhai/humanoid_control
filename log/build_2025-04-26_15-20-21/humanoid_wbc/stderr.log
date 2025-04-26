@@ -1,0 +1,21 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake:41 (include)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/zxs/ocs2_ros2_legubiao/ws/install/humanoid_interface/share/humanoid_interface/cmake/humanoid_interfaceConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+[0m
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so: not a directory
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so: not a directory
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/lib/x86_64-linux-gnu/libboost_filesystem.so: not a directory
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/lib/x86_64-linux-gnu/libboost_serialization.so: not a directory
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/lib/x86_64-linux-gnu/libboost_system.so: not a directory
+[01m[Kcc1plus:[m[K [01;36m[Knote: [m[Kunrecognized command-line option ‘[01m[K-Wno-invalid-partial-specialization[m[K’ may have been intended to silence earlier diagnostics

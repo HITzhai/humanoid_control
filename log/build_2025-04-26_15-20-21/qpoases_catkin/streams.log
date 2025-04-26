@@ -1,0 +1,400 @@
+[0.010s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/qpoases_catkin -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin
+[0.040s] -- The C compiler identification is GNU 12.3.0
+[0.070s] -- The CXX compiler identification is GNU 12.3.0
+[0.074s] -- Detecting C compiler ABI info
+[0.113s] -- Detecting C compiler ABI info - done
+[0.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.117s] -- Detecting C compile features
+[0.117s] -- Detecting C compile features - done
+[0.118s] -- Detecting CXX compiler ABI info
+[0.176s] -- Detecting CXX compiler ABI info - done
+[0.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.177s] -- Detecting CXX compile features
+[0.177s] -- Detecting CXX compile features - done
+[0.177s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+[10.171s] [0mCMake Deprecation Warning at /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/CMakeLists.txt:32 (cmake_minimum_required):
+[10.171s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[10.171s]   CMake.
+[10.171s] 
+[10.171s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[10.171s]   CMake that the project does not need compatibility with older versions.
+[10.171s] 
+[10.171s] [0m
+[10.171s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.ipp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constants.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/ConstraintProduct.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constraints.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constraints.ipp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.ipp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/LapackBlasReplacement.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Matrices.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.ipp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp
+[10.172s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblem.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblem.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblem.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblemSchur.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblemSchur.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SparseSolver.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Types.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/UnitTesting.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/OQPinterface.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.ipp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/OQPinterface.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.hpp
+[10.173s] -- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.ipp
+[10.204s] -- Configuring done
+[10.207s] -- Generating done
+[10.208s] -- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin
+[10.211s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/qpoases_catkin -DCMAKE_INSTALL_PREFIX=/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin
+[10.211s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin -- -j28 -l28
+[10.242s] [  5%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o[0m
+[10.242s] [ 10%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o[0m
+[10.242s] [ 15%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o[0m
+[10.242s] [ 21%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o[0m
+[10.242s] [ 26%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o[0m
+[10.242s] [ 31%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o[0m
+[10.243s] [ 36%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o[0m
+[10.243s] [ 42%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o[0m
+[10.244s] [ 47%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o[0m
+[10.244s] [ 52%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o[0m
+[10.244s] [ 57%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o[0m
+[10.244s] [ 63%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o[0m
+[10.244s] [ 68%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Options.cpp.o[0m
+[10.244s] [ 73%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Utils.cpp.o[0m
+[10.245s] [ 78%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o[0m
+[10.245s] [ 84%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o[0m
+[10.245s] [ 89%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o[0m
+[10.245s] [ 94%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o[0m
+[10.317s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Matrices.cpp:[m[K In member function ‘[01m[Kvirtual qpOASES::returnValue qpOASES::SparseMatrix::getRowNorm(qpOASES::real_t*, qpOASES::int_t) const[m[K’:
+[10.317s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Matrices.cpp:855:33:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[10.317s]   855 |                                 [01;35m[Kfor[m[K (i = jc[j]; i < jc[j+1]; i++);
+[10.317s]       |                                 [01;35m[K^~~[m[K
+[10.317s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Matrices.cpp:856:35:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+[10.317s]   856 |                                   [01;36m[Knorm[m[K[ir[i]] += getAbs( val[i] );
+[10.317s]       |                                   [01;36m[K^~~~[m[K
+[10.434s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/MessageHandling.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::MessageHandling::throwMessage(qpOASES::returnValue, const char*, const char*, const char*, long unsigned int, qpOASES::VisibilityStatus, const char*)[m[K’:
+[10.434s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/MessageHandling.cpp:517:71:[m[K [01;35m[Kwarning: [m[K‘[01m[K->[m[K’ directive output may be truncated writing 2 bytes into a region of size between 1 and 160 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.434s]   517 |                         snprintf( myPrintfString,MAX_STRING_LENGTH,"%s[01;35m[K->[m[K", whitespaces );
+[10.434s]       |                                                                       [01;35m[K^~[m[K
+[10.434s] In file included from [01m[K/usr/include/stdio.h:894[m[K,
+[10.434s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/MessageHandling.cpp:36[m[K:
+[10.434s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.434s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::MessageHandling::throwMessage(qpOASES::returnValue, const char*, const char*, const char*, long unsigned int, qpOASES::VisibilityStatus, const char*)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/MessageHandling.cpp:517:12[m[K:
+[10.434s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 3 and 162 bytes into a destination of size 160
+[10.434s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.434s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.434s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.434s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.434s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.434s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.438s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.439s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:386:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.439s]   386 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"printLevel                     =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.439s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.439s] In file included from [01m[K/usr/include/stdio.h:894[m[K,
+[10.439s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+[10.439s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+[10.439s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+[10.439s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[10.439s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.439s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:386:10[m[K:
+[10.439s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.439s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.439s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.439s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.439s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.439s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.439s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.439s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.439s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:392:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.439s]   392 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRamping                  =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.440s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.440s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.440s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:392:10[m[K:
+[10.440s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.440s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.440s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.440s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.440s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.440s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.440s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.440s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.440s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:396:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.440s]   396 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFarBounds                =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.440s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.440s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.440s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:396:10[m[K:
+[10.440s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.440s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.440s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.440s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.440s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.440s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.441s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.441s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.441s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:400:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.441s]   400 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFlippingBounds           =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.441s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.441s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.441s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:400:10[m[K:
+[10.441s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.441s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.441s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.441s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.441s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.441s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.441s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.441s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.441s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:404:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.441s]   404 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRegularisation           =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.441s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.441s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.441s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:404:10[m[K:
+[10.442s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.442s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.442s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.442s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.442s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.442s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.442s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.442s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.442s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:408:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.442s]   408 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFullLITests              =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.442s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.442s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.442s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:408:10[m[K:
+[10.442s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.442s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.442s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.442s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.442s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.442s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.442s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.442s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.442s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:412:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.443s]   412 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableNZCTests                 =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.443s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.443s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.443s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:412:10[m[K:
+[10.443s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.443s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.443s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.443s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.443s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.443s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.443s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.443s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.443s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:422:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.443s]   422 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableEqualities               =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.443s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.443s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.443s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:422:10[m[K:
+[10.443s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.443s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.443s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.443s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.444s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.444s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.444s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.444s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.444s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:426:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.444s]   426 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"enableInertiaCorrection        =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.444s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.444s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.444s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:426:10[m[K:
+[10.444s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.444s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.444s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.444s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.444s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.444s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.444s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.444s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[10.444s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:470:87:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.444s]   470 |         snprintf( myPrintfString,MAX_STRING_LENGTH,"initialStatusBounds            =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+[10.444s]       |                                                                                       [01;35m[K^~[m[K    [32m[K~~~~[m[K
+[10.444s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.444s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/Options.cpp:470:10[m[K:
+[10.445s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+[10.445s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.445s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.445s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.445s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.445s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.445s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.961s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[10.961s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3837:104:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.961s]  3837 |                                 snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   [01;35m[K%s[m[K %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)BC_idx,(int)getNFX( ) );
+[10.961s]       |                                                                                                        [01;35m[K^~[m[K                                       [32m[K~~~~[m[K
+[10.962s] In file included from [01m[K/usr/include/stdio.h:894[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+[10.962s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:36[m[K:
+[10.962s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.962s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3837:13[m[K:
+[10.962s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 45 and 234 bytes into a destination of size 160
+[10.962s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.962s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.962s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.962s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.962s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.962s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.962s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[10.962s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3827:113:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.962s]  3827 |                                         snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ) );
+[10.962s]       |                                                                                                                 [01;35m[K^~[m[K                                          [32m[K~~~~[m[K
+[10.963s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.963s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3827:14[m[K:
+[10.963s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 50 and 232 bytes into a destination of size 160
+[10.963s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.963s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.963s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.963s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.963s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.963s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[10.963s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[10.963s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3825:113:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[10.963s]  3825 |                                         snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ) );
+[10.963s]       |                                                                                                                 [01;35m[K^~[m[K                                          [32m[K~~~~[m[K
+[10.963s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[10.963s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblemB.cpp:3825:14[m[K:
+[10.963s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 50 and 232 bytes into a destination of size 160
+[10.963s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[10.963s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.963s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[10.963s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.963s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[10.963s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6244:104:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[11.776s]  6244 |                                 snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   [01;35m[K%s[m[K %4.1d   |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)BC_idx,(int)getNFX( ),(int)getNAC( ) );
+[11.776s]       |                                                                                                        [01;35m[K^~[m[K                                                  [32m[K~~~~[m[K
+[11.776s] In file included from [01m[K/usr/include/stdio.h:894[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp:41[m[K,
+[11.776s]                  from [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:36[m[K:
+[11.776s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[11.776s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6244:13[m[K:
+[11.776s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 55 and 251 bytes into a destination of size 160
+[11.776s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[11.776s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.776s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[11.776s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.776s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[11.776s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6229:113:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[11.776s]  6229 |                                         snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ),(int)getNAC( ) );
+[11.776s]       |                                                                                                                 [01;35m[K^~[m[K                                                     [32m[K~~~~[m[K
+[11.776s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[11.776s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6229:14[m[K:
+[11.776s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 60 and 249 bytes into a destination of size 160
+[11.776s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[11.776s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.776s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[11.776s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.776s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[11.776s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[11.776s] [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6227:113:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-truncation=-Wformat-truncation=]8;;[m[K]
+[11.776s]  6227 |                                         snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ),(int)getNAC( ) );
+[11.776s]       |                                                                                                                 [01;35m[K^~[m[K                                                     [32m[K~~~~[m[K
+[11.776s] In function ‘[01m[Kint snprintf(char*, size_t, const char*, ...)[m[K’,
+[11.776s]     inlined from ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’ at [01m[K/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/src/QProblem.cpp:6227:14[m[K:
+[11.776s] [01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:71:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 60 and 249 bytes into a destination of size 160
+[11.776s]    71 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+[11.776s]       |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.777s]    72 | [01;36m[K                                   __glibc_objsize (__s), __fmt,[m[K
+[11.777s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.777s]    73 | [01;36m[K                                   __va_arg_pack ())[m[K;
+[11.777s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[12.204s] [100%] [32m[1mLinking CXX shared library libs/libqpOASES.so[0m
+[12.262s] [100%] Built target qpOASES
+[12.268s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin -- -j28 -l28
+[12.269s] Invoking command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin
+[12.273s] -- Install configuration: "Release"
+[12.273s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.sh
+[12.273s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.dsv
+[12.273s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+[12.274s] -- Set runtime path of "/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2" to "/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/casadi"
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/package_run_dependencies/qpoases_catkin
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/parent_prefix_path/qpoases_catkin
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.sh
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.dsv
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.sh
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.dsv
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.bash
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.sh
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.zsh
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.dsv
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.dsv
+[12.274s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/packages/qpoases_catkin
+[12.275s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.275s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_libraries-extras.cmake
+[12.275s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig.cmake
+[12.275s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig-version.cmake
+[12.275s] -- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.xml
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Matrices.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/ConstraintProduct.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Options.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.ipp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.ipp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/OQPinterface.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.ipp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/LapackBlasReplacement.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.ipp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Flipper.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.ipp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constants.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SparseSolver.hpp
+[12.275s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Types.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/UnitTesting.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.ipp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.ipp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.ipp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.hpp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.ipp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.ipp
+[12.276s] -- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.ipp
+[12.276s] Invoked command in '/home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin

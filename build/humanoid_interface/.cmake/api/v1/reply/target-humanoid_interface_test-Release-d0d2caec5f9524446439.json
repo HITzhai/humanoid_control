@@ -1,0 +1,649 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "humanoid_interface_test"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_ament_add_gtest_executable",
+			"ament_add_gtest_executable",
+			"ament_add_gtest",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake",
+			"/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 144,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 145,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wl,--no-as-needed"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DBOOST_ALL_DYN_LINK"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fopenmp"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-invalid-partial-specialization"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DPINOCCHIO_URDFDOM_TYPEDEF_SHARED_PTR"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-DPINOCCHIO_URDFDOM_USE_STD_SHARED_PTR"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-DPINOCCHIO_WITH_HPP_FCL"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_ATOMIC_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_CHRONO_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_FILESYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_LOG_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_LOG_SETUP_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_REGEX_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_interface/test/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_interface/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/src/humanoid_control/humanoid_interface/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/src/gtest_vendor/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/include/ocs2_self_collision"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/include/ocs2_sqp"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/include/ocs2_centroidal_model"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/include/ocs2_pinocchio_interface"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/include/ocs2_robotic_tools"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/include/ocs2_ipm"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/include/ocs2_ddp"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/include/ocs2_mpc"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/include/ocs2_oc"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/include/ocs2_core"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_thirdparty/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_assets/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/include/ocs2_qp_solver"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/include/hpipm_colcon"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/urdfdom"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/urdfdom_headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5,
+					8
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "humanoid_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gtest::@0af4add9fe94340e763e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest_main::@0af4add9fe94340e763e"
+		}
+	],
+	"id" : "humanoid_interface_test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "gtest/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "gtest/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib/libocs2_core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib/libocs2_oc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib/libocs2_ddp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib/libocs2_mpc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib/libocs2_sqp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib/libocs2_ipm.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib/libocs2_robotic_tools.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib/libocs2_centroidal_model.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib/libocs2_self_collision.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "libhumanoid_interface.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ddp/lib/libocs2_ddp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_sqp/lib/libocs2_sqp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_ipm/lib/libocs2_ipm.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_mpc/lib/libocs2_mpc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm_colcon.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_qp_solver/lib/libocs2_qp_solver.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/hpipm_colcon/lib/libhpipm.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/blasfeo_colcon/lib/libblasfeo.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_centroidal_model/lib/libocs2_centroidal_model.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_self_collision/lib/libocs2_self_collision.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_pinocchio_interface/lib/libocs2_pinocchio_interface.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_robotic_tools/lib/libocs2_robotic_tools.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_oc/lib/libocs2_oc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_core/lib/libocs2_core.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_log_setup.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_log.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/gcc/x86_64-linux-gnu/12/libgomp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpthread.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/x86_64-linux-gnu/libboost_filesystem.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/x86_64-linux-gnu/libboost_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/lib/x86_64-linux-gnu/libboost_system.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/libcoal.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "humanoid_interface_test",
+	"nameOnDisk" : "humanoid_interface_test",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/AnymalFactoryFunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/constraint/testEndEffectorLinearConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/constraint/testFrictionConeConstraint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/constraint/testZeroForceConstraint.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

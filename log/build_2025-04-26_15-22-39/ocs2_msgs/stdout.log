@@ -1,0 +1,307 @@
+[  0%] Built target ocs2_msgs__cpp
+[ 12%] Built target ocs2_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ocs2_msgs
+[ 24%] Built target ocs2_msgs__rosidl_typesupport_introspection_cpp
+[ 47%] Built target ocs2_msgs__rosidl_typesupport_c
+[ 48%] Built target ocs2_msgs__rosidl_typesupport_cpp
+[ 65%] Built target ocs2_msgs__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target ocs2_msgs__rosidl_typesupport_introspection_c
+[ 83%] Built target ocs2_msgs__rosidl_typesupport_fastrtps_c
+[ 83%] Built target ocs2_msgs
+[ 84%] Built target ocs2_msgs__py
+[ 95%] Built target ocs2_msgs__rosidl_generator_py
+[ 97%] Built target ocs2_msgs__rosidl_typesupport_introspection_c__pyext
+[ 99%] Built target ocs2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target ocs2_msgs__rosidl_typesupport_c__pyext
+running egg_info
+writing ocs2_msgs.egg-info/PKG-INFO
+writing dependency_links to ocs2_msgs.egg-info/dependency_links.txt
+writing top-level names to ocs2_msgs.egg-info/top_level.txt
+reading manifest file 'ocs2_msgs.egg-info/SOURCES.txt'
+writing manifest file 'ocs2_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ocs2_msgs_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ament_index/resource_index/rosidl_interfaces/ocs2_msgs
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/constraint.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/controller_data.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/lagrangian_metrics.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mode_schedule.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_flattened_controller.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_input.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_observation.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_performance_indices.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_state.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_target_trajectories.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/multiplier.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__functions.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__struct.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__type_support.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/reset.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/constraint.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/controller_data.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/lagrangian_metrics.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mode_schedule.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_flattened_controller.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_input.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_observation.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_performance_indices.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_state.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/mpc_target_trajectories.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/multiplier.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__builder.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__struct.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__traits.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__type_support.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/reset.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/constraint__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/controller_data__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/lagrangian_metrics__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mode_schedule__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_flattened_controller__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_input__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_observation__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_performance_indices__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/mpc_target_trajectories__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/msg/detail/multiplier__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/include/ocs2_msgs/ocs2_msgs/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/__init__.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/_ocs2_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/_ocs2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/_ocs2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/libocs2_msgs__rosidl_generator_py.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_constraint.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_constraint_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_controller_data.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_controller_data_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_lagrangian_metrics.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_lagrangian_metrics_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mode_schedule.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mode_schedule_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_flattened_controller.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_flattened_controller_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_input.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_input_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_observation.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_observation_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_performance_indices.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_performance_indices_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_state.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_state_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_target_trajectories.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_mpc_target_trajectories_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_multiplier.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg/_multiplier_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/srv/_reset.py
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/srv/_reset_s.c
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/ocs2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcState.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcInput.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/ModeSchedule.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcObservation.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcPerformanceIndices.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcTargetTrajectories.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/ControllerData.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcFlattenedController.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/LagrangianMetrics.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/Multiplier.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/Constraint.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/srv/Reset.idl
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcState.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcInput.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/ModeSchedule.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcObservation.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcPerformanceIndices.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcTargetTrajectories.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/ControllerData.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/MpcFlattenedController.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/LagrangianMetrics.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/Multiplier.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/msg/Constraint.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/srv/Reset.srv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/srv/Reset_Request.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/srv/Reset_Response.msg
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ament_index/resource_index/package_run_dependencies/ocs2_msgs
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ament_index/resource_index/parent_prefix_path/ocs2_msgs
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/path.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/local_setup.bash
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/local_setup.sh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/local_setup.dsv
+-- Symlinking: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/package.dsv
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ament_index/resource_index/packages/ocs2_msgs
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgsConfig.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/package.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_typesupport_cpp.so
+Listing '/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs'...
+Listing '/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/msg'...
+Listing '/home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/local/lib/python3.10/dist-packages/ocs2_msgs/srv'...
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/lib/libocs2_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/ocs2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/ocs2_msgs/share/ocs2_msgs/cmake/export_ocs2_msgs__rosidl_generator_pyExport-noconfig.cmake

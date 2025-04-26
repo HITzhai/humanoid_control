@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.13") found components: Interpreter 
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Bounds.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constants.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/ConstraintProduct.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constraints.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Constraints.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/LapackBlasReplacement.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Matrices.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblem.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblem.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblem.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblemSchur.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SQProblemSchur.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SparseSolver.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Types.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/UnitTesting.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/Utils.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/OQPinterface.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.ipp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/OQPinterface.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.hpp
+-- FOUND HEADER: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin/download/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zxs/ocs2_ros2_legubiao/ws/build/qpoases_catkin
+[  5%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Bounds.cpp.o[0m
+[ 10%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/MessageHandling.cpp.o[0m
+[ 15%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/BLASReplacement.cpp.o[0m
+[ 21%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Indexlist.cpp.o[0m
+[ 26%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/QProblem.cpp.o[0m
+[ 31%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/LAPACKReplacement.cpp.o[0m
+[ 36%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Constraints.cpp.o[0m
+[ 42%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Flipper.cpp.o[0m
+[ 47%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SQProblemSchur.cpp.o[0m
+[ 52%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/QProblemB.cpp.o[0m
+[ 57%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Matrices.cpp.o[0m
+[ 63%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/OQPinterface.cpp.o[0m
+[ 68%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Options.cpp.o[0m
+[ 73%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/Utils.cpp.o[0m
+[ 78%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SQProblem.cpp.o[0m
+[ 84%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SolutionAnalysis.cpp.o[0m
+[ 89%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SubjectTo.cpp.o[0m
+[ 94%] [32mBuilding CXX object build/CMakeFiles/qpOASES.dir/src/SparseSolver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libs/libqpOASES.so[0m
+[100%] Built target qpOASES
+-- Install configuration: "Release"
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/library_path.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+-- Set runtime path of "/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2" to "/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib:/home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/casadi"
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/package_run_dependencies/qpoases_catkin
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/parent_prefix_path/qpoases_catkin
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/ament_prefix_path.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/environment/path.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.bash
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.sh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.zsh
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/local_setup.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.dsv
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/ament_index/resource_index/packages/qpoases_catkin
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/cmake/qpoases_catkinConfig-version.cmake
+-- Installing: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/share/qpoases_catkin/package.xml
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so.3.2
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/lib/libqpOASES.so
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Matrices.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/ConstraintProduct.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Options.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/SolutionAnalysis.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/extras/OQPinterface.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/LapackBlasReplacement.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblem.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Flipper.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Bounds.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constants.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SparseSolver.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Types.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/UnitTesting.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SQProblemSchur.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Utils.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblem.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/MessageHandling.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/SubjectTo.hpp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/QProblemB.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Constraints.ipp
+-- Up-to-date: /home/zxs/ocs2_ros2_legubiao/ws/install/qpoases_catkin/include/qpOASES/Indexlist.ipp

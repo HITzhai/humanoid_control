@@ -178,9 +178,9 @@ CMakeFiles/ocs2_robotic_tools.dir/clean:
 # Target rules for target CMakeFiles/rotation_transform_tests.dir
 
 # All Build rule for target.
+CMakeFiles/rotation_transform_tests.dir/all: CMakeFiles/ocs2_robotic_tools.dir/all
 CMakeFiles/rotation_transform_tests.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/rotation_transform_tests.dir/all: gtest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/rotation_transform_tests.dir/all: CMakeFiles/ocs2_robotic_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotation_transform_tests.dir/build.make CMakeFiles/rotation_transform_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rotation_transform_tests.dir/build.make CMakeFiles/rotation_transform_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxs/ocs2_ros2_legubiao/ws/build/ocs2_robotic_tools/CMakeFiles --progress-num=8,9,10 "Built target rotation_transform_tests"

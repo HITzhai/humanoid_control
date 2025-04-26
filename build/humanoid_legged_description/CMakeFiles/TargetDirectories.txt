@@ -1,0 +1,9 @@
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/humanoid_legged_description_uninstall.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/test.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/edit_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/rebuild_cache.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/list_install_components.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/install.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/install/local.dir
+/home/zxs/ocs2_ros2_legubiao/ws/build/humanoid_legged_description/CMakeFiles/install/strip.dir
