@@ -46,7 +46,7 @@ def generate_launch_description():
             default_value=get_package_share_directory(
                 'humanoid_interface') + '/config/command/gait_.info'
         ),
-        launch_ros.actions.Node(
+        launch_ros.actions.Node( 
             package="robot_state_publisher",
             executable="robot_state_publisher",
             output="screen",
